@@ -1,0 +1,12 @@
+=== lambda_post sweep (KD, joint, M2-Tiny, INF078, 4ep) ===
+  lambda_post=0.25   median=77.49%
+  lambda_post=0.5    median=77.81%
+  lambda_post=1.0    median=78.21%
+  lambda_post=2.0    median=78.13%
+  lambda_post=4.0    median=77.81%
+
+=== seed repeats ===
+  H: ['72.08', '72.63', '71.53']  mean=72.08  std=0.550
+  KD: ['78.03', '78.98', '78.16']  mean=78.39  std=0.515
+
+wrote /home/ubuntu/hardy/M2Caller/bibm_kd/figures/lambda.pdf

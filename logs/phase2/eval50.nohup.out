@@ -1,0 +1,203 @@
+nohup: ignoring input
+=== NanoSpecies-50 student eval Wed May 27 08:52:42 UTC 2026 ===
+
+=== eval p2_h_tiny → logs/phase2/eval50_p2_h_tiny.csv ===
+Will evaluate 50 isolates × 100 reads
+Loaded checkpoints_kd/p2_h_tiny/best.pt  preset=m2_tiny_s5  epoch=19  avg_loss=0.1625758994443189  missing=0 unexpected=0
+  [1/50] Acinetobacter_baumannii_AYP-A2: n=100 median=81.47% mean=81.27%   el=89s
+  [2/50] Acinetobacter_nosocomialis_MINF_5C: n=100 median=84.22% mean=83.64%   el=159s
+  [3/50] Acinetobacter_ursingii_MINF_9C: n=100 median=85.55% mean=84.71%   el=229s
+  [4/50] Burkholderia_cenocepacia_MINF_4A: n=100 median=86.49% mean=86.12%   el=315s
+  [5/50] Citrobacter_freundii_MSB1_1H: n=100 median=86.48% mean=86.17%   el=399s
+  [6/50] Citrobacter_koseri_MINF_9D: n=100 median=83.62% mean=83.27%   el=462s
+  [7/50] Comamonas_kerstersii_MSB1_7G: n=100 median=82.22% mean=82.15%   el=532s
+  [8/50] Enterobacter_kobei_MSB1_1B: n=100 median=84.26% mean=83.63%   el=602s
+  [9/50] Escherichia_coli_MSB2_1A: n=100 median=84.52% mean=83.55%   el=668s
+  [10/50] Escherichia_marmotae_MSB1_5C: n=100 median=86.37% mean=85.39%   el=745s
+  [11/50] Haemophilus_parainfluenzae_M1C146_1: n=100 median=81.42% mean=81.43%   el=787s
+  [12/50] Klebsiella_aerogenes_MINF_10B: n=100 median=84.28% mean=83.39%   el=852s
+  [13/50] Klebsiella_pneumoniae_INF007: n=100 median=87.36% mean=86.94%   el=931s
+  [14/50] Klebsiella_pneumoniae_INF014: n=100 median=85.89% mean=85.47%   el=1051s
+  [15/50] Klebsiella_pneumoniae_INF065: n=100 median=86.98% mean=86.16%   el=1138s
+  [16/50] Klebsiella_pneumoniae_INF078: n=100 median=87.14% mean=86.32%   el=1247s
+  [17/50] Klebsiella_pneumoniae_INF102: n=100 median=85.75% mean=85.24%   el=1324s
+  [18/50] Klebsiella_pneumoniae_INF116: n=100 median=84.53% mean=84.26%   el=1409s
+  [19/50] Klebsiella_pneumoniae_INF125: n=100 median=84.92% mean=85.11%   el=1505s
+  [20/50] Klebsiella_pneumoniae_INF177: n=100 median=85.78% mean=85.33%   el=1601s
+  [21/50] Klebsiella_pneumoniae_INF192: n=100 median=86.84% mean=86.44%   el=1685s
+  [22/50] Klebsiella_pneumoniae_INF215: n=100 median=85.31% mean=84.88%   el=1759s
+  [23/50] Klebsiella_pneumoniae_INF235: n=100 median=86.32% mean=85.48%   el=1840s
+  [24/50] Klebsiella_pneumoniae_INF310: n=100 median=84.67% mean=84.20%   el=1900s
+  [25/50] Klebsiella_pneumoniae_INF319: n=100 median=84.73% mean=84.06%   el=1959s
+  [26/50] Klebsiella_pneumoniae_INF321: n=100 median=85.05% mean=84.25%   el=2035s
+  [27/50] Klebsiella_pneumoniae_INF322: n=100 median=86.46% mean=85.84%   el=2100s
+  [28/50] Klebsiella_pneumoniae_INF341: n=100 median=84.18% mean=83.70%   el=2185s
+  [29/50] Klebsiella_pneumoniae_INF357: n=100 median=84.82% mean=83.77%   el=2260s
+  [30/50] Klebsiella_pneumoniae_INF358: n=100 median=85.33% mean=85.28%   el=2337s
+  [31/50] Klebsiella_pneumoniae_INF361: n=100 median=86.01% mean=85.57%   el=2419s
+  [32/50] Klebsiella_pneumoniae_KSB1_1I: n=100 median=83.92% mean=83.45%   el=2499s
+  [33/50] Klebsiella_pneumoniae_KSB1_6F: n=100 median=85.48% mean=85.21%   el=2574s
+  [34/50] Klebsiella_pneumoniae_KSB1_6G: n=100 median=84.90% mean=84.33%   el=2652s
+  [35/50] Klebsiella_pneumoniae_KSB1_7E: n=100 median=83.48% mean=83.15%   el=2728s
+  [36/50] Klebsiella_pneumoniae_KSB1_7F: n=100 median=86.04% mean=85.22%   el=2818s
+  [37/50] Klebsiella_pneumoniae_KSB1_9A: n=100 median=85.28% mean=85.11%   el=2889s
+  [38/50] Klebsiella_pneumoniae_KSB1_9D: n=100 median=85.97% mean=85.37%   el=2956s
+  [39/50] Klebsiella_pneumoniae_NUH11: n=100 median=85.10% mean=84.15%   el=3025s
+  [40/50] Klebsiella_pneumoniae_NUH27: n=100 median=84.12% mean=83.59%   el=3077s
+  [41/50] Klebsiella_pneumoniae_QMP_B2_170: n=100 median=85.01% mean=84.58%   el=3150s
+  [42/50] Klebsiella_pneumoniae_SGH07: n=100 median=84.16% mean=83.55%   el=3212s
+  [43/50] Klebsiella_quasipneumoniae_INF291: n=100 median=85.25% mean=84.59%   el=3292s
+  [44/50] Klebsiella_variicola_INF022: n=100 median=83.70% mean=83.27%   el=3365s
+  [45/50] Klebsiella_variicola_KSB1_8J: n=100 median=83.89% mean=83.34%   el=3430s
+  [46/50] Moraxella_lincolnii_51409: n=100 median=81.01% mean=80.68%   el=3474s
+  [47/50] Morganella_morganii_MSB1_1E: n=100 median=86.45% mean=86.16%   el=3574s
+  [48/50] Pseudomonas_aeruginosa_MINF_7A: n=100 median=84.04% mean=83.64%   el=3647s
+  [49/50] Salmonella_enterica_2010-06152: n=100 median=85.86% mean=85.29%   el=3710s
+  [50/50] Stenotrophomonas_pavanii_MSB1_4D: n=100 median=84.77% mean=83.99%   el=3778s
+
+Wrote logs/phase2/eval50_p2_h_tiny.csv
+  per-iso n      = 50
+  total reads    = 5000
+  OVERALL median = 85.02%
+  OVERALL mean   = 84.43%
+  median-of-medians = 85.03%
+  mean-of-medians   = 84.95%  (this is the Bonito sup-CSV-style headline number)
+
+=== eval p2_kdjp_tiny → logs/phase2/eval50_p2_kdjp_tiny.csv ===
+Will evaluate 50 isolates × 100 reads
+Loaded checkpoints_kd/p2_kdjp_tiny/best.pt  preset=m2_tiny_s5  epoch=19  avg_loss=0.8992074333382377  missing=0 unexpected=0
+  [1/50] Acinetobacter_baumannii_AYP-A2: n=100 median=81.85% mean=81.41%   el=95s
+  [2/50] Acinetobacter_nosocomialis_MINF_5C: n=100 median=84.36% mean=83.75%   el=171s
+  [3/50] Acinetobacter_ursingii_MINF_9C: n=100 median=85.81% mean=84.95%   el=245s
+  [4/50] Burkholderia_cenocepacia_MINF_4A: n=100 median=86.91% mean=86.70%   el=337s
+  [5/50] Citrobacter_freundii_MSB1_1H: n=100 median=86.91% mean=86.42%   el=426s
+  [6/50] Citrobacter_koseri_MINF_9D: n=100 median=83.70% mean=83.55%   el=494s
+  [7/50] Comamonas_kerstersii_MSB1_7G: n=100 median=82.84% mean=82.61%   el=570s
+  [8/50] Enterobacter_kobei_MSB1_1B: n=100 median=84.53% mean=83.92%   el=647s
+  [9/50] Escherichia_coli_MSB2_1A: n=100 median=84.61% mean=83.79%   el=719s
+  [10/50] Escherichia_marmotae_MSB1_5C: n=100 median=86.77% mean=85.60%   el=802s
+  [11/50] Haemophilus_parainfluenzae_M1C146_1: n=100 median=81.45% mean=81.44%   el=848s
+  [12/50] Klebsiella_aerogenes_MINF_10B: n=100 median=84.34% mean=83.55%   el=917s
+  [13/50] Klebsiella_pneumoniae_INF007: n=100 median=87.88% mean=87.21%   el=1003s
+  [14/50] Klebsiella_pneumoniae_INF014: n=100 median=86.47% mean=85.96%   el=1132s
+  [15/50] Klebsiella_pneumoniae_INF065: n=100 median=87.47% mean=86.65%   el=1226s
+  [16/50] Klebsiella_pneumoniae_INF078: n=100 median=87.41% mean=86.59%   el=1343s
+  [17/50] Klebsiella_pneumoniae_INF102: n=100 median=85.94% mean=85.51%   el=1426s
+  [18/50] Klebsiella_pneumoniae_INF116: n=100 median=85.04% mean=84.79%   el=1517s
+  [19/50] Klebsiella_pneumoniae_INF125: n=100 median=85.21% mean=85.40%   el=1624s
+  [20/50] Klebsiella_pneumoniae_INF177: n=100 median=86.39% mean=85.82%   el=1727s
+  [21/50] Klebsiella_pneumoniae_INF192: n=100 median=87.18% mean=86.76%   el=1819s
+  [22/50] Klebsiella_pneumoniae_INF215: n=100 median=85.61% mean=85.38%   el=1898s
+  [23/50] Klebsiella_pneumoniae_INF235: n=100 median=86.65% mean=85.80%   el=1987s
+  [24/50] Klebsiella_pneumoniae_INF310: n=100 median=84.81% mean=84.36%   el=2052s
+  [25/50] Klebsiella_pneumoniae_INF319: n=100 median=84.73% mean=84.21%   el=2115s
+  [26/50] Klebsiella_pneumoniae_INF321: n=100 median=85.06% mean=84.26%   el=2197s
+  [27/50] Klebsiella_pneumoniae_INF322: n=100 median=87.08% mean=86.31%   el=2268s
+  [28/50] Klebsiella_pneumoniae_INF341: n=100 median=84.38% mean=83.88%   el=2360s
+  [29/50] Klebsiella_pneumoniae_INF357: n=100 median=84.99% mean=83.89%   el=2441s
+  [30/50] Klebsiella_pneumoniae_INF358: n=100 median=85.79% mean=85.78%   el=2524s
+  [31/50] Klebsiella_pneumoniae_INF361: n=100 median=86.24% mean=85.88%   el=2613s
+  [32/50] Klebsiella_pneumoniae_KSB1_1I: n=100 median=84.35% mean=83.97%   el=2699s
+  [33/50] Klebsiella_pneumoniae_KSB1_6F: n=100 median=85.72% mean=85.40%   el=2781s
+  [34/50] Klebsiella_pneumoniae_KSB1_6G: n=100 median=85.29% mean=84.58%   el=2867s
+  [35/50] Klebsiella_pneumoniae_KSB1_7E: n=100 median=83.99% mean=83.53%   el=2949s
+  [36/50] Klebsiella_pneumoniae_KSB1_7F: n=100 median=86.46% mean=85.69%   el=3046s
+  [37/50] Klebsiella_pneumoniae_KSB1_9A: n=100 median=85.70% mean=85.53%   el=3123s
+  [38/50] Klebsiella_pneumoniae_KSB1_9D: n=100 median=86.35% mean=85.82%   el=3195s
+  [39/50] Klebsiella_pneumoniae_NUH11: n=100 median=85.42% mean=84.51%   el=3269s
+  [40/50] Klebsiella_pneumoniae_NUH27: n=100 median=84.28% mean=83.92%   el=3326s
+  [41/50] Klebsiella_pneumoniae_QMP_B2_170: n=100 median=85.25% mean=84.77%   el=3406s
+  [42/50] Klebsiella_pneumoniae_SGH07: n=100 median=84.50% mean=83.93%   el=3474s
+  [43/50] Klebsiella_quasipneumoniae_INF291: n=100 median=85.39% mean=84.79%   el=3561s
+  [44/50] Klebsiella_variicola_INF022: n=100 median=83.96% mean=83.71%   el=3640s
+  [45/50] Klebsiella_variicola_KSB1_8J: n=100 median=83.92% mean=83.58%   el=3709s
+  [46/50] Moraxella_lincolnii_51409: n=100 median=80.85% mean=80.89%   el=3757s
+  [47/50] Morganella_morganii_MSB1_1E: n=100 median=86.79% mean=86.42%   el=3864s
+  [48/50] Pseudomonas_aeruginosa_MINF_7A: n=100 median=84.18% mean=83.89%   el=3943s
+  [49/50] Salmonella_enterica_2010-06152: n=100 median=86.31% mean=85.55%   el=4011s
+  [50/50] Stenotrophomonas_pavanii_MSB1_4D: n=100 median=85.22% mean=84.37%   el=4085s
+
+Wrote logs/phase2/eval50_p2_kdjp_tiny.csv
+  per-iso n      = 50
+  total reads    = 5000
+  OVERALL median = 85.29%
+  OVERALL mean   = 84.74%
+  median-of-medians = 85.27%
+  mean-of-medians   = 85.25%  (this is the Bonito sup-CSV-style headline number)
+[skip] p2_h_small — checkpoint checkpoints_kd/p2_h_small/best.pt not found
+
+=== eval p2_kdjp_small → logs/phase2/eval50_p2_kdjp_small.csv ===
+Will evaluate 50 isolates × 100 reads
+Loaded checkpoints_kd/p2_kdjp_small/best.pt  preset=m2_small_s5  epoch=19  avg_loss=0.6359460126974598  missing=0 unexpected=0
+  [1/50] Acinetobacter_baumannii_AYP-A2: n=100 median=83.83% mean=83.64%   el=98s
+  [2/50] Acinetobacter_nosocomialis_MINF_5C: n=100 median=86.21% mean=85.66%   el=180s
+  [3/50] Acinetobacter_ursingii_MINF_9C: n=100 median=87.92% mean=86.89%   el=260s
+  [4/50] Burkholderia_cenocepacia_MINF_4A: n=100 median=88.25% mean=88.25%   el=359s
+  [5/50] Citrobacter_freundii_MSB1_1H: n=100 median=88.68% mean=88.09%   el=455s
+  [6/50] Citrobacter_koseri_MINF_9D: n=100 median=85.54% mean=85.21%   el=527s
+  [7/50] Comamonas_kerstersii_MSB1_7G: n=100 median=85.20% mean=84.76%   el=607s
+  [8/50] Enterobacter_kobei_MSB1_1B: n=100 median=86.05% mean=85.51%   el=689s
+  [9/50] Escherichia_coli_MSB2_1A: n=100 median=86.17% mean=85.42%   el=766s
+  [10/50] Escherichia_marmotae_MSB1_5C: n=100 median=88.40% mean=87.33%   el=855s
+  [11/50] Haemophilus_parainfluenzae_M1C146_1: n=100 median=83.78% mean=84.00%   el=904s
+  [12/50] Klebsiella_aerogenes_MINF_10B: n=100 median=86.12% mean=85.24%   el=979s
+  [13/50] Klebsiella_pneumoniae_INF007: n=100 median=89.72% mean=89.10%   el=1073s
+  [14/50] Klebsiella_pneumoniae_INF014: n=100 median=87.84% mean=87.41%   el=1208s
+  [15/50] Klebsiella_pneumoniae_INF065: n=100 median=88.73% mean=87.95%   el=1305s
+  [16/50] Klebsiella_pneumoniae_INF078: n=100 median=89.85% mean=89.10%   el=1433s
+  [17/50] Klebsiella_pneumoniae_INF102: n=100 median=87.58% mean=87.28%   el=1521s
+  [18/50] Klebsiella_pneumoniae_INF116: n=100 median=86.12% mean=86.14%   el=1618s
+  [19/50] Klebsiella_pneumoniae_INF125: n=100 median=88.20% mean=88.14%   el=1733s
+  [20/50] Klebsiella_pneumoniae_INF177: n=100 median=87.85% mean=87.24%   el=1841s
+  [21/50] Klebsiella_pneumoniae_INF192: n=100 median=89.14% mean=88.63%   el=1939s
+  [22/50] Klebsiella_pneumoniae_INF215: n=100 median=87.19% mean=86.74%   el=2024s
+  [23/50] Klebsiella_pneumoniae_INF235: n=100 median=88.72% mean=87.95%   el=2119s
+  [24/50] Klebsiella_pneumoniae_INF310: n=100 median=87.12% mean=86.19%   el=2190s
+  [25/50] Klebsiella_pneumoniae_INF319: n=100 median=86.79% mean=86.15%   el=2258s
+  [26/50] Klebsiella_pneumoniae_INF321: n=100 median=87.01% mean=86.27%   el=2347s
+  [27/50] Klebsiella_pneumoniae_INF322: n=100 median=88.28% mean=87.63%   el=2421s
+  [28/50] Klebsiella_pneumoniae_INF341: n=100 median=86.38% mean=85.82%   el=2520s
+  [29/50] Klebsiella_pneumoniae_INF357: n=100 median=86.92% mean=85.93%   el=2607s
+  [30/50] Klebsiella_pneumoniae_INF358: n=100 median=87.12% mean=87.07%   el=2694s
+  [31/50] Klebsiella_pneumoniae_INF361: n=100 median=87.91% mean=87.56%   el=2788s
+  [32/50] Klebsiella_pneumoniae_KSB1_1I: n=100 median=86.06% mean=85.59%   el=2878s
+  [33/50] Klebsiella_pneumoniae_KSB1_6F: n=100 median=88.35% mean=87.93%   el=2966s
+  [34/50] Klebsiella_pneumoniae_KSB1_6G: n=100 median=87.53% mean=86.57%   el=3057s
+  [35/50] Klebsiella_pneumoniae_KSB1_7E: n=100 median=85.34% mean=85.04%   el=3144s
+  [36/50] Klebsiella_pneumoniae_KSB1_7F: n=100 median=87.77% mean=87.06%   el=3247s
+  [37/50] Klebsiella_pneumoniae_KSB1_9A: n=100 median=86.97% mean=86.77%   el=3329s
+  [38/50] Klebsiella_pneumoniae_KSB1_9D: n=100 median=87.76% mean=87.09%   el=3407s
+  [39/50] Klebsiella_pneumoniae_NUH11: n=100 median=86.87% mean=86.10%   el=3488s
+  [40/50] Klebsiella_pneumoniae_NUH27: n=100 median=85.96% mean=85.52%   el=3549s
+  [41/50] Klebsiella_pneumoniae_QMP_B2_170: n=100 median=87.95% mean=87.38%   el=3636s
+  [42/50] Klebsiella_pneumoniae_SGH07: n=100 median=85.99% mean=85.49%   el=3709s
+  [43/50] Klebsiella_quasipneumoniae_INF291: n=100 median=86.97% mean=86.40%   el=3802s
+  [44/50] Klebsiella_variicola_INF022: n=100 median=85.23% mean=85.19%   el=3886s
+  [45/50] Klebsiella_variicola_KSB1_8J: n=100 median=85.79% mean=85.22%   el=3961s
+  [46/50] Moraxella_lincolnii_51409: n=100 median=83.32% mean=83.33%   el=4013s
+  [47/50] Morganella_morganii_MSB1_1E: n=100 median=88.46% mean=88.18%   el=4127s
+  [48/50] Pseudomonas_aeruginosa_MINF_7A: n=100 median=86.43% mean=85.90%   el=4211s
+  [49/50] Salmonella_enterica_2010-06152: n=100 median=87.95% mean=87.12%   el=4285s
+  [50/50] Stenotrophomonas_pavanii_MSB1_4D: n=100 median=87.00% mean=86.20%   el=4364s
+
+Wrote logs/phase2/eval50_p2_kdjp_small.csv
+  per-iso n      = 50
+  total reads    = 5000
+  OVERALL median = 87.07%
+  OVERALL mean   = 86.53%
+  median-of-medians = 87.07%
+  mean-of-medians   = 87.05%  (this is the Bonito sup-CSV-style headline number)
+
+=== compare to Bonito sup baseline ===
+Reading per-CSV...
+  sup         iso=50  mom=0.9103
+  h_tiny      iso=50  mom=0.8495
+  kd_tiny     iso=50  mom=0.8525
+  [skip] h_small: missing /home/ubuntu/hardy/M2Caller/logs/phase2/eval50_p2_h_small.csv
+  kd_small    iso=50  mom=0.8705
+
+Wrote /home/ubuntu/hardy/M2Caller/logs/phase2/main_table.md
+        /home/ubuntu/hardy/M2Caller/logs/phase2/main_table.tex
+        /home/ubuntu/hardy/M2Caller/logs/phase2/main_table.tsv
+
+=== NanoSpecies-50 student eval done Wed May 27 12:16:46 UTC 2026 ===

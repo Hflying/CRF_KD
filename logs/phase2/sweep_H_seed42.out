@@ -1,0 +1,38 @@
+[H] device=cuda  preset=m2_tiny_s5
+[H] restricted training to 1 named isolate(s): ['Klebsiella_pneumoniae_INF078']
+[H] 1 isolates available (seed=42)
+[H] TRAIN: 1 iso × 200 reads → 4164 chunks
+[H]   eval Klebsiella_pneumoniae_INF078: 50 reads loaded
+[H] loading teacher: tools/bonito_models/dna_r9.4.1_e8_sup@v3.3
+[H] student: state_len=5 params=1.07M
+[H] KD weights: {'lambda_post': 0.0, 'lambda_fwd': 0.0, 'lambda_hard': 1.0}  joint_post=False
+[H] steps/epoch=261  total=1044  start_epoch=0
+[H] ep 0 step 50/1044 tot=2.569 post=0.000 hard=2.569 lr=5.0e-05 skip=0  elapsed=672s
+[H] ep 0 step 100/1044 tot=2.099 post=0.000 hard=2.099 lr=1.0e-04 skip=0  elapsed=1273s
+[H] ep 0 step 150/1044 tot=1.742 post=0.000 hard=1.742 lr=1.5e-04 skip=0  elapsed=1874s
+[H] ep 0 step 200/1044 tot=1.487 post=0.000 hard=1.487 lr=2.0e-04 skip=0  elapsed=2474s
+[H] ep 0 step 250/1044 tot=1.374 post=0.000 hard=1.374 lr=2.0e-04 skip=0  elapsed=3070s
+[H] === epoch 1/4 done avg_loss=2.0550 steps=261 skip=0 elapsed=3196s ===
+[H] ep 1 step 300/1044 tot=1.352 post=0.000 hard=1.352 lr=1.9e-04 skip=0  elapsed=3663s
+[H] ep 1 step 350/1044 tot=1.177 post=0.000 hard=1.177 lr=1.9e-04 skip=0  elapsed=4265s
+[H] ep 1 step 400/1044 tot=0.831 post=0.000 hard=0.831 lr=1.8e-04 skip=0  elapsed=4866s
+[H] ep 1 step 450/1044 tot=0.670 post=0.000 hard=0.670 lr=1.6e-04 skip=0  elapsed=5466s
+[H] ep 1 step 500/1044 tot=0.540 post=0.000 hard=0.540 lr=1.5e-04 skip=0  elapsed=6070s
+[H] === epoch 2/4 done avg_loss=0.9505 steps=261 skip=0 elapsed=6327s ===
+[H] ep 2 step 550/1044 tot=0.449 post=0.000 hard=0.449 lr=1.3e-04 skip=0  elapsed=6655s
+[H] ep 2 step 600/1044 tot=0.422 post=0.000 hard=0.422 lr=1.2e-04 skip=0  elapsed=7259s
+[H] ep 2 step 650/1044 tot=0.387 post=0.000 hard=0.387 lr=1.0e-04 skip=0  elapsed=7858s
+[H] ep 2 step 700/1044 tot=0.398 post=0.000 hard=0.398 lr=8.5e-05 skip=0  elapsed=8463s
+[H] ep 2 step 750/1044 tot=0.394 post=0.000 hard=0.394 lr=6.9e-05 skip=0  elapsed=9064s
+[H] === epoch 3/4 done avg_loss=0.4298 steps=261 skip=0 elapsed=9453s ===
+[H] ep 3 step 800/1044 tot=0.381 post=0.000 hard=0.381 lr=5.5e-05 skip=0  elapsed=9656s
+[H] ep 3 step 850/1044 tot=0.376 post=0.000 hard=0.376 lr=4.3e-05 skip=0  elapsed=10258s
+[H] ep 3 step 900/1044 tot=0.383 post=0.000 hard=0.383 lr=3.3e-05 skip=0  elapsed=10853s
+[H] ep 3 step 950/1044 tot=0.363 post=0.000 hard=0.363 lr=2.6e-05 skip=0  elapsed=11459s
+[H] ep 3 step 1000/1044 tot=0.359 post=0.000 hard=0.359 lr=2.1e-05 skip=0  elapsed=12057s
+[H] === epoch 4/4 done avg_loss=0.3618 steps=261 skip=0 elapsed=12579s ===
+[H] === FINAL EVAL ===
+  Klebsiella_pneumoniae_INF078                      : n= 50  median=72.08%  mean=72.12%
+
+  OVERALL: n=50 median=72.08% mean=72.12%
+[H] DONE in 12611s

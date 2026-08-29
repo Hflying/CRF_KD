@@ -1,0 +1,3 @@
+overall_median 0.8158
+overall_mean 0.8070
+n_reads 160

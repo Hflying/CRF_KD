@@ -1,0 +1,7 @@
+#	run	model	loss	epochs	median	mean	n_reads
+1	R1 · H · Tiny	Tiny	hard	3	76.35	75.28	160
+2	R1 · KD · Tiny	Tiny	KD	3	78.87	78.08	160
+3	R1 · KD · Small	Small	KD	3	81.58	80.70	160
+4	R2 · H · Tiny	Tiny	hard	5	82.75	81.86	160
+5	R2 · KD · Tiny	Tiny	KD	5	83.44	82.56	160
+6	R2 · KD · Small	Small	KD	5	85.61	84.83	160

@@ -1,0 +1,3 @@
+n_reads 50
+median 0.7861
+mean 0.7833

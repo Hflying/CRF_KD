@@ -1,0 +1,577 @@
+=== v4 MAIN start Thu Apr 23 07:58:03 UTC 2026 ===
+
+=== STAGE 1: H baseline (500 shards × 3 ep, batch 32) ===
+[train_v4] device=cuda
+[train_v4] preset=m2_tiny_s5
+[train_v4] train shards: 500  (each ~256 chunks)
+[train_v4] val shards: 197
+[train_v4] student params: 1.07M  state_len=5
+[train_v4] total optimizer steps ≈ 1500
+[train_v4] mini-batches per shard: 8  total optimiser steps: 12000
+[train_v4] ep 0 step 100/12000 loss=2.2709 avg=2.8095 lr=1.5e-04 skipped=0  elapsed=188s
+[train_v4] ep 0 step 200/12000 loss=1.5481 avg=2.2705 lr=3.0e-04 skipped=0  elapsed=352s
+[train_v4] ep 0 step 300/12000 loss=1.4383 avg=2.1356 lr=3.0e-04 skipped=0  elapsed=517s
+[train_v4] ep 0 step 400/12000 loss=1.1103 avg=1.9314 lr=3.0e-04 skipped=0  elapsed=683s
+[train_v4] ep 0 step 500/12000 loss=0.8207 avg=1.7431 lr=3.0e-04 skipped=0  elapsed=850s
+[train_v4] ep 0 step 600/12000 loss=0.6239 avg=1.5893 lr=3.0e-04 skipped=0  elapsed=1017s
+[train_v4] ep 0 step 700/12000 loss=0.8046 avg=1.4846 lr=3.0e-04 skipped=0  elapsed=1184s
+[train_v4] ep 0 step 800/12000 loss=0.7968 avg=1.3857 lr=3.0e-04 skipped=0  elapsed=1350s
+[train_v4] ep 0 step 900/12000 loss=0.5117 avg=1.3049 lr=3.0e-04 skipped=0  elapsed=1516s
+[train_v4] ep 0 step 1000/12000 loss=0.6669 avg=1.2341 lr=3.0e-04 skipped=0  elapsed=1680s
+[train_v4] ep 0 step 1100/12000 loss=0.6210 avg=1.1778 lr=3.0e-04 skipped=0  elapsed=1845s
+[train_v4] ep 0 step 1200/12000 loss=0.4835 avg=1.1282 lr=3.0e-04 skipped=0  elapsed=2010s
+[train_v4] ep 0 step 1300/12000 loss=0.5991 avg=1.0881 lr=2.9e-04 skipped=0  elapsed=2174s
+[train_v4] ep 0 step 1400/12000 loss=0.4509 avg=1.2168 lr=2.9e-04 skipped=0  elapsed=2339s
+[train_v4] ep 0 step 1500/12000 loss=0.5771 avg=1.1749 lr=2.9e-04 skipped=0  elapsed=2505s
+[train_v4] ep 0 step 1600/12000 loss=0.5275 avg=1.1370 lr=2.9e-04 skipped=0  elapsed=2669s
+[train_v4] ep 0 step 1700/12000 loss=0.4805 avg=1.1021 lr=2.9e-04 skipped=0  elapsed=2833s
+[train_v4] ep 0 step 1800/12000 loss=0.4254 avg=1.0689 lr=2.9e-04 skipped=0  elapsed=2996s
+[train_v4] ep 0 step 1900/12000 loss=0.4989 avg=1.0399 lr=2.9e-04 skipped=0  elapsed=3160s
+[train_v4] ep 0 step 2000/12000 loss=0.5685 avg=1.0180 lr=2.8e-04 skipped=0  elapsed=3326s
+[train_v4] ep 0 step 2100/12000 loss=0.7485 avg=0.9939 lr=2.8e-04 skipped=0  elapsed=3490s
+[train_v4] ep 0 step 2200/12000 loss=0.4933 avg=0.9716 lr=2.8e-04 skipped=0  elapsed=3655s
+[train_v4] ep 0 step 2300/12000 loss=0.4383 avg=0.9510 lr=2.8e-04 skipped=0  elapsed=3818s
+[train_v4] ep 0 step 2400/12000 loss=0.4050 avg=0.9327 lr=2.8e-04 skipped=0  elapsed=3985s
+[train_v4] ep 0 step 2500/12000 loss=0.6061 avg=0.9152 lr=2.8e-04 skipped=0  elapsed=4147s
+[train_v4] ep 0 step 2600/12000 loss=0.6726 avg=0.9017 lr=2.7e-04 skipped=0  elapsed=4313s
+[train_v4] ep 0 step 2700/12000 loss=0.2489 avg=0.8947 lr=2.7e-04 skipped=0  elapsed=4476s
+[train_v4] ep 0 step 2800/12000 loss=0.2357 avg=0.8850 lr=2.7e-04 skipped=0  elapsed=4642s
+[train_v4] ep 0 step 2900/12000 loss=0.4407 avg=0.8710 lr=2.7e-04 skipped=0  elapsed=4806s
+[train_v4] ep 0 step 3000/12000 loss=0.4679 avg=0.8580 lr=2.6e-04 skipped=0  elapsed=4971s
+[train_v4] ep 0 step 3100/12000 loss=0.5140 avg=0.8477 lr=2.6e-04 skipped=0  elapsed=5139s
+[train_v4] ep 0 step 3200/12000 loss=0.6554 avg=0.8352 lr=2.6e-04 skipped=0  elapsed=5304s
+[train_v4] ep 0 step 3300/12000 loss=0.3084 avg=0.8241 lr=2.6e-04 skipped=0  elapsed=5469s
+[train_v4] ep 0 step 3400/12000 loss=0.3855 avg=0.8526 lr=2.5e-04 skipped=0  elapsed=5630s
+[train_v4] ep 0 step 3500/12000 loss=0.5818 avg=0.8414 lr=2.5e-04 skipped=0  elapsed=5791s
+[train_v4] ep 0 step 3600/12000 loss=0.3172 avg=0.8306 lr=2.5e-04 skipped=0  elapsed=5952s
+[train_v4] ep 0 step 3700/12000 loss=0.3366 avg=0.8587 lr=2.5e-04 skipped=0  elapsed=6112s
+[train_v4] ep 0 step 3800/12000 loss=0.5135 avg=0.8477 lr=2.4e-04 skipped=0  elapsed=6273s
+[train_v4] ep 0 step 3900/12000 loss=0.3034 avg=0.8370 lr=2.4e-04 skipped=0  elapsed=6434s
+[train_v4] === epoch 1/3 done avg_loss=0.8283 steps=3983 skipped=0 elapsed=6568s ===
+[train_v4] saved best (loss=0.8283)
+[train_v4] ep 1 step 4000/12000 loss=0.5587 avg=0.3366 lr=2.4e-04 skipped=0  elapsed=6595s
+[train_v4] ep 1 step 4100/12000 loss=0.2666 avg=0.4087 lr=2.3e-04 skipped=0  elapsed=6753s
+[train_v4] ep 1 step 4200/12000 loss=0.3394 avg=0.4384 lr=2.3e-04 skipped=0  elapsed=6915s
+[train_v4] ep 1 step 4300/12000 loss=0.3742 avg=0.4248 lr=2.3e-04 skipped=0  elapsed=7074s
+[train_v4] ep 1 step 4400/12000 loss=0.5361 avg=0.4306 lr=2.2e-04 skipped=0  elapsed=7235s
+[train_v4] ep 1 step 4500/12000 loss=0.5485 avg=0.4402 lr=2.2e-04 skipped=0  elapsed=7395s
+[train_v4] ep 1 step 4600/12000 loss=0.3393 avg=0.4363 lr=2.2e-04 skipped=0  elapsed=7556s
+[train_v4] ep 1 step 4700/12000 loss=0.3196 avg=0.4429 lr=2.1e-04 skipped=0  elapsed=7716s
+[train_v4] ep 1 step 4800/12000 loss=0.3655 avg=0.4420 lr=2.1e-04 skipped=0  elapsed=7878s
+[train_v4] ep 1 step 4900/12000 loss=0.2036 avg=0.4434 lr=2.1e-04 skipped=0  elapsed=8038s
+[train_v4] ep 1 step 5000/12000 loss=0.5013 avg=0.4406 lr=2.0e-04 skipped=0  elapsed=8200s
+[train_v4] ep 1 step 5100/12000 loss=0.3292 avg=0.4448 lr=2.0e-04 skipped=0  elapsed=8359s
+[train_v4] ep 1 step 5200/12000 loss=0.3026 avg=0.4452 lr=2.0e-04 skipped=0  elapsed=8520s
+[train_v4] ep 1 step 5300/12000 loss=0.6790 avg=0.4486 lr=1.9e-04 skipped=0  elapsed=8681s
+[train_v4] ep 1 step 5400/12000 loss=0.2940 avg=0.4481 lr=1.9e-04 skipped=0  elapsed=8841s
+[train_v4] ep 1 step 5500/12000 loss=0.3135 avg=0.4791 lr=1.9e-04 skipped=0  elapsed=9002s
+[train_v4] ep 1 step 5600/12000 loss=0.4522 avg=0.4778 lr=1.8e-04 skipped=0  elapsed=9163s
+[train_v4] ep 1 step 5700/12000 loss=0.2402 avg=0.4740 lr=1.8e-04 skipped=0  elapsed=9324s
+[train_v4] ep 1 step 5800/12000 loss=0.4180 avg=0.4691 lr=1.8e-04 skipped=0  elapsed=9485s
+[train_v4] ep 1 step 5900/12000 loss=0.5354 avg=0.4679 lr=1.7e-04 skipped=0  elapsed=9647s
+[train_v4] ep 1 step 6000/12000 loss=0.4161 avg=0.4649 lr=1.7e-04 skipped=0  elapsed=9807s
+[train_v4] ep 1 step 6100/12000 loss=0.2860 avg=0.4616 lr=1.7e-04 skipped=0  elapsed=9962s
+[train_v4] ep 1 step 6200/12000 loss=0.4145 avg=0.4588 lr=1.6e-04 skipped=0  elapsed=10115s
+[train_v4] ep 1 step 6300/12000 loss=0.4533 avg=0.4870 lr=1.6e-04 skipped=0  elapsed=10269s
+[train_v4] ep 1 step 6400/12000 loss=0.3081 avg=0.4853 lr=1.5e-04 skipped=0  elapsed=10423s
+[train_v4] ep 1 step 6500/12000 loss=0.2449 avg=0.4822 lr=1.5e-04 skipped=0  elapsed=10577s
+[train_v4] ep 1 step 6600/12000 loss=0.4496 avg=0.4778 lr=1.5e-04 skipped=0  elapsed=10730s
+[train_v4] ep 1 step 6700/12000 loss=0.3852 avg=0.4753 lr=1.4e-04 skipped=0  elapsed=10883s
+[train_v4] ep 1 step 6800/12000 loss=34.4795 avg=0.4844 lr=1.4e-04 skipped=0  elapsed=11037s
+[train_v4] ep 1 step 6900/12000 loss=0.2759 avg=0.4834 lr=1.4e-04 skipped=0  elapsed=11191s
+[train_v4] ep 1 step 7000/12000 loss=0.4869 avg=0.4808 lr=1.3e-04 skipped=0  elapsed=11346s
+[train_v4] ep 1 step 7100/12000 loss=0.5144 avg=0.4794 lr=1.3e-04 skipped=0  elapsed=11500s
+[train_v4] ep 1 step 7200/12000 loss=0.3712 avg=0.4774 lr=1.3e-04 skipped=0  elapsed=11654s
+[train_v4] ep 1 step 7300/12000 loss=0.3552 avg=0.4774 lr=1.2e-04 skipped=0  elapsed=11807s
+[train_v4] ep 1 step 7400/12000 loss=0.2767 avg=0.4759 lr=1.2e-04 skipped=0  elapsed=11962s
+[train_v4] ep 1 step 7500/12000 loss=0.4117 avg=0.4913 lr=1.2e-04 skipped=0  elapsed=12116s
+[train_v4] ep 1 step 7600/12000 loss=0.3840 avg=0.4947 lr=1.1e-04 skipped=0  elapsed=12269s
+[train_v4] ep 1 step 7700/12000 loss=0.3818 avg=0.4944 lr=1.1e-04 skipped=0  elapsed=12423s
+[train_v4] ep 1 step 7800/12000 loss=0.5940 avg=0.4921 lr=1.1e-04 skipped=0  elapsed=12577s
+[train_v4] ep 1 step 7900/12000 loss=0.3809 avg=0.4929 lr=1.0e-04 skipped=0  elapsed=12730s
+[train_v4] === epoch 2/3 done avg_loss=0.4934 steps=3983 skipped=0 elapsed=12832s ===
+[train_v4] saved best (loss=0.4934)
+[train_v4] ep 2 step 8000/12000 loss=0.2150 avg=0.4091 lr=1.0e-04 skipped=0  elapsed=12885s
+[train_v4] ep 2 step 8100/12000 loss=0.4022 avg=0.3715 lr=9.6e-05 skipped=0  elapsed=13039s
+[train_v4] ep 2 step 8200/12000 loss=0.4229 avg=0.3979 lr=9.3e-05 skipped=0  elapsed=13193s
+[train_v4] ep 2 step 8300/12000 loss=0.3919 avg=0.4025 lr=9.0e-05 skipped=0  elapsed=13348s
+[train_v4] ep 2 step 8400/12000 loss=0.7772 avg=0.4093 lr=8.7e-05 skipped=0  elapsed=13503s
+[train_v4] ep 2 step 8500/12000 loss=0.3483 avg=0.4170 lr=8.5e-05 skipped=0  elapsed=13659s
+[train_v4] ep 2 step 8600/12000 loss=0.2901 avg=0.4122 lr=8.2e-05 skipped=0  elapsed=13812s
+[train_v4] ep 2 step 8700/12000 loss=0.2587 avg=0.4047 lr=7.9e-05 skipped=0  elapsed=13967s
+[train_v4] ep 2 step 8800/12000 loss=0.3182 avg=0.3971 lr=7.6e-05 skipped=0  elapsed=14121s
+[train_v4] ep 2 step 8900/12000 loss=0.5765 avg=0.3963 lr=7.3e-05 skipped=0  elapsed=14277s
+[train_v4] ep 2 step 9000/12000 loss=0.7874 avg=0.3968 lr=7.1e-05 skipped=0  elapsed=14431s
+[train_v4] ep 2 step 9100/12000 loss=0.3958 avg=0.4138 lr=6.8e-05 skipped=0  elapsed=14584s
+[train_v4] ep 2 step 9200/12000 loss=0.4603 avg=0.4177 lr=6.6e-05 skipped=0  elapsed=14737s
+[train_v4] ep 2 step 9300/12000 loss=0.3344 avg=0.4177 lr=6.3e-05 skipped=0  elapsed=14892s
+[train_v4] ep 2 step 9400/12000 loss=0.3038 avg=0.4182 lr=6.1e-05 skipped=0  elapsed=15046s
+[train_v4] ep 2 step 9500/12000 loss=0.3329 avg=0.4241 lr=5.9e-05 skipped=0  elapsed=15198s
+[train_v4] ep 2 step 9600/12000 loss=0.3642 avg=0.4226 lr=5.7e-05 skipped=0  elapsed=15352s
+[train_v4] ep 2 step 9700/12000 loss=0.1981 avg=0.4213 lr=5.5e-05 skipped=0  elapsed=15506s
+[train_v4] ep 2 step 9800/12000 loss=0.2964 avg=0.4208 lr=5.3e-05 skipped=0  elapsed=15660s
+[train_v4] ep 2 step 9900/12000 loss=0.5435 avg=0.4197 lr=5.1e-05 skipped=0  elapsed=15815s
+[train_v4] ep 2 step 10000/12000 loss=0.5312 avg=0.4188 lr=4.9e-05 skipped=0  elapsed=15968s
+[train_v4] ep 2 step 10100/12000 loss=0.4165 avg=0.4183 lr=4.7e-05 skipped=0  elapsed=16123s
+[train_v4] ep 2 step 10200/12000 loss=0.3944 avg=0.4314 lr=4.5e-05 skipped=0  elapsed=16278s
+[train_v4] ep 2 step 10300/12000 loss=0.4597 avg=0.4288 lr=4.4e-05 skipped=0  elapsed=16432s
+[train_v4] ep 2 step 10400/12000 loss=0.4987 avg=0.4296 lr=4.2e-05 skipped=0  elapsed=16587s
+[train_v4] ep 2 step 10500/12000 loss=0.2996 avg=0.4286 lr=4.1e-05 skipped=0  elapsed=16741s
+[train_v4] ep 2 step 10600/12000 loss=0.2760 avg=0.4398 lr=3.9e-05 skipped=0  elapsed=16895s
+[train_v4] ep 2 step 10700/12000 loss=0.4620 avg=0.4405 lr=3.8e-05 skipped=0  elapsed=17050s
+[train_v4] ep 2 step 10800/12000 loss=0.4016 avg=0.4394 lr=3.7e-05 skipped=0  elapsed=17203s
+[train_v4] ep 2 step 10900/12000 loss=0.5001 avg=0.4399 lr=3.6e-05 skipped=0  elapsed=17355s
+[train_v4] ep 2 step 11000/12000 loss=0.3890 avg=0.4464 lr=3.5e-05 skipped=0  elapsed=17508s
+[train_v4] ep 2 step 11100/12000 loss=0.4049 avg=0.4434 lr=3.4e-05 skipped=0  elapsed=17662s
+[train_v4] ep 2 step 11200/12000 loss=0.3823 avg=0.4423 lr=3.3e-05 skipped=0  elapsed=17816s
+[train_v4] ep 2 step 11300/12000 loss=0.4657 avg=0.4403 lr=3.2e-05 skipped=0  elapsed=17969s
+[train_v4] ep 2 step 11400/12000 loss=0.4718 avg=0.4397 lr=3.2e-05 skipped=0  elapsed=18123s
+[train_v4] ep 2 step 11500/12000 loss=0.2870 avg=0.4384 lr=3.1e-05 skipped=0  elapsed=18276s
+[train_v4] ep 2 step 11600/12000 loss=0.4022 avg=0.4368 lr=3.1e-05 skipped=0  elapsed=18430s
+[train_v4] ep 2 step 11700/12000 loss=0.3391 avg=0.4355 lr=3.0e-05 skipped=0  elapsed=18585s
+[train_v4] ep 2 step 11800/12000 loss=0.4215 avg=0.4337 lr=3.0e-05 skipped=0  elapsed=18738s
+[train_v4] ep 2 step 11900/12000 loss=0.3800 avg=0.4365 lr=3.0e-05 skipped=0  elapsed=18892s
+[train_v4] === epoch 3/3 done avg_loss=0.4354 steps=3983 skipped=0 elapsed=18967s ===
+[train_v4] saved best (loss=0.4354)
+[train_v4] DONE in 18967s
+
+=== STAGE 2: KDjp (500 shards × 3 ep, batch 32, joint posterior λ=1.0) ===
+[v4_kdjp] device=cuda  preset=m2_tiny_s5
+[v4_kdjp] lambdas: post=1.0 hard=1.0
+[v4_kdjp] train shards: 500
+[v4_kdjp] loading teacher...
+[v4_kdjp] student params: 1.07M
+[v4_kdjp] micro/shard=8  total_steps=12000
+[v4_kdjp] ep 0 step 100/12000 total=9.4420 post=7.480 hard=1.962 lr=1.5e-04 skipped=0  elapsed=476s
+[v4_kdjp] ep 0 step 200/12000 total=4.7190 post=3.736 hard=0.983 lr=3.0e-04 skipped=0  elapsed=925s
+[v4_kdjp] ep 0 step 300/12000 total=3.4903 post=2.725 hard=0.766 lr=3.0e-04 skipped=0  elapsed=1372s
+[v4_kdjp] ep 0 step 400/12000 total=3.1879 post=2.179 hard=1.009 lr=3.0e-04 skipped=0  elapsed=1821s
+[v4_kdjp] ep 0 step 500/12000 total=3.0917 post=2.467 hard=0.625 lr=3.0e-04 skipped=0  elapsed=2272s
+[v4_kdjp] ep 0 step 600/12000 total=2.7152 post=1.952 hard=0.763 lr=3.0e-04 skipped=0  elapsed=2721s
+[v4_kdjp] ep 0 step 700/12000 total=2.3947 post=1.859 hard=0.536 lr=3.0e-04 skipped=0  elapsed=3170s
+[v4_kdjp] ep 0 step 800/12000 total=2.2066 post=1.594 hard=0.613 lr=3.0e-04 skipped=0  elapsed=3620s
+[v4_kdjp] ep 0 step 900/12000 total=2.1523 post=1.581 hard=0.572 lr=3.0e-04 skipped=0  elapsed=4072s
+[v4_kdjp] ep 0 step 1000/12000 total=2.1544 post=1.462 hard=0.693 lr=3.0e-04 skipped=0  elapsed=4520s
+[v4_kdjp] ep 0 step 1100/12000 total=2.3394 post=1.815 hard=0.524 lr=3.0e-04 skipped=0  elapsed=4970s
+[v4_kdjp] ep 0 step 1200/12000 total=2.0050 post=1.413 hard=0.592 lr=3.0e-04 skipped=0  elapsed=5420s
+[v4_kdjp] ep 0 step 1300/12000 total=2.1304 post=1.587 hard=0.543 lr=2.9e-04 skipped=0  elapsed=5870s
+[v4_kdjp] ep 0 step 1400/12000 total=1.7117 post=1.211 hard=0.501 lr=2.9e-04 skipped=0  elapsed=6321s
+[v4_kdjp] ep 0 step 1500/12000 total=2.4751 post=1.651 hard=0.824 lr=2.9e-04 skipped=0  elapsed=6771s
+[v4_kdjp] ep 0 step 1600/12000 total=1.9803 post=1.343 hard=0.638 lr=2.9e-04 skipped=0  elapsed=7221s
+[v4_kdjp] ep 0 step 1700/12000 total=2.8679 post=1.720 hard=1.148 lr=2.9e-04 skipped=0  elapsed=7671s
+[v4_kdjp] ep 0 step 1800/12000 total=1.7122 post=1.242 hard=0.470 lr=2.9e-04 skipped=0  elapsed=8121s
+[v4_kdjp] ep 0 step 1900/12000 total=1.7066 post=1.160 hard=0.546 lr=2.9e-04 skipped=0  elapsed=8571s
+[v4_kdjp] ep 0 step 2000/12000 total=1.5950 post=1.249 hard=0.346 lr=2.8e-04 skipped=0  elapsed=9021s
+[v4_kdjp] ep 0 step 2100/12000 total=1.6726 post=1.239 hard=0.434 lr=2.8e-04 skipped=0  elapsed=9471s
+[v4_kdjp] ep 0 step 2200/12000 total=1.9226 post=1.277 hard=0.646 lr=2.8e-04 skipped=0  elapsed=9917s
+[v4_kdjp] ep 0 step 2300/12000 total=1.8138 post=1.355 hard=0.458 lr=2.8e-04 skipped=0  elapsed=10368s
+[v4_kdjp] ep 0 step 2400/12000 total=1.8818 post=1.294 hard=0.588 lr=2.8e-04 skipped=0  elapsed=10818s
+[v4_kdjp] ep 0 step 2500/12000 total=1.8685 post=1.198 hard=0.670 lr=2.8e-04 skipped=0  elapsed=11268s
+[v4_kdjp] ep 0 step 2600/12000 total=1.4187 post=1.120 hard=0.299 lr=2.7e-04 skipped=0  elapsed=11719s
+[v4_kdjp] ep 0 step 2700/12000 total=1.5719 post=1.149 hard=0.423 lr=2.7e-04 skipped=0  elapsed=12169s
+[v4_kdjp] ep 0 step 2800/12000 total=1.9265 post=1.312 hard=0.615 lr=2.7e-04 skipped=0  elapsed=12632s
+[v4_kdjp] ep 0 step 2900/12000 total=1.7036 post=1.148 hard=0.556 lr=2.7e-04 skipped=0  elapsed=13087s
+[v4_kdjp] ep 0 step 3000/12000 total=2.0744 post=1.436 hard=0.639 lr=2.6e-04 skipped=0  elapsed=13538s
+[v4_kdjp] ep 0 step 3100/12000 total=1.6327 post=1.267 hard=0.366 lr=2.6e-04 skipped=0  elapsed=13989s
+[v4_kdjp] ep 0 step 3200/12000 total=2.1029 post=1.410 hard=0.693 lr=2.6e-04 skipped=0  elapsed=14437s
+[v4_kdjp] ep 0 step 3300/12000 total=1.3216 post=1.016 hard=0.305 lr=2.6e-04 skipped=0  elapsed=14886s
+[v4_kdjp] ep 0 step 3400/12000 total=1.2674 post=0.969 hard=0.298 lr=2.5e-04 skipped=0  elapsed=15338s
+[v4_kdjp] ep 0 step 3500/12000 total=1.6927 post=1.117 hard=0.575 lr=2.5e-04 skipped=0  elapsed=15788s
+[v4_kdjp] ep 0 step 3600/12000 total=1.4820 post=1.132 hard=0.350 lr=2.5e-04 skipped=0  elapsed=16239s
+[v4_kdjp] ep 0 step 3700/12000 total=1.5811 post=1.138 hard=0.443 lr=2.5e-04 skipped=0  elapsed=16688s
+[v4_kdjp] ep 0 step 3800/12000 total=1.6693 post=0.987 hard=0.682 lr=2.4e-04 skipped=0  elapsed=17148s
+[v4_kdjp] ep 0 step 3900/12000 total=1.4757 post=1.097 hard=0.379 lr=2.4e-04 skipped=0  elapsed=17659s
+[v4_kdjp] === epoch 1/3 done avg_total=2.4791 avg_post=1.7848 avg_hard=0.6943 steps=3983 skipped=0 elapsed=18085s ===
+[v4_kdjp] saved best (loss=2.4791)
+[v4_kdjp] ep 1 step 4000/12000 total=1.8906 post=1.084 hard=0.807 lr=2.4e-04 skipped=0  elapsed=18172s
+[v4_kdjp] ep 1 step 4100/12000 total=1.4967 post=1.026 hard=0.471 lr=2.3e-04 skipped=0  elapsed=18632s
+[v4_kdjp] ep 1 step 4200/12000 total=1.8141 post=1.250 hard=0.564 lr=2.3e-04 skipped=0  elapsed=19083s
+[v4_kdjp] ep 1 step 4300/12000 total=1.2909 post=0.966 hard=0.325 lr=2.3e-04 skipped=0  elapsed=19532s
+[v4_kdjp] ep 1 step 4400/12000 total=1.9924 post=1.136 hard=0.856 lr=2.2e-04 skipped=0  elapsed=19983s
+[v4_kdjp] ep 1 step 4500/12000 total=2.0640 post=1.231 hard=0.833 lr=2.2e-04 skipped=0  elapsed=20434s
+[v4_kdjp] ep 1 step 4600/12000 total=1.7357 post=1.123 hard=0.612 lr=2.2e-04 skipped=0  elapsed=20885s
+[v4_kdjp] ep 1 step 4700/12000 total=1.6877 post=1.080 hard=0.607 lr=2.1e-04 skipped=0  elapsed=21333s
+[v4_kdjp] ep 1 step 4800/12000 total=1.6079 post=1.212 hard=0.396 lr=2.1e-04 skipped=0  elapsed=21781s
+[v4_kdjp] ep 1 step 4900/12000 total=1.2669 post=0.983 hard=0.284 lr=2.1e-04 skipped=0  elapsed=22259s
+[v4_kdjp] ep 1 step 5000/12000 total=1.5570 post=1.074 hard=0.483 lr=2.0e-04 skipped=0  elapsed=22824s
+[v4_kdjp] ep 1 step 5100/12000 total=1.3599 post=1.044 hard=0.315 lr=2.0e-04 skipped=0  elapsed=23385s
+[v4_kdjp] ep 1 step 5200/12000 total=1.8413 post=1.100 hard=0.741 lr=2.0e-04 skipped=0  elapsed=23949s
+[v4_kdjp] ep 1 step 5300/12000 total=1.5553 post=0.987 hard=0.568 lr=1.9e-04 skipped=0  elapsed=24513s
+[v4_kdjp] ep 1 step 5400/12000 total=1.7139 post=0.977 hard=0.737 lr=1.9e-04 skipped=0  elapsed=25075s
+[v4_kdjp] ep 1 step 5500/12000 total=1.1832 post=0.899 hard=0.284 lr=1.9e-04 skipped=0  elapsed=25639s
+[v4_kdjp] ep 1 step 5600/12000 total=1.3293 post=0.885 hard=0.444 lr=1.8e-04 skipped=0  elapsed=26203s
+[v4_kdjp] ep 1 step 5700/12000 total=1.6193 post=0.939 hard=0.681 lr=1.8e-04 skipped=0  elapsed=26767s
+[v4_kdjp] ep 1 step 5800/12000 total=1.3099 post=0.989 hard=0.321 lr=1.8e-04 skipped=0  elapsed=27330s
+[v4_kdjp] ep 1 step 5900/12000 total=1.3924 post=1.033 hard=0.360 lr=1.7e-04 skipped=0  elapsed=27891s
+[v4_kdjp] ep 1 step 6000/12000 total=1.5005 post=1.084 hard=0.417 lr=1.7e-04 skipped=0  elapsed=28455s
+[v4_kdjp] ep 1 step 6100/12000 total=1.0523 post=0.776 hard=0.276 lr=1.7e-04 skipped=0  elapsed=29016s
+[v4_kdjp] ep 1 step 6200/12000 total=1.2815 post=0.869 hard=0.413 lr=1.6e-04 skipped=0  elapsed=29578s
+[v4_kdjp] ep 1 step 6300/12000 total=1.6509 post=1.068 hard=0.583 lr=1.6e-04 skipped=0  elapsed=30146s
+[v4_kdjp] ep 1 step 6400/12000 total=1.6713 post=1.052 hard=0.619 lr=1.5e-04 skipped=0  elapsed=30709s
+[v4_kdjp] ep 1 step 6500/12000 total=1.4677 post=0.985 hard=0.483 lr=1.5e-04 skipped=0  elapsed=31267s
+[v4_kdjp] ep 1 step 6600/12000 total=1.6428 post=1.139 hard=0.504 lr=1.5e-04 skipped=0  elapsed=31831s
+[v4_kdjp] ep 1 step 6700/12000 total=1.3078 post=0.961 hard=0.347 lr=1.4e-04 skipped=0  elapsed=32393s
+[v4_kdjp] ep 1 step 6800/12000 total=1.4439 post=0.970 hard=0.474 lr=1.4e-04 skipped=0  elapsed=32805s
+[v4_kdjp] ep 1 step 6900/12000 total=1.2589 post=0.941 hard=0.317 lr=1.4e-04 skipped=0  elapsed=33153s
+[v4_kdjp] ep 1 step 7000/12000 total=1.4586 post=1.035 hard=0.424 lr=1.3e-04 skipped=0  elapsed=33450s
+[v4_kdjp] ep 1 step 7100/12000 total=1.3925 post=1.009 hard=0.383 lr=1.3e-04 skipped=0  elapsed=33714s
+[v4_kdjp] ep 1 step 7200/12000 total=1.4882 post=0.978 hard=0.510 lr=1.3e-04 skipped=0  elapsed=33986s
+[v4_kdjp] ep 1 step 7300/12000 total=1.2122 post=0.877 hard=0.336 lr=1.2e-04 skipped=0  elapsed=34313s
+[v4_kdjp] ep 1 step 7400/12000 total=1.3887 post=0.922 hard=0.467 lr=1.2e-04 skipped=0  elapsed=34630s
+[v4_kdjp] ep 1 step 7500/12000 total=1.1656 post=0.838 hard=0.328 lr=1.2e-04 skipped=0  elapsed=34895s
+[v4_kdjp] ep 1 step 7600/12000 total=1.0376 post=0.798 hard=0.240 lr=1.1e-04 skipped=0  elapsed=35312s
+[v4_kdjp] ep 1 step 7700/12000 total=1.0543 post=0.748 hard=0.306 lr=1.1e-04 skipped=0  elapsed=35773s
+[v4_kdjp] ep 1 step 7800/12000 total=1.3965 post=0.867 hard=0.529 lr=1.1e-04 skipped=0  elapsed=36286s
+[v4_kdjp] ep 1 step 7900/12000 total=1.3179 post=0.839 hard=0.479 lr=1.0e-04 skipped=0  elapsed=36791s
+[v4_kdjp] === epoch 2/3 done avg_total=1.5103 avg_post=1.0166 avg_hard=0.4937 steps=3983 skipped=0 elapsed=37096s ===
+[v4_kdjp] saved best (loss=1.5103)
+[v4_kdjp] ep 2 step 8000/12000 total=1.6752 post=1.018 hard=0.657 lr=1.0e-04 skipped=0  elapsed=37271s
+[v4_kdjp] ep 2 step 8100/12000 total=1.2033 post=0.799 hard=0.405 lr=9.6e-05 skipped=0  elapsed=37794s
+[v4_kdjp] ep 2 step 8200/12000 total=1.4888 post=1.164 hard=0.325 lr=9.3e-05 skipped=0  elapsed=38246s
+[v4_kdjp] ep 2 step 8300/12000 total=1.4299 post=0.994 hard=0.436 lr=9.0e-05 skipped=0  elapsed=38697s
+[v4_kdjp] ep 2 step 8400/12000 total=1.2917 post=0.888 hard=0.404 lr=8.7e-05 skipped=0  elapsed=39149s
+[v4_kdjp] ep 2 step 8500/12000 total=1.2821 post=0.995 hard=0.287 lr=8.5e-05 skipped=0  elapsed=39597s
+[v4_kdjp] ep 2 step 8600/12000 total=1.1940 post=0.865 hard=0.329 lr=8.2e-05 skipped=0  elapsed=40047s
+[v4_kdjp] ep 2 step 8700/12000 total=1.1518 post=0.884 hard=0.268 lr=7.9e-05 skipped=0  elapsed=40497s
+[v4_kdjp] ep 2 step 8800/12000 total=1.5115 post=0.804 hard=0.708 lr=7.6e-05 skipped=0  elapsed=40949s
+[v4_kdjp] ep 2 step 8900/12000 total=1.4476 post=1.015 hard=0.433 lr=7.3e-05 skipped=0  elapsed=41400s
+[v4_kdjp] ep 2 step 9000/12000 total=1.3000 post=1.006 hard=0.294 lr=7.1e-05 skipped=0  elapsed=41852s
+[v4_kdjp] ep 2 step 9100/12000 total=1.1452 post=0.922 hard=0.223 lr=6.8e-05 skipped=0  elapsed=42305s
+[v4_kdjp] ep 2 step 9200/12000 total=1.4618 post=1.103 hard=0.359 lr=6.6e-05 skipped=0  elapsed=42756s
+[v4_kdjp] ep 2 step 9300/12000 total=1.9876 post=0.876 hard=1.111 lr=6.3e-05 skipped=0  elapsed=43207s
+[v4_kdjp] ep 2 step 9400/12000 total=1.4185 post=1.057 hard=0.362 lr=6.1e-05 skipped=0  elapsed=43659s
+[v4_kdjp] ep 2 step 9500/12000 total=1.4024 post=0.863 hard=0.539 lr=5.9e-05 skipped=0  elapsed=44110s
+[v4_kdjp] ep 2 step 9600/12000 total=1.1480 post=0.844 hard=0.304 lr=5.7e-05 skipped=0  elapsed=44560s
+[v4_kdjp] ep 2 step 9700/12000 total=1.5333 post=0.892 hard=0.641 lr=5.5e-05 skipped=0  elapsed=45011s
+[v4_kdjp] ep 2 step 9800/12000 total=1.2332 post=0.792 hard=0.441 lr=5.3e-05 skipped=0  elapsed=45463s
+[v4_kdjp] ep 2 step 9900/12000 total=1.9992 post=1.051 hard=0.948 lr=5.1e-05 skipped=0  elapsed=45913s
+[v4_kdjp] ep 2 step 10000/12000 total=1.2152 post=0.872 hard=0.343 lr=4.9e-05 skipped=0  elapsed=46365s
+[v4_kdjp] ep 2 step 10100/12000 total=1.1869 post=0.802 hard=0.385 lr=4.7e-05 skipped=0  elapsed=46816s
+[v4_kdjp] ep 2 step 10200/12000 total=0.9264 post=0.740 hard=0.186 lr=4.5e-05 skipped=0  elapsed=47296s
+[v4_kdjp] ep 2 step 10300/12000 total=1.2241 post=0.935 hard=0.289 lr=4.4e-05 skipped=0  elapsed=47810s
+[v4_kdjp] ep 2 step 10400/12000 total=1.2801 post=0.844 hard=0.436 lr=4.2e-05 skipped=0  elapsed=48274s
+[v4_kdjp] ep 2 step 10500/12000 total=1.4213 post=1.078 hard=0.344 lr=4.1e-05 skipped=0  elapsed=48725s
+[v4_kdjp] ep 2 step 10600/12000 total=1.5615 post=0.965 hard=0.596 lr=3.9e-05 skipped=0  elapsed=49175s
+[v4_kdjp] ep 2 step 10700/12000 total=1.2325 post=0.898 hard=0.335 lr=3.8e-05 skipped=0  elapsed=49671s
+[v4_kdjp] ep 2 step 10800/12000 total=1.4662 post=0.980 hard=0.487 lr=3.7e-05 skipped=0  elapsed=50188s
+[v4_kdjp] ep 2 step 10900/12000 total=1.3542 post=0.929 hard=0.425 lr=3.6e-05 skipped=0  elapsed=50718s
+[v4_kdjp] ep 2 step 11000/12000 total=1.4260 post=0.923 hard=0.503 lr=3.5e-05 skipped=0  elapsed=51279s
+[v4_kdjp] ep 2 step 11100/12000 total=1.2748 post=0.961 hard=0.314 lr=3.4e-05 skipped=0  elapsed=51805s
+[v4_kdjp] ep 2 step 11200/12000 total=1.2335 post=0.922 hard=0.312 lr=3.3e-05 skipped=0  elapsed=52257s
+[v4_kdjp] ep 2 step 11300/12000 total=1.0577 post=0.789 hard=0.269 lr=3.2e-05 skipped=0  elapsed=52707s
+[v4_kdjp] ep 2 step 11400/12000 total=1.3315 post=0.895 hard=0.437 lr=3.2e-05 skipped=0  elapsed=53160s
+[v4_kdjp] ep 2 step 11500/12000 total=1.4955 post=1.005 hard=0.491 lr=3.1e-05 skipped=0  elapsed=53612s
+[v4_kdjp] ep 2 step 11600/12000 total=1.1837 post=0.816 hard=0.367 lr=3.1e-05 skipped=0  elapsed=54063s
+[v4_kdjp] ep 2 step 11700/12000 total=1.3911 post=0.963 hard=0.429 lr=3.0e-05 skipped=0  elapsed=54586s
+[v4_kdjp] ep 2 step 11800/12000 total=1.1604 post=0.875 hard=0.285 lr=3.0e-05 skipped=0  elapsed=55038s
+[v4_kdjp] ep 2 step 11900/12000 total=1.3295 post=0.980 hard=0.349 lr=3.0e-05 skipped=0  elapsed=55489s
+[v4_kdjp] === epoch 3/3 done avg_total=1.3699 avg_post=0.9073 avg_hard=0.4627 steps=3983 skipped=0 elapsed=55711s ===
+[v4_kdjp] saved best (loss=1.3699)
+[v4_kdjp] DONE in 55711s
+
+=== STAGE 3: eval H baseline on 8 isolates ===
+=== Evaluating checkpoints_kd/v4_main_h/best.pt on multiple isolates ===
+
+=== [Klebsiella_pneumoniae_INF078] ===
+Ckpt:    checkpoints_kd/v4_main_h/best.pt
+Isolate: data/wick/train_extracted/Klebsiella_pneumoniae_INF078
+Reads:   [400, 500)
+Preset:  m2_tiny_s5  | epoch=2 val_hard=nan
+0 reads, 625 references
+No identities computed.
+Klebsiella_pneumoniae_INF078,[400,,,
+
+=== [Klebsiella_pneumoniae_INF007] ===
+Ckpt:    checkpoints_kd/v4_main_h/best.pt
+Isolate: data/wick/train_extracted/Klebsiella_pneumoniae_INF007
+Reads:   [400, 500)
+Preset:  m2_tiny_s5  | epoch=2 val_hard=nan
+100 reads, 2403 references
+[60/100] n=43 median=0.0077 (0.8%) mean=0.0077 (0.8%)   elapsed=44s
+[100/100] n=67 median=0.0075 (0.8%) mean=0.0076 (0.8%)   elapsed=68s
+
+=== STUDENT READ-LEVEL IDENTITY ===
+Ckpt: checkpoints_kd/v4_main_h/best.pt
+Reads: 67
+Median: 0.0075 (0.75%)
+Mean:   0.0076 (0.76%)
+Klebsiella_pneumoniae_INF007,67,0.0075,0.0076
+
+=== [Klebsiella_pneumoniae_KSB1_6F] ===
+Ckpt:    checkpoints_kd/v4_main_h/best.pt
+Isolate: data/wick/train_extracted/Klebsiella_pneumoniae_KSB1_6F
+Reads:   [400, 500)
+Preset:  m2_tiny_s5  | epoch=2 val_hard=nan
+0 reads, 426 references
+No identities computed.
+Klebsiella_pneumoniae_KSB1_6F,[400,,,
+
+=== [Klebsiella_pneumoniae_KSB1_7E] ===
+Ckpt:    checkpoints_kd/v4_main_h/best.pt
+Isolate: data/wick/train_extracted/Klebsiella_pneumoniae_KSB1_7E
+Reads:   [400, 500)
+Preset:  m2_tiny_s5  | epoch=2 val_hard=nan
+100 reads, 35380 references
+[20/100] n=20 median=0.0319 (3.2%) mean=0.0330 (3.3%)   elapsed=18s
+[40/100] n=40 median=0.0319 (3.2%) mean=0.0335 (3.4%)   elapsed=27s
+[60/100] n=60 median=0.0307 (3.1%) mean=0.0339 (3.4%)   elapsed=38s
+[80/100] n=80 median=0.0299 (3.0%) mean=0.0338 (3.4%)   elapsed=50s
+[100/100] n=100 median=0.0315 (3.1%) mean=0.0349 (3.5%)   elapsed=60s
+
+=== STUDENT READ-LEVEL IDENTITY ===
+Ckpt: checkpoints_kd/v4_main_h/best.pt
+Reads: 100
+Median: 0.0315 (3.15%)
+Mean:   0.0349 (3.49%)
+Klebsiella_pneumoniae_KSB1_7E,100,0.0315,0.0349
+
+=== [Escherichia_coli_MSB2_1A] ===
+Ckpt:    checkpoints_kd/v4_main_h/best.pt
+Isolate: data/wick/train_extracted/Escherichia_coli_MSB2_1A
+Reads:   [400, 500)
+Preset:  m2_tiny_s5  | epoch=2 val_hard=nan
+100 reads, 49035 references
+[20/100] n=19 median=0.0192 (1.9%) mean=0.0182 (1.8%)   elapsed=19s
+[40/100] n=38 median=0.0188 (1.9%) mean=0.0198 (2.0%)   elapsed=29s
+[60/100] n=58 median=0.0187 (1.9%) mean=0.0198 (2.0%)   elapsed=38s
+[80/100] n=78 median=0.0185 (1.8%) mean=0.0197 (2.0%)   elapsed=48s
+[100/100] n=97 median=0.0185 (1.9%) mean=0.0201 (2.0%)   elapsed=58s
+
+=== STUDENT READ-LEVEL IDENTITY ===
+Ckpt: checkpoints_kd/v4_main_h/best.pt
+Reads: 97
+Median: 0.0185 (1.85%)
+Mean:   0.0201 (2.01%)
+Escherichia_coli_MSB2_1A,97,0.0185,0.0201
+
+=== [Acinetobacter_baumannii_AYP-A2] ===
+Ckpt:    checkpoints_kd/v4_main_h/best.pt
+Isolate: data/wick/train_extracted/Acinetobacter_baumannii_AYP-A2
+Reads:   [400, 500)
+Preset:  m2_tiny_s5  | epoch=2 val_hard=nan
+100 reads, 10940 references
+[20/100] n=12 median=0.0082 (0.8%) mean=0.0087 (0.9%)   elapsed=19s
+[40/100] n=29 median=0.0088 (0.9%) mean=0.0099 (1.0%)   elapsed=31s
+[60/100] n=43 median=0.0097 (1.0%) mean=0.0100 (1.0%)   elapsed=39s
+[80/100] n=58 median=0.0097 (1.0%) mean=0.0102 (1.0%)   elapsed=51s
+[100/100] n=74 median=0.0094 (0.9%) mean=0.0100 (1.0%)   elapsed=62s
+
+=== STUDENT READ-LEVEL IDENTITY ===
+Ckpt: checkpoints_kd/v4_main_h/best.pt
+Reads: 74
+Median: 0.0094 (0.94%)
+Mean:   0.0100 (1.00%)
+Acinetobacter_baumannii_AYP-A2,74,0.0094,0.0100
+
+=== [Haemophilus_parainfluenzae_M1C146_1] ===
+Ckpt:    checkpoints_kd/v4_main_h/best.pt
+Isolate: data/wick/train_extracted/Haemophilus_parainfluenzae_M1C146_1
+Reads:   [400, 500)
+Preset:  m2_tiny_s5  | epoch=2 val_hard=nan
+100 reads, 1085 references
+[40/100] n=27 median=0.0105 (1.0%) mean=0.0113 (1.1%)   elapsed=26s
+[60/100] n=41 median=0.0106 (1.1%) mean=0.0113 (1.1%)   elapsed=34s
+[80/100] n=57 median=0.0104 (1.0%) mean=0.0113 (1.1%)   elapsed=43s
+
+=== STUDENT READ-LEVEL IDENTITY ===
+Ckpt: checkpoints_kd/v4_main_h/best.pt
+Reads: 68
+Median: 0.0103 (1.03%)
+Mean:   0.0109 (1.09%)
+Haemophilus_parainfluenzae_M1C146_1,68,0.0103,0.0109
+
+=== [Moraxella_lincolnii_51409] ===
+Ckpt:    checkpoints_kd/v4_main_h/best.pt
+Isolate: data/wick/train_extracted/Moraxella_lincolnii_51409
+Reads:   [400, 500)
+Preset:  m2_tiny_s5  | epoch=2 val_hard=nan
+100 reads, 3217 references
+[60/100] n=27 median=0.0087 (0.9%) mean=0.0101 (1.0%)   elapsed=33s
+
+=== STUDENT READ-LEVEL IDENTITY ===
+Ckpt: checkpoints_kd/v4_main_h/best.pt
+Reads: 41
+Median: 0.0090 (0.90%)
+Mean:   0.0105 (1.05%)
+Moraxella_lincolnii_51409,41,0.0090,0.0105
+
+=== SUMMARY (vs Bonito sup baseline from logs/bonito_sup_all.csv) ===
+isolate                                               v4-hard        sup          Δ
+Klebsiella_pneumoniae_INF007                            0.75%     93.69%    -92.94pp
+Klebsiella_pneumoniae_KSB1_7E                           3.15%     88.96%    -85.81pp
+Escherichia_coli_MSB2_1A                                1.85%     89.85%    -88.00pp
+Acinetobacter_baumannii_AYP-A2                          0.94%     88.06%    -87.12pp
+Haemophilus_parainfluenzae_M1C146_1                     1.03%     88.20%    -87.17pp
+Moraxella_lincolnii_51409                               0.90%     87.99%    -87.09pp
+
+mean of medians                                         1.44%  (sup avg on these: 89.46%)
+
+=== STAGE 4: eval KDjp on 8 isolates ===
+=== Evaluating checkpoints_kd/v4_main_kdjp/best.pt on multiple isolates ===
+
+=== [Klebsiella_pneumoniae_INF078] ===
+Ckpt:    checkpoints_kd/v4_main_kdjp/best.pt
+Isolate: data/wick/train_extracted/Klebsiella_pneumoniae_INF078
+Reads:   [400, 500)
+Preset:  m2_tiny_s5  | epoch=2 val_hard=nan
+0 reads, 625 references
+No identities computed.
+Klebsiella_pneumoniae_INF078,[400,,,
+
+=== [Klebsiella_pneumoniae_INF007] ===
+Ckpt:    checkpoints_kd/v4_main_kdjp/best.pt
+Isolate: data/wick/train_extracted/Klebsiella_pneumoniae_INF007
+Reads:   [400, 500)
+Preset:  m2_tiny_s5  | epoch=2 val_hard=nan
+100 reads, 2403 references
+[100/100] n=30 median=0.0051 (0.5%) mean=0.0067 (0.7%)   elapsed=67s
+
+=== STUDENT READ-LEVEL IDENTITY ===
+Ckpt: checkpoints_kd/v4_main_kdjp/best.pt
+Reads: 30
+Median: 0.0051 (0.51%)
+Mean:   0.0067 (0.67%)
+Klebsiella_pneumoniae_INF007,30,0.0051,0.0067
+
+=== [Klebsiella_pneumoniae_KSB1_6F] ===
+Ckpt:    checkpoints_kd/v4_main_kdjp/best.pt
+Isolate: data/wick/train_extracted/Klebsiella_pneumoniae_KSB1_6F
+Reads:   [400, 500)
+Preset:  m2_tiny_s5  | epoch=2 val_hard=nan
+0 reads, 426 references
+No identities computed.
+Klebsiella_pneumoniae_KSB1_6F,[400,,,
+
+=== [Klebsiella_pneumoniae_KSB1_7E] ===
+Ckpt:    checkpoints_kd/v4_main_kdjp/best.pt
+Isolate: data/wick/train_extracted/Klebsiella_pneumoniae_KSB1_7E
+Reads:   [400, 500)
+Preset:  m2_tiny_s5  | epoch=2 val_hard=nan
+100 reads, 35380 references
+[20/100] n=20 median=0.0384 (3.8%) mean=0.0568 (5.7%)   elapsed=18s
+[40/100] n=40 median=0.0531 (5.3%) mean=0.0657 (6.6%)   elapsed=28s
+[60/100] n=60 median=0.0659 (6.6%) mean=0.0744 (7.4%)   elapsed=39s
+[80/100] n=80 median=0.0692 (6.9%) mean=0.0783 (7.8%)   elapsed=52s
+[100/100] n=100 median=0.0751 (7.5%) mean=0.0905 (9.1%)   elapsed=63s
+
+=== STUDENT READ-LEVEL IDENTITY ===
+Ckpt: checkpoints_kd/v4_main_kdjp/best.pt
+Reads: 100
+Median: 0.0751 (7.51%)
+Mean:   0.0905 (9.05%)
+Klebsiella_pneumoniae_KSB1_7E,100,0.0751,0.0905
+
+=== [Escherichia_coli_MSB2_1A] ===
+Ckpt:    checkpoints_kd/v4_main_kdjp/best.pt
+Isolate: data/wick/train_extracted/Escherichia_coli_MSB2_1A
+Reads:   [400, 500)
+Preset:  m2_tiny_s5  | epoch=2 val_hard=nan
+100 reads, 49035 references
+[20/100] n=18 median=0.0325 (3.3%) mean=0.0377 (3.8%)   elapsed=18s
+[40/100] n=38 median=0.0339 (3.4%) mean=0.0406 (4.1%)   elapsed=26s
+[60/100] n=57 median=0.0341 (3.4%) mean=0.0427 (4.3%)   elapsed=35s
+[80/100] n=76 median=0.0342 (3.4%) mean=0.0425 (4.3%)   elapsed=44s
+[100/100] n=95 median=0.0335 (3.3%) mean=0.0418 (4.2%)   elapsed=53s
+
+=== STUDENT READ-LEVEL IDENTITY ===
+Ckpt: checkpoints_kd/v4_main_kdjp/best.pt
+Reads: 95
+Median: 0.0335 (3.35%)
+Mean:   0.0418 (4.18%)
+Escherichia_coli_MSB2_1A,95,0.0335,0.0418
+
+=== [Acinetobacter_baumannii_AYP-A2] ===
+Ckpt:    checkpoints_kd/v4_main_kdjp/best.pt
+Isolate: data/wick/train_extracted/Acinetobacter_baumannii_AYP-A2
+Reads:   [400, 500)
+Preset:  m2_tiny_s5  | epoch=2 val_hard=nan
+100 reads, 10940 references
+[20/100] n=16 median=0.0115 (1.2%) mean=0.0152 (1.5%)   elapsed=19s
+[40/100] n=32 median=0.0182 (1.8%) mean=0.0189 (1.9%)   elapsed=31s
+[60/100] n=47 median=0.0167 (1.7%) mean=0.0188 (1.9%)   elapsed=39s
+[80/100] n=65 median=0.0169 (1.7%) mean=0.0196 (2.0%)   elapsed=50s
+[100/100] n=82 median=0.0168 (1.7%) mean=0.0196 (2.0%)   elapsed=61s
+
+=== STUDENT READ-LEVEL IDENTITY ===
+Ckpt: checkpoints_kd/v4_main_kdjp/best.pt
+Reads: 82
+Median: 0.0168 (1.68%)
+Mean:   0.0196 (1.96%)
+Acinetobacter_baumannii_AYP-A2,82,0.0168,0.0196
+
+=== [Haemophilus_parainfluenzae_M1C146_1] ===
+Ckpt:    checkpoints_kd/v4_main_kdjp/best.pt
+Isolate: data/wick/train_extracted/Haemophilus_parainfluenzae_M1C146_1
+Reads:   [400, 500)
+Preset:  m2_tiny_s5  | epoch=2 val_hard=nan
+100 reads, 1085 references
+[20/100] n=13 median=0.0110 (1.1%) mean=0.0231 (2.3%)   elapsed=15s
+[40/100] n=25 median=0.0116 (1.2%) mean=0.0222 (2.2%)   elapsed=24s
+[60/100] n=39 median=0.0144 (1.4%) mean=0.0202 (2.0%)   elapsed=31s
+[80/100] n=51 median=0.0136 (1.4%) mean=0.0194 (1.9%)   elapsed=40s
+
+=== STUDENT READ-LEVEL IDENTITY ===
+Ckpt: checkpoints_kd/v4_main_kdjp/best.pt
+Reads: 64
+Median: 0.0140 (1.40%)
+Mean:   0.0194 (1.94%)
+Haemophilus_parainfluenzae_M1C146_1,64,0.0140,0.0194
+
+=== [Moraxella_lincolnii_51409] ===
+Ckpt:    checkpoints_kd/v4_main_kdjp/best.pt
+Isolate: data/wick/train_extracted/Moraxella_lincolnii_51409
+Reads:   [400, 500)
+Preset:  m2_tiny_s5  | epoch=2 val_hard=nan
+100 reads, 3217 references
+[60/100] n=17 median=0.0101 (1.0%) mean=0.0236 (2.4%)   elapsed=35s
+[80/100] n=23 median=0.0117 (1.2%) mean=0.0223 (2.2%)   elapsed=44s
+
+=== STUDENT READ-LEVEL IDENTITY ===
+Ckpt: checkpoints_kd/v4_main_kdjp/best.pt
+Reads: 27
+Median: 0.0121 (1.21%)
+Mean:   0.0254 (2.54%)
+Moraxella_lincolnii_51409,27,0.0121,0.0254
+
+=== SUMMARY (vs Bonito sup baseline from logs/bonito_sup_all.csv) ===
+isolate                                               v4-hard        sup          Δ
+Klebsiella_pneumoniae_INF007                            0.51%     93.69%    -93.18pp
+Klebsiella_pneumoniae_KSB1_7E                           7.51%     88.96%    -81.45pp
+Escherichia_coli_MSB2_1A                                3.35%     89.85%    -86.50pp
+Acinetobacter_baumannii_AYP-A2                          1.68%     88.06%    -86.38pp
+Haemophilus_parainfluenzae_M1C146_1                     1.40%     88.20%    -86.80pp
+Moraxella_lincolnii_51409                               1.21%     87.99%    -86.78pp
+
+mean of medians                                         2.61%  (sup avg on these: 89.46%)
+
+=== v4 MAIN done Fri Apr 24 04:55:41 UTC 2026 ===
+
+=== SUMMARY ===
+H baseline ckpt:  checkpoints_kd/v4_main_h/best.pt
+KDjp ckpt:        checkpoints_kd/v4_main_kdjp/best.pt
+
+Per-isolate eval:
+  H baseline:  logs/eval_v4_main_h.csv
+  KDjp:        logs/eval_v4_main_kdjp.csv
+
+H baseline per-isolate medians:
+isolate,n_reads,median,mean
+Klebsiella_pneumoniae_INF078,[400,,,
+Klebsiella_pneumoniae_INF007,67,0.0075,0.0076
+Klebsiella_pneumoniae_KSB1_6F,[400,,,
+Klebsiella_pneumoniae_KSB1_7E,100,0.0315,0.0349
+Escherichia_coli_MSB2_1A,97,0.0185,0.0201
+Acinetobacter_baumannii_AYP-A2,74,0.0094,0.0100
+Haemophilus_parainfluenzae_M1C146_1,68,0.0103,0.0109
+Moraxella_lincolnii_51409,41,0.0090,0.0105
+
+KDjp per-isolate medians:
+isolate,n_reads,median,mean
+Klebsiella_pneumoniae_INF078,[400,,,
+Klebsiella_pneumoniae_INF007,30,0.0051,0.0067
+Klebsiella_pneumoniae_KSB1_6F,[400,,,
+Klebsiella_pneumoniae_KSB1_7E,100,0.0751,0.0905
+Escherichia_coli_MSB2_1A,95,0.0335,0.0418
+Acinetobacter_baumannii_AYP-A2,82,0.0168,0.0196
+Haemophilus_parainfluenzae_M1C146_1,64,0.0140,0.0194
+Moraxella_lincolnii_51409,27,0.0121,0.0254

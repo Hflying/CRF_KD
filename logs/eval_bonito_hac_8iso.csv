@@ -1,0 +1,9 @@
+isolate,n_reads,median,mean
+Klebsiella_pneumoniae_INF078,20,0.9254,0.9215
+Klebsiella_pneumoniae_INF007,20,0.9208,0.9057
+Klebsiella_pneumoniae_KSB1_6F,20,0.9169,0.9116
+Klebsiella_pneumoniae_KSB1_7E,20,0.8977,0.8929
+Escherichia_coli_MSB2_1A,20,0.8922,0.8889
+Acinetobacter_baumannii_AYP-A2,20,0.8773,0.8694
+Haemophilus_parainfluenzae_M1C146_1,20,0.8590,0.8614
+Moraxella_lincolnii_51409,20,0.8857,0.8793

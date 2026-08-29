@@ -1,0 +1,15 @@
+Decoding: beam_search(w=10)
+Epoch: 33 | Val loss: 0.8719
+Model loaded.
+100 reads, 625 references
+[20/100] n=20 median=0.8542 (85.4%) mean=0.8478 (84.8%)
+[40/100] n=40 median=0.8552 (85.5%) mean=0.8518 (85.2%)
+[60/100] n=60 median=0.8531 (85.3%) mean=0.8490 (84.9%)
+[80/100] n=80 median=0.8531 (85.3%) mean=0.8473 (84.7%)
+[100/100] n=100 median=0.8531 (85.3%) mean=0.8477 (84.8%)
+
+=== READ-LEVEL IDENTITY (beam_search(w=10)) ===
+Reads: 100
+Median: 0.8531 (85.3%)
+Mean:   0.8477 (84.8%)
+

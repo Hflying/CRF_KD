@@ -1,0 +1,14 @@
+__pycache__/
+*.py[cod]
+.venv*/
+venv/
+.ipynb_checkpoints/
+.DS_Store
+
+# teacher / vendor checkpoints and corpus are not redistributed (see README)
+tools/
+data/
+*.fast5
+
+# per-epoch checkpoints; only best.pt is published
+checkpoints_kd/**/epoch*.pt

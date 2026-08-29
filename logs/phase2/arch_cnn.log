@@ -1,0 +1,171 @@
+=== arch CNN baseline start Sat Jun 27 05:07:55 UTC 2026 ===
+[run] h Sat Jun 27 05:07:55 UTC 2026
+[H] device=cuda  preset=m2_tiny_s5
+[H] 50 isolates available (seed=42)
+[H]   loaded 10/50 isolates, 2461 chunks so far
+[H]   loaded 20/50 isolates, 5080 chunks so far
+[H]   loaded 30/50 isolates, 7566 chunks so far
+[H]   loaded 40/50 isolates, 10024 chunks so far
+[H]   loaded 50/50 isolates, 12432 chunks so far
+[H] TRAIN: 50 iso × 20 reads → 12432 chunks
+[H]   eval Klebsiella_pneumoniae_INF078: 20 reads loaded
+[H]   eval Klebsiella_pneumoniae_INF007: 20 reads loaded
+[H]   eval Klebsiella_pneumoniae_KSB1_6F: 20 reads loaded
+[H]   eval Klebsiella_pneumoniae_KSB1_7E: 20 reads loaded
+[H]   eval Escherichia_coli_MSB2_1A: 20 reads loaded
+[H]   eval Acinetobacter_baumannii_AYP-A2: 20 reads loaded
+[H]   eval Haemophilus_parainfluenzae_M1C146_1: 20 reads loaded
+[H]   eval Moraxella_lincolnii_51409: 20 reads loaded
+[H] loading teacher: tools/bonito_models/dna_r9.4.1_e8_sup@v3.3
+[H] student: state_len=5 backbone=simple params=1.00M
+[H] KD weights: {'lambda_post': 0.0, 'lambda_fwd': 0.0, 'lambda_hard': 1.0}  joint_post=False
+[H] steps/epoch=777  total=2331  start_epoch=0
+[H] ep 0 step 50/2331 tot=2.437 post=0.000 hard=2.437 lr=5.0e-05 skip=0  elapsed=402s
+[H] ep 0 step 100/2331 tot=2.038 post=0.000 hard=2.038 lr=1.0e-04 skip=0  elapsed=817s
+[H] ep 0 step 150/2331 tot=1.761 post=0.000 hard=1.761 lr=1.5e-04 skip=0  elapsed=1192s
+[H] ep 0 step 200/2331 tot=1.477 post=0.000 hard=1.477 lr=2.0e-04 skip=0  elapsed=1523s
+[H] ep 0 step 250/2331 tot=1.342 post=0.000 hard=1.342 lr=2.0e-04 skip=0  elapsed=1799s
+[H] ep 0 step 300/2331 tot=1.238 post=0.000 hard=1.238 lr=2.0e-04 skip=0  elapsed=2073s
+[H] ep 0 step 350/2331 tot=1.018 post=0.000 hard=1.018 lr=2.0e-04 skip=0  elapsed=2343s
+[H] ep 0 step 400/2331 tot=0.888 post=0.000 hard=0.888 lr=2.0e-04 skip=0  elapsed=2574s
+[H] ep 0 step 450/2331 tot=0.745 post=0.000 hard=0.745 lr=1.9e-04 skip=0  elapsed=2805s
+[H] ep 0 step 500/2331 tot=0.616 post=0.000 hard=0.616 lr=1.9e-04 skip=0  elapsed=3088s
+[H] ep 0 step 550/2331 tot=0.583 post=0.000 hard=0.583 lr=1.9e-04 skip=0  elapsed=3428s
+[H] ep 0 step 600/2331 tot=0.549 post=0.000 hard=0.549 lr=1.8e-04 skip=0  elapsed=3772s
+[H] ep 0 step 650/2331 tot=0.509 post=0.000 hard=0.509 lr=1.8e-04 skip=0  elapsed=4105s
+[H] ep 0 step 700/2331 tot=0.515 post=0.000 hard=0.515 lr=1.8e-04 skip=0  elapsed=4443s
+[H] ep 0 step 750/2331 tot=0.482 post=0.000 hard=0.482 lr=1.7e-04 skip=0  elapsed=4784s
+[H] === epoch 1/3 done avg_loss=1.1576 steps=777 skip=0 elapsed=4967s ===
+[H] ep 1 step 800/2331 tot=0.464 post=0.000 hard=0.464 lr=1.7e-04 skip=0  elapsed=5125s
+[H] ep 1 step 850/2331 tot=0.456 post=0.000 hard=0.456 lr=1.6e-04 skip=0  elapsed=5455s
+[H] ep 1 step 900/2331 tot=0.425 post=0.000 hard=0.425 lr=1.6e-04 skip=0  elapsed=5749s
+[H] ep 1 step 950/2331 tot=0.405 post=0.000 hard=0.405 lr=1.5e-04 skip=0  elapsed=6039s
+[H] ep 1 step 1000/2331 tot=0.412 post=0.000 hard=0.412 lr=1.4e-04 skip=0  elapsed=6327s
+[H] ep 1 step 1050/2331 tot=0.449 post=0.000 hard=0.449 lr=1.4e-04 skip=0  elapsed=6616s
+[H] ep 1 step 1100/2331 tot=0.406 post=0.000 hard=0.406 lr=1.3e-04 skip=0  elapsed=6901s
+[H] ep 1 step 1150/2331 tot=0.386 post=0.000 hard=0.386 lr=1.3e-04 skip=0  elapsed=7199s
+[H] ep 1 step 1200/2331 tot=0.424 post=0.000 hard=0.424 lr=1.2e-04 skip=0  elapsed=7481s
+[H] ep 1 step 1250/2331 tot=0.382 post=0.000 hard=0.382 lr=1.1e-04 skip=0  elapsed=7766s
+[H] ep 1 step 1300/2331 tot=0.369 post=0.000 hard=0.369 lr=1.1e-04 skip=0  elapsed=8036s
+[H] ep 1 step 1350/2331 tot=0.379 post=0.000 hard=0.379 lr=9.9e-05 skip=0  elapsed=8264s
+[H] ep 1 step 1400/2331 tot=0.361 post=0.000 hard=0.361 lr=9.2e-05 skip=0  elapsed=8491s
+[H] ep 1 step 1450/2331 tot=0.346 post=0.000 hard=0.346 lr=8.6e-05 skip=0  elapsed=8720s
+[H] ep 1 step 1500/2331 tot=0.378 post=0.000 hard=0.378 lr=8.0e-05 skip=0  elapsed=8948s
+[H] ep 1 step 1550/2331 tot=0.375 post=0.000 hard=0.375 lr=7.3e-05 skip=0  elapsed=9177s
+[H] === epoch 2/3 done avg_loss=0.4065 steps=777 skip=0 elapsed=9195s ===
+[H] ep 2 step 1600/2331 tot=0.365 post=0.000 hard=0.365 lr=6.8e-05 skip=0  elapsed=9404s
+[H] ep 2 step 1650/2331 tot=0.386 post=0.000 hard=0.386 lr=6.2e-05 skip=0  elapsed=9631s
+[H] ep 2 step 1700/2331 tot=0.323 post=0.000 hard=0.323 lr=5.6e-05 skip=0  elapsed=9859s
+[H] ep 2 step 1750/2331 tot=0.360 post=0.000 hard=0.360 lr=5.1e-05 skip=0  elapsed=10086s
+[H] ep 2 step 1800/2331 tot=0.358 post=0.000 hard=0.358 lr=4.6e-05 skip=0  elapsed=10313s
+[H] ep 2 step 1850/2331 tot=0.349 post=0.000 hard=0.349 lr=4.2e-05 skip=0  elapsed=10541s
+[H] ep 2 step 1900/2331 tot=0.319 post=0.000 hard=0.319 lr=3.8e-05 skip=0  elapsed=10769s
+[H] ep 2 step 1950/2331 tot=0.343 post=0.000 hard=0.343 lr=3.4e-05 skip=0  elapsed=10997s
+[H] ep 2 step 2000/2331 tot=0.387 post=0.000 hard=0.387 lr=3.1e-05 skip=0  elapsed=11225s
+[H] ep 2 step 2050/2331 tot=0.372 post=0.000 hard=0.372 lr=2.8e-05 skip=0  elapsed=11453s
+[H] ep 2 step 2100/2331 tot=0.358 post=0.000 hard=0.358 lr=2.5e-05 skip=0  elapsed=11681s
+[H] ep 2 step 2150/2331 tot=0.368 post=0.000 hard=0.368 lr=2.3e-05 skip=0  elapsed=11910s
+[H] ep 2 step 2200/2331 tot=0.351 post=0.000 hard=0.351 lr=2.2e-05 skip=0  elapsed=12138s
+[H] ep 2 step 2250/2331 tot=0.341 post=0.000 hard=0.341 lr=2.1e-05 skip=0  elapsed=12366s
+[H] ep 2 step 2300/2331 tot=0.323 post=0.000 hard=0.323 lr=2.0e-05 skip=0  elapsed=12592s
+[H] === epoch 3/3 done avg_loss=0.3510 steps=777 skip=0 elapsed=12733s ===
+[H] === FINAL EVAL ===
+  Klebsiella_pneumoniae_INF078                      : n= 20  median=76.83%  mean=76.35%
+  Klebsiella_pneumoniae_INF007                      : n= 20  median=76.03%  mean=76.92%
+  Klebsiella_pneumoniae_KSB1_6F                     : n= 20  median=74.39%  mean=73.15%
+  Klebsiella_pneumoniae_KSB1_7E                     : n= 20  median=76.43%  mean=75.52%
+  Escherichia_coli_MSB2_1A                          : n= 20  median=74.75%  mean=73.90%
+  Acinetobacter_baumannii_AYP-A2                    : n= 20  median=68.57%  mean=69.10%
+  Haemophilus_parainfluenzae_M1C146_1               : n= 20  median=67.96%  mean=68.46%
+  Moraxella_lincolnii_51409                         : n= 20  median=69.16%  mean=68.69%
+
+  OVERALL: n=160 median=73.32% mean=72.76%
+[H] DONE in 12808s
+[done] h overall_median 0.7332
+[run] kd Sat Jun 27 08:41:57 UTC 2026
+[KD] device=cuda  preset=m2_tiny_s5
+[KD] 50 isolates available (seed=42)
+[KD]   loaded 10/50 isolates, 2461 chunks so far
+[KD]   loaded 20/50 isolates, 5080 chunks so far
+[KD]   loaded 30/50 isolates, 7566 chunks so far
+[KD]   loaded 40/50 isolates, 10024 chunks so far
+[KD]   loaded 50/50 isolates, 12432 chunks so far
+[KD] TRAIN: 50 iso × 20 reads → 12432 chunks
+[KD]   eval Klebsiella_pneumoniae_INF078: 20 reads loaded
+[KD]   eval Klebsiella_pneumoniae_INF007: 20 reads loaded
+[KD]   eval Klebsiella_pneumoniae_KSB1_6F: 20 reads loaded
+[KD]   eval Klebsiella_pneumoniae_KSB1_7E: 20 reads loaded
+[KD]   eval Escherichia_coli_MSB2_1A: 20 reads loaded
+[KD]   eval Acinetobacter_baumannii_AYP-A2: 20 reads loaded
+[KD]   eval Haemophilus_parainfluenzae_M1C146_1: 20 reads loaded
+[KD]   eval Moraxella_lincolnii_51409: 20 reads loaded
+[KD] loading teacher: tools/bonito_models/dna_r9.4.1_e8_sup@v3.3
+[KD] student: state_len=5 backbone=simple params=1.00M
+[KD] KD weights: {'lambda_post': 1.0, 'lambda_fwd': 0.0, 'lambda_hard': 1.0}  joint_post=True
+[KD] steps/epoch=777  total=2331  start_epoch=0
+[KD] ep 0 step 50/2331 tot=12.843 post=10.241 hard=2.602 lr=5.0e-05 skip=0  elapsed=574s
+[KD] ep 0 step 100/2331 tot=9.193 post=7.226 hard=1.967 lr=1.0e-04 skip=0  elapsed=1149s
+[KD] ep 0 step 150/2331 tot=6.223 post=4.962 hard=1.261 lr=1.5e-04 skip=0  elapsed=1724s
+[KD] ep 0 step 200/2331 tot=5.027 post=4.048 hard=0.979 lr=2.0e-04 skip=0  elapsed=2280s
+[KD] ep 0 step 250/2331 tot=4.296 post=3.491 hard=0.805 lr=2.0e-04 skip=0  elapsed=2869s
+[KD] ep 0 step 300/2331 tot=3.814 post=3.106 hard=0.709 lr=2.0e-04 skip=0  elapsed=3459s
+[KD] ep 0 step 350/2331 tot=3.176 post=2.597 hard=0.579 lr=2.0e-04 skip=0  elapsed=4049s
+[KD] ep 0 step 400/2331 tot=3.239 post=2.634 hard=0.605 lr=2.0e-04 skip=0  elapsed=4999s
+[KD] ep 0 step 450/2331 tot=2.957 post=2.407 hard=0.550 lr=1.9e-04 skip=0  elapsed=5946s
+[KD] ep 0 step 500/2331 tot=2.794 post=2.296 hard=0.497 lr=1.9e-04 skip=0  elapsed=6900s
+[KD] ep 0 step 550/2331 tot=2.780 post=2.281 hard=0.499 lr=1.9e-04 skip=0  elapsed=7847s
+[KD] ep 0 step 600/2331 tot=2.703 post=2.209 hard=0.493 lr=1.8e-04 skip=0  elapsed=8802s
+[KD] ep 0 step 650/2331 tot=2.619 post=2.147 hard=0.472 lr=1.8e-04 skip=0  elapsed=9756s
+[KD] ep 0 step 700/2331 tot=2.574 post=2.099 hard=0.475 lr=1.8e-04 skip=0  elapsed=10697s
+[KD] ep 0 step 750/2331 tot=2.537 post=2.068 hard=0.469 lr=1.7e-04 skip=0  elapsed=11652s
+[KD] === epoch 1/3 done avg_loss=4.8740 steps=777 skip=0 elapsed=12169s ===
+[KD] ep 1 step 800/2331 tot=2.448 post=2.002 hard=0.446 lr=1.7e-04 skip=0  elapsed=12610s
+[KD] ep 1 step 850/2331 tot=2.532 post=2.076 hard=0.456 lr=1.6e-04 skip=0  elapsed=13566s
+[KD] ep 1 step 900/2331 tot=2.311 post=1.884 hard=0.427 lr=1.6e-04 skip=0  elapsed=14520s
+[KD] ep 1 step 950/2331 tot=2.250 post=1.852 hard=0.398 lr=1.5e-04 skip=0  elapsed=15476s
+[KD] ep 1 step 1000/2331 tot=2.263 post=1.861 hard=0.403 lr=1.4e-04 skip=0  elapsed=16432s
+[KD] ep 1 step 1050/2331 tot=2.398 post=1.949 hard=0.449 lr=1.4e-04 skip=0  elapsed=17388s
+[KD] ep 1 step 1100/2331 tot=2.173 post=1.768 hard=0.406 lr=1.3e-04 skip=0  elapsed=18344s
+[KD] ep 1 step 1150/2331 tot=2.189 post=1.794 hard=0.395 lr=1.3e-04 skip=0  elapsed=19300s
+[KD] ep 1 step 1200/2331 tot=2.407 post=1.966 hard=0.441 lr=1.2e-04 skip=0  elapsed=20257s
+[KD] ep 1 step 1250/2331 tot=2.177 post=1.786 hard=0.392 lr=1.1e-04 skip=0  elapsed=21214s
+[KD] ep 1 step 1300/2331 tot=2.023 post=1.655 hard=0.368 lr=1.1e-04 skip=0  elapsed=22170s
+[KD] ep 1 step 1350/2331 tot=2.227 post=1.840 hard=0.388 lr=9.9e-05 skip=0  elapsed=23127s
+[KD] ep 1 step 1400/2331 tot=2.024 post=1.648 hard=0.376 lr=9.2e-05 skip=0  elapsed=24083s
+[KD] ep 1 step 1450/2331 tot=1.902 post=1.546 hard=0.355 lr=8.6e-05 skip=0  elapsed=25019s
+[KD] ep 1 step 1500/2331 tot=1.992 post=1.603 hard=0.389 lr=8.0e-05 skip=0  elapsed=25956s
+[KD] ep 1 step 1550/2331 tot=2.076 post=1.699 hard=0.378 lr=7.3e-05 skip=0  elapsed=26895s
+[KD] === epoch 2/3 done avg_loss=2.2207 steps=777 skip=0 elapsed=26970s ===
+[KD] ep 2 step 1600/2331 tot=2.083 post=1.709 hard=0.374 lr=6.8e-05 skip=0  elapsed=27834s
+[KD] ep 2 step 1650/2331 tot=2.188 post=1.795 hard=0.394 lr=6.2e-05 skip=0  elapsed=28773s
+[KD] ep 2 step 1700/2331 tot=1.824 post=1.488 hard=0.336 lr=5.6e-05 skip=0  elapsed=29712s
+[KD] ep 2 step 1750/2331 tot=2.038 post=1.670 hard=0.368 lr=5.1e-05 skip=0  elapsed=30651s
+[KD] ep 2 step 1800/2331 tot=2.040 post=1.674 hard=0.367 lr=4.6e-05 skip=0  elapsed=31590s
+[KD] ep 2 step 1850/2331 tot=1.956 post=1.592 hard=0.363 lr=4.2e-05 skip=0  elapsed=32530s
+[KD] ep 2 step 1900/2331 tot=1.840 post=1.509 hard=0.331 lr=3.8e-05 skip=0  elapsed=33470s
+[KD] ep 2 step 1950/2331 tot=2.042 post=1.686 hard=0.356 lr=3.4e-05 skip=0  elapsed=34410s
+[KD] ep 2 step 2000/2331 tot=2.078 post=1.685 hard=0.393 lr=3.1e-05 skip=0  elapsed=35349s
+[KD] ep 2 step 2050/2331 tot=1.987 post=1.597 hard=0.390 lr=2.8e-05 skip=0  elapsed=36289s
+[KD] ep 2 step 2100/2331 tot=1.965 post=1.592 hard=0.373 lr=2.5e-05 skip=0  elapsed=37227s
+[KD] ep 2 step 2150/2331 tot=1.967 post=1.585 hard=0.382 lr=2.3e-05 skip=0  elapsed=38167s
+[KD] ep 2 step 2200/2331 tot=1.868 post=1.507 hard=0.362 lr=2.2e-05 skip=0  elapsed=39108s
+[KD] ep 2 step 2250/2331 tot=1.891 post=1.544 hard=0.347 lr=2.1e-05 skip=0  elapsed=40048s
+[KD] ep 2 step 2300/2331 tot=1.889 post=1.554 hard=0.335 lr=2.0e-05 skip=0  elapsed=40987s
+[KD] === epoch 3/3 done avg_loss=1.9722 steps=777 skip=0 elapsed=41570s ===
+[KD] === FINAL EVAL ===
+  Klebsiella_pneumoniae_INF078                      : n= 20  median=81.20%  mean=80.76%
+  Klebsiella_pneumoniae_INF007                      : n= 20  median=80.54%  mean=81.23%
+  Klebsiella_pneumoniae_KSB1_6F                     : n= 20  median=78.17%  mean=77.70%
+  Klebsiella_pneumoniae_KSB1_7E                     : n= 20  median=76.75%  mean=76.18%
+  Escherichia_coli_MSB2_1A                          : n= 20  median=76.92%  mean=75.92%
+  Acinetobacter_baumannii_AYP-A2                    : n= 20  median=72.67%  mean=73.00%
+  Haemophilus_parainfluenzae_M1C146_1               : n= 20  median=71.44%  mean=71.88%
+  Moraxella_lincolnii_51409                         : n= 20  median=73.98%  mean=73.70%
+
+  OVERALL: n=160 median=76.78% mean=76.30%
+[KD] DONE in 41643s
+[done] kd overall_median 0.7678
+=== arch CNN summary ===
+  h    overall_median 0.7332 overall_mean 0.7276 n_reads 160 
+  kd   overall_median 0.7678 overall_mean 0.7630 n_reads 160 
+=== done Sat Jun 27 20:16:21 UTC 2026 ===

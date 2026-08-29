@@ -1,0 +1,8 @@
+GPU: NVIDIA GH200 480GB
+Loaded 40 reads from Klebsiella_pneumoniae_INF078
+  Bonito sup   params=27.00M    0.76 reads/s     158.1 ksamp/s   1.00x  (52.8s, 835 chunks)
+  Bonito hac   params= 9.00M    0.79 reads/s     164.9 ksamp/s   1.04x  (50.6s, 835 chunks)
+  M2-Small     params= 3.51M    1.11 reads/s     231.4 ksamp/s   1.46x  (36.1s, 835 chunks)
+  M2-Tiny      params= 0.66M    1.20 reads/s     250.1 ksamp/s   1.58x  (33.4s, 835 chunks)
+
+Wrote logs/phase2/throughput.csv

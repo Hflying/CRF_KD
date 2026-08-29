@@ -1,0 +1,7 @@
+run	Klebsiella_pneumoniae_INF078	Klebsiella_pneumoniae_INF007	Klebsiella_pneumoniae_KSB1_6F	Klebsiella_pneumoniae_KSB1_7E	Escherichia_coli_MSB2_1A	Acinetobacter_baumannii_AYP-A2	Haemophilus_parainfluenzae_M1C146_1	Moraxella_lincolnii_51409	OVERALL
+R1 · H · Tiny	79.25	78.79	76.64	78.54	77.17	71.19	70.11	72.12	76.35
+R1 · KD · Tiny	82.61	82.45	80.22	79.69	78.94	74.91	73.59	75.89	78.87
+R1 · KD · Small	84.53	84.29	82.37	83.58	81.48	78.30	76.99	78.99	81.58
+R2 · H · Tiny	84.63	85.20	81.88	84.90	83.27	81.20	80.33	78.37	82.75
+R2 · KD · Tiny	85.35	86.44	83.27	85.38	83.98	81.54	80.71	79.24	83.44
+R2 · KD · Small	87.53	88.97	86.09	86.93	85.69	84.34	82.98	81.58	85.61

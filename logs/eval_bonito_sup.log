@@ -1,0 +1,13 @@
+Model:   tools/bonito_models/dna_r9.4.1_e8_sup@v3.3
+Isolate: data/wick/train_extracted/Klebsiella_pneumoniae_INF078
+100 reads, 625 references
+[20/100] n=20 median=0.5108 (51.1%) mean=0.5098 (51.0%)   elapsed=33s
+[40/100] n=40 median=0.5114 (51.1%) mean=0.5108 (51.1%)   elapsed=67s
+[60/100] n=60 median=0.5118 (51.2%) mean=0.5093 (50.9%)   elapsed=105s
+[80/100] n=80 median=0.5107 (51.1%) mean=0.5085 (50.9%)   elapsed=144s
+[100/100] n=100 median=0.5110 (51.1%) mean=0.5082 (50.8%)   elapsed=171s
+
+=== BONITO sup READ-LEVEL IDENTITY ===
+Reads: 100
+Median: 0.5110 (51.1%)
+Mean:   0.5082 (50.8%)

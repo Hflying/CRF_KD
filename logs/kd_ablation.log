@@ -1,0 +1,89 @@
+=== KD ablation start Wed Apr 22 17:56:47 UTC 2026 ===
+(H baseline @ checkpoints_kd/validation/H/eval.txt: n_reads 50 median 0.4524 mean 0.4502 )
+
+=== BRANCH KDp (post + hard, NO L_fwd) ===
+[KD] device=cuda
+  347 fast5 files, 625 refs
+  loading 200 train reads...
+  loading 50 eval reads (with refs)...
+  train: 200 reads, 4164 chunks
+  eval:  50 reads
+  pooled train chunks (capped): (800, 10000)
+[KD] loading teacher: tools/bonito_models/dna_r9.4.1_e8_sup@v3.3
+  teacher: state_len=5 n_base=4
+[KD] building student m2_tiny_s5 (stride=5 matches teacher)
+  student: state_len=5 params=1.07M
+[KD] KD weights: post=1.0 fwd=0.0 hard=1.0
+[KD] epoch 0 step 20 avg_loss=6.1231 (post=2.846 fwd=0.000 hard=2.775) lr=1.3e-04 skipped=0
+[KD] epoch 0 step 40 avg_loss=5.5762 (post=2.329 fwd=0.000 hard=2.276) lr=2.0e-04 skipped=0
+[KD] epoch 0 step 60 avg_loss=4.9992 (post=1.524 fwd=0.000 hard=1.703) lr=2.0e-04 skipped=0
+[KD] epoch 0 step 80 avg_loss=4.4277 (post=0.870 fwd=0.000 hard=1.436) lr=2.0e-04 skipped=0
+[KD] epoch 0 step 100 avg_loss=3.9532 (post=0.557 fwd=0.000 hard=1.396) lr=2.0e-04 skipped=0
+[KD] === epoch 1/4 done avg_loss=3.9532 steps_ok=100 skipped=0 elapsed=597s ===
+[KD] epoch 1 step 20 avg_loss=1.9114 (post=0.549 fwd=0.000 hard=1.357) lr=2.0e-04 skipped=0
+[KD] epoch 1 step 40 avg_loss=1.8956 (post=0.526 fwd=0.000 hard=1.340) lr=2.0e-04 skipped=0
+[KD] epoch 1 step 60 avg_loss=1.8697 (post=0.527 fwd=0.000 hard=1.322) lr=2.0e-04 skipped=0
+[KD] epoch 1 step 80 avg_loss=1.8468 (post=0.507 fwd=0.000 hard=1.215) lr=2.0e-04 skipped=0
+[KD] epoch 1 step 100 avg_loss=1.8221 (post=0.526 fwd=0.000 hard=1.169) lr=2.0e-04 skipped=0
+[KD] === epoch 2/4 done avg_loss=1.8221 steps_ok=100 skipped=0 elapsed=1167s ===
+[KD] epoch 2 step 20 avg_loss=1.6674 (post=0.522 fwd=0.000 hard=1.120) lr=2.0e-04 skipped=0
+[KD] epoch 2 step 40 avg_loss=1.6311 (post=0.518 fwd=0.000 hard=1.016) lr=2.0e-04 skipped=0
+[KD] epoch 2 step 60 avg_loss=1.6029 (post=0.519 fwd=0.000 hard=1.000) lr=2.0e-04 skipped=0
+[KD] epoch 2 step 80 avg_loss=1.5730 (post=0.522 fwd=0.000 hard=0.927) lr=2.0e-04 skipped=0
+[KD] epoch 2 step 100 avg_loss=1.5449 (post=0.519 fwd=0.000 hard=0.890) lr=2.0e-04 skipped=0
+[KD] === epoch 3/4 done avg_loss=1.5449 steps_ok=100 skipped=0 elapsed=1734s ===
+[KD] epoch 3 step 20 avg_loss=1.3815 (post=0.520 fwd=0.000 hard=0.833) lr=2.0e-04 skipped=0
+[KD] epoch 3 step 40 avg_loss=1.3605 (post=0.544 fwd=0.000 hard=0.783) lr=2.0e-04 skipped=0
+[KD] epoch 3 step 60 avg_loss=1.3417 (post=0.532 fwd=0.000 hard=0.748) lr=2.0e-04 skipped=0
+[KD] epoch 3 step 80 avg_loss=1.3181 (post=0.525 fwd=0.000 hard=0.706) lr=2.0e-04 skipped=0
+[KD] epoch 3 step 100 avg_loss=1.2964 (post=0.517 fwd=0.000 hard=0.650) lr=2.0e-04 skipped=0
+[KD] === epoch 4/4 done avg_loss=1.2964 steps_ok=100 skipped=0 elapsed=2294s ===
+[KD] eval on 50 held-out reads...
+[KD] === EVAL: n=50 median=28.09% mean=27.82% ===
+
+=== BRANCH KDf (fwd + hard, NO L_post) ===
+[KD] device=cuda
+  347 fast5 files, 625 refs
+  loading 200 train reads...
+  loading 50 eval reads (with refs)...
+  train: 200 reads, 4164 chunks
+  eval:  50 reads
+  pooled train chunks (capped): (800, 10000)
+[KD] loading teacher: tools/bonito_models/dna_r9.4.1_e8_sup@v3.3
+  teacher: state_len=5 n_base=4
+[KD] building student m2_tiny_s5 (stride=5 matches teacher)
+  student: state_len=5 params=1.07M
+[KD] KD weights: post=0.0 fwd=0.5 hard=1.0
+[KD] epoch 0 step 20 avg_loss=10.8609 (post=0.000 fwd=13.292 hard=3.089) lr=1.3e-04 skipped=0
+[KD] epoch 0 step 40 avg_loss=10.0128 (post=0.000 fwd=11.376 hard=2.798) lr=2.0e-04 skipped=0
+[KD] epoch 0 step 60 avg_loss=9.2440 (post=0.000 fwd=9.335 hard=2.334) lr=2.0e-04 skipped=0
+[KD] epoch 0 step 80 avg_loss=8.6289 (post=0.000 fwd=7.967 hard=2.145) lr=2.0e-04 skipped=0
+[KD] epoch 0 step 100 avg_loss=8.1405 (post=0.000 fwd=7.777 hard=2.000) lr=2.0e-04 skipped=0
+[KD] === epoch 1/4 done avg_loss=8.1405 steps_ok=100 skipped=0 elapsed=552s ===
+[KD] epoch 1 step 20 avg_loss=5.7101 (post=0.000 fwd=7.058 hard=1.791) lr=2.0e-04 skipped=0
+[KD] epoch 1 step 40 avg_loss=5.7636 (post=0.000 fwd=6.993 hard=1.765) lr=2.0e-04 skipped=0
+[KD] epoch 1 step 60 avg_loss=5.8106 (post=0.000 fwd=8.782 hard=1.795) lr=2.0e-04 skipped=0
+[KD] epoch 1 step 80 avg_loss=5.6894 (post=0.000 fwd=8.139 hard=1.625) lr=2.0e-04 skipped=0
+[KD] epoch 1 step 100 avg_loss=5.6004 (post=0.000 fwd=6.859 hard=1.581) lr=2.0e-04 skipped=0
+[KD] === epoch 2/4 done avg_loss=5.6004 steps_ok=100 skipped=0 elapsed=1081s ===
+[KD] epoch 2 step 20 avg_loss=5.3459 (post=0.000 fwd=6.899 hard=1.596) lr=2.0e-04 skipped=0
+[KD] epoch 2 step 40 avg_loss=5.2477 (post=0.000 fwd=6.943 hard=1.519) lr=2.0e-04 skipped=0
+[KD] epoch 2 step 60 avg_loss=5.1747 (post=0.000 fwd=7.346 hard=1.524) lr=2.0e-04 skipped=0
+[KD] epoch 2 step 80 avg_loss=5.1476 (post=0.000 fwd=6.720 hard=1.486) lr=2.0e-04 skipped=0
+[KD] epoch 2 step 100 avg_loss=5.1304 (post=0.000 fwd=6.601 hard=1.509) lr=2.0e-04 skipped=0
+[KD] === epoch 3/4 done avg_loss=5.1304 steps_ok=100 skipped=0 elapsed=1610s ===
+[KD] epoch 3 step 20 avg_loss=4.9645 (post=0.000 fwd=7.388 hard=1.471) lr=2.0e-04 skipped=0
+[KD] epoch 3 step 40 avg_loss=4.9803 (post=0.000 fwd=6.648 hard=1.449) lr=2.0e-04 skipped=0
+[KD] epoch 3 step 60 avg_loss=4.9695 (post=0.000 fwd=7.443 hard=1.509) lr=2.0e-04 skipped=0
+[KD] epoch 3 step 80 avg_loss=4.9465 (post=0.000 fwd=8.226 hard=1.407) lr=2.0e-04 skipped=0
+[KD] epoch 3 step 100 avg_loss=4.8957 (post=0.000 fwd=6.735 hard=1.415) lr=2.0e-04 skipped=0
+[KD] === epoch 4/4 done avg_loss=4.8957 steps_ok=100 skipped=0 elapsed=2140s ===
+[KD] eval on 50 held-out reads...
+[KD] === EVAL: n=19 median=0.50% mean=0.47% ===
+
+=== Ablation done Wed Apr 22 19:11:50 UTC 2026 ===
+
+RESULTS:
+  H (baseline):  n_reads 50 median 0.4524 mean 0.4502 
+  KDp (post+hard): n_reads 50 median 0.2809 mean 0.2782 
+  KDf (fwd+hard):  n_reads 19 median 0.0050 mean 0.0047 

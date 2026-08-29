@@ -1,0 +1,63 @@
+=== Dorado sup v3.6 NanoSpecies-50 eval start Sat Jun 27 05:57:12 UTC 2026 ===
+GPU 0: NVIDIA GH200 480GB (UUID: GPU-e02222ce-f2bd-15f0-2811-7ea7a3aecd77)
+Will evaluate 50 isolates × 100 reads
+Model: tools/dorado_models/dna_r9.4.1_e8_sup@v3.6
+  [1/50] Acinetobacter_baumannii_AYP-A2: n=100 median=88.02% mean=87.76%  el=102s
+  [2/50] Acinetobacter_nosocomialis_MINF_5C: n=100 median=90.27% mean=89.65%  el=199s
+  [3/50] Acinetobacter_ursingii_MINF_9C: n=100 median=91.98% mean=91.11%  el=297s
+  [4/50] Burkholderia_cenocepacia_MINF_4A: n=100 median=92.45% mean=92.05%  el=410s
+  [5/50] Citrobacter_freundii_MSB1_1H: n=100 median=92.78% mean=92.02%  el=520s
+  [6/50] Citrobacter_koseri_MINF_9D: n=100 median=89.01% mean=88.88%  el=610s
+  [7/50] Comamonas_kerstersii_MSB1_7G: n=100 median=89.39% mean=88.95%  el=705s
+  [8/50] Enterobacter_kobei_MSB1_1B: n=100 median=89.90% mean=89.21%  el=802s
+  [9/50] Escherichia_coli_MSB2_1A: n=100 median=89.90% mean=89.18%  el=896s
+  [10/50] Escherichia_marmotae_MSB1_5C: n=100 median=92.33% mean=91.40%  el=1000s
+  [11/50] Haemophilus_parainfluenzae_M1C146_1: n=100 median=87.87% mean=88.65%  el=1063s
+  [12/50] Klebsiella_aerogenes_MINF_10B: n=100 median=89.88% mean=88.94%  el=1150s
+  [13/50] Klebsiella_pneumoniae_INF007: n=100 median=93.80% mean=93.08%  el=1259s
+  [14/50] Klebsiella_pneumoniae_INF014: n=100 median=91.22% mean=90.62%  el=1410s
+  [15/50] Klebsiella_pneumoniae_INF065: n=100 median=91.84% mean=90.99%  el=1524s
+  [16/50] Klebsiella_pneumoniae_INF078: n=100 median=94.43% mean=93.57%  el=1669s
+  [17/50] Klebsiella_pneumoniae_INF102: n=100 median=91.55% mean=91.00%  el=1773s
+  [18/50] Klebsiella_pneumoniae_INF116: n=100 median=89.45% mean=89.26%  el=1885s
+  [19/50] Klebsiella_pneumoniae_INF125: n=100 median=93.06% mean=92.64%  el=2015s
+  [20/50] Klebsiella_pneumoniae_INF177: n=100 median=90.69% mean=90.36%  el=2141s
+  [21/50] Klebsiella_pneumoniae_INF192: n=100 median=93.33% mean=92.69%  el=2259s
+  [22/50] Klebsiella_pneumoniae_INF215: n=100 median=90.42% mean=89.89%  el=2359s
+  [23/50] Klebsiella_pneumoniae_INF235: n=100 median=92.67% mean=92.03%  el=2469s
+  [24/50] Klebsiella_pneumoniae_INF310: n=100 median=91.22% mean=90.10%  el=2552s
+  [25/50] Klebsiella_pneumoniae_INF319: n=100 median=91.08% mean=90.21%  el=2633s
+  [26/50] Klebsiella_pneumoniae_INF321: n=100 median=90.50% mean=90.47%  el=2732s
+  [27/50] Klebsiella_pneumoniae_INF322: n=100 median=91.26% mean=90.61%  el=2819s
+  [28/50] Klebsiella_pneumoniae_INF341: n=100 median=90.84% mean=90.21%  el=2931s
+  [29/50] Klebsiella_pneumoniae_INF357: n=100 median=91.72% mean=90.44%  el=3031s
+  [30/50] Klebsiella_pneumoniae_INF358: n=100 median=90.29% mean=90.07%  el=3131s
+  [31/50] Klebsiella_pneumoniae_INF361: n=100 median=91.59% mean=91.26%  el=3238s
+  [32/50] Klebsiella_pneumoniae_KSB1_1I: n=100 median=89.77% mean=88.75%  el=3342s
+  [33/50] Klebsiella_pneumoniae_KSB1_6F: n=100 median=92.44% mean=92.25%  el=3443s
+  [34/50] Klebsiella_pneumoniae_KSB1_6G: n=100 median=92.05% mean=90.75%  el=3545s
+  [35/50] Klebsiella_pneumoniae_KSB1_7E: n=100 median=88.44% mean=88.00%  el=3645s
+  [36/50] Klebsiella_pneumoniae_KSB1_7F: n=100 median=91.03% mean=90.23%  el=3759s
+  [37/50] Klebsiella_pneumoniae_KSB1_9A: n=100 median=90.21% mean=89.74%  el=3852s
+  [38/50] Klebsiella_pneumoniae_KSB1_9D: n=100 median=90.78% mean=90.06%  el=3941s
+  [39/50] Klebsiella_pneumoniae_NUH11: n=100 median=90.62% mean=89.86%  el=4035s
+  [40/50] Klebsiella_pneumoniae_NUH27: n=100 median=89.85% mean=89.17%  el=4108s
+  [41/50] Klebsiella_pneumoniae_QMP_B2_170: n=100 median=92.07% mean=91.71%  el=4206s
+  [42/50] Klebsiella_pneumoniae_SGH07: n=100 median=89.38% mean=89.13%  el=4293s
+  [43/50] Klebsiella_quasipneumoniae_INF291: n=100 median=90.76% mean=90.16%  el=4397s
+  [44/50] Klebsiella_variicola_INF022: n=100 median=88.04% mean=88.08%  el=4492s
+  [45/50] Klebsiella_variicola_KSB1_8J: n=100 median=89.50% mean=88.84%  el=4580s
+  [46/50] Moraxella_lincolnii_51409: n=100 median=88.16% mean=87.96%  el=4643s
+  [47/50] Morganella_morganii_MSB1_1E: n=100 median=93.04% mean=92.14%  el=4768s
+  [48/50] Pseudomonas_aeruginosa_MINF_7A: n=100 median=90.60% mean=90.12%  el=4864s
+  [49/50] Salmonella_enterica_2010-06152: n=100 median=91.34% mean=90.70%  el=4949s
+  [50/50] Stenotrophomonas_pavanii_MSB1_4D: n=100 median=90.83% mean=90.15%  el=5041s
+
+Wrote logs/dorado_sup_all.csv
+  total reads       = 5000
+  OVERALL median    = 90.89%
+  OVERALL mean      = 90.30%
+  median-of-medians = 90.80%
+  mean-of-medians   = 90.87%  (headline number, comparable to logs/bonito_sup_all.csv)
+
+=== Dorado sup done Sat Jun 27 07:21:20 UTC 2026 ===

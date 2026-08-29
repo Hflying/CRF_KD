@@ -1,0 +1,250 @@
+loaded 102 recordings for edf78
+resumed 75 folds from bibm_sleep/results/edf78_cv.json
+
+=== fold 76/102  val=SC4602E0  train_n=101  epochs=2800 ===
+    epoch   1/30  loss=1.6848
+    epoch   6/30  loss=1.0191
+    epoch  12/30  loss=0.8771
+    epoch  18/30  loss=0.7891
+    epoch  24/30  loss=0.7104
+    epoch  30/30  loss=0.6673
+    acc=0.7404  mf1=0.5484  kappa=0.5589  N1-F1=0.3683
+
+=== fold 77/102  val=SC4611E0  train_n=101  epochs=2644 ===
+    epoch   1/30  loss=1.6855
+    epoch   6/30  loss=1.0075
+    epoch  12/30  loss=0.8528
+    epoch  18/30  loss=0.7782
+    epoch  24/30  loss=0.6991
+    epoch  30/30  loss=0.6456
+    acc=0.6467  mf1=0.1656  kappa=0.0104  N1-F1=0.0317
+
+=== fold 78/102  val=SC4612E0  train_n=101  epochs=2730 ===
+    epoch   1/30  loss=1.6885
+    epoch   6/30  loss=1.0152
+    epoch  12/30  loss=0.8631
+    epoch  18/30  loss=0.7876
+    epoch  24/30  loss=0.7284
+    epoch  30/30  loss=0.6539
+    acc=0.8114  mf1=0.4938  kappa=0.6386  N1-F1=0.2832
+
+=== fold 79/102  val=SC4621E0  train_n=101  epochs=2612 ===
+    epoch   1/30  loss=1.6538
+    epoch   6/30  loss=1.0354
+    epoch  12/30  loss=0.8613
+    epoch  18/30  loss=0.7801
+    epoch  24/30  loss=0.7123
+    epoch  30/30  loss=0.6621
+    acc=0.6374  mf1=0.3862  kappa=0.4438  N1-F1=0.3330
+
+=== fold 80/102  val=SC4622E0  train_n=101  epochs=2856 ===
+    epoch   1/30  loss=1.6744
+    epoch   6/30  loss=0.9899
+    epoch  12/30  loss=0.8436
+    epoch  18/30  loss=0.7718
+    epoch  24/30  loss=0.7016
+    epoch  30/30  loss=0.6500
+    acc=0.8281  mf1=0.5672  kappa=0.6714  N1-F1=0.6233
+
+=== fold 81/102  val=SC4631E0  train_n=101  epochs=2758 ===
+    epoch   1/30  loss=1.6699
+    epoch   6/30  loss=1.0144
+    epoch  12/30  loss=0.8808
+    epoch  18/30  loss=0.8033
+    epoch  24/30  loss=0.7082
+    epoch  30/30  loss=0.6685
+    acc=0.8546  mf1=0.6977  kappa=0.7117  N1-F1=0.3484
+
+=== fold 82/102  val=SC4632E0  train_n=101  epochs=2848 ===
+    epoch   1/30  loss=1.6836
+    epoch   6/30  loss=1.0161
+    epoch  12/30  loss=0.8553
+    epoch  18/30  loss=0.7702
+    epoch  24/30  loss=0.7290
+    epoch  30/30  loss=0.6492
+    acc=0.8999  mf1=0.7287  kappa=0.8019  N1-F1=0.5556
+
+=== fold 83/102  val=SC4641E0  train_n=101  epochs=2680 ===
+    epoch   1/30  loss=1.6562
+    epoch   6/30  loss=1.0298
+    epoch  12/30  loss=0.8725
+    epoch  18/30  loss=0.7895
+    epoch  24/30  loss=0.7178
+    epoch  30/30  loss=0.6471
+    acc=0.8694  mf1=0.7213  kappa=0.7141  N1-F1=0.5487
+
+=== fold 84/102  val=SC4642E0  train_n=101  epochs=2790 ===
+    epoch   1/30  loss=1.7030
+    epoch   6/30  loss=1.0210
+    epoch  12/30  loss=0.8546
+    epoch  18/30  loss=0.7614
+    epoch  24/30  loss=0.7047
+    epoch  30/30  loss=0.6620
+    acc=0.9068  mf1=0.7671  kappa=0.8157  N1-F1=0.4516
+
+=== fold 85/102  val=SC4651E0  train_n=101  epochs=2860 ===
+    epoch   1/30  loss=1.6496
+    epoch   6/30  loss=1.0329
+    epoch  12/30  loss=0.8653
+    epoch  18/30  loss=0.7735
+    epoch  24/30  loss=0.7552
+    epoch  30/30  loss=0.6490
+    acc=0.7490  mf1=0.5814  kappa=0.6030  N1-F1=0.3069
+
+=== fold 86/102  val=SC4652E0  train_n=101  epochs=2838 ===
+    epoch   1/30  loss=1.6669
+    epoch   6/30  loss=1.0365
+    epoch  12/30  loss=0.8717
+    epoch  18/30  loss=0.7850
+    epoch  24/30  loss=0.7127
+    epoch  30/30  loss=0.6383
+    acc=0.8055  mf1=0.6289  kappa=0.6751  N1-F1=0.4456
+
+=== fold 87/102  val=SC4661E0  train_n=101  epochs=2664 ===
+    epoch   1/30  loss=1.6524
+    epoch   6/30  loss=1.0130
+    epoch  12/30  loss=0.8533
+    epoch  18/30  loss=0.8035
+    epoch  24/30  loss=0.7095
+    epoch  30/30  loss=0.6493
+    acc=0.8217  mf1=0.6300  kappa=0.6676  N1-F1=0.5950
+
+=== fold 88/102  val=SC4662E0  train_n=101  epochs=2820 ===
+    epoch   1/30  loss=1.6944
+    epoch   6/30  loss=1.0196
+    epoch  12/30  loss=0.8659
+    epoch  18/30  loss=0.7745
+    epoch  24/30  loss=0.7108
+    epoch  30/30  loss=0.6472
+    acc=0.8578  mf1=0.7700  kappa=0.7551  N1-F1=0.5460
+
+=== fold 89/102  val=SC4701E0  train_n=101  epochs=2679 ===
+    epoch   1/30  loss=1.6749
+    epoch   6/30  loss=1.0322
+    epoch  12/30  loss=0.8508
+    epoch  18/30  loss=0.7759
+    epoch  24/30  loss=0.7045
+    epoch  30/30  loss=0.6476
+    acc=0.8257  mf1=0.6057  kappa=0.6849  N1-F1=0.3899
+
+=== fold 90/102  val=SC4702E0  train_n=101  epochs=2624 ===
+    epoch   1/30  loss=1.6777
+    epoch   6/30  loss=1.0284
+    epoch  12/30  loss=0.8717
+    epoch  18/30  loss=0.7907
+    epoch  24/30  loss=0.7174
+    epoch  30/30  loss=0.6486
+    acc=0.8213  mf1=0.5819  kappa=0.6324  N1-F1=0.4592
+
+=== fold 91/102  val=SC4711E0  train_n=101  epochs=2730 ===
+    epoch   1/30  loss=1.6883
+    epoch   6/30  loss=1.0136
+    epoch  12/30  loss=0.8818
+    epoch  18/30  loss=0.7974
+    epoch  24/30  loss=0.7354
+    epoch  30/30  loss=0.6820
+    acc=0.7733  mf1=0.5102  kappa=0.5910  N1-F1=0.3885
+
+=== fold 92/102  val=SC4712E0  train_n=101  epochs=2820 ===
+    epoch   1/30  loss=1.6851
+    epoch   6/30  loss=1.0264
+    epoch  12/30  loss=0.8761
+    epoch  18/30  loss=0.8012
+    epoch  24/30  loss=0.7502
+    epoch  30/30  loss=0.6935
+    acc=0.8720  mf1=0.6163  kappa=0.7447  N1-F1=0.5549
+
+=== fold 93/102  val=SC4721E0  train_n=101  epochs=2342 ===
+    epoch   1/30  loss=1.6641
+    epoch   6/30  loss=1.0147
+    epoch  12/30  loss=0.8484
+    epoch  18/30  loss=0.7754
+    epoch  24/30  loss=0.7035
+    epoch  30/30  loss=0.6372
+    acc=0.8565  mf1=0.5944  kappa=0.7151  N1-F1=0.5301
+
+=== fold 94/102  val=SC4722E0  train_n=101  epochs=2746 ===
+    epoch   1/30  loss=1.6871
+    epoch   6/30  loss=1.0316
+    epoch  12/30  loss=0.8859
+    epoch  18/30  loss=0.7970
+    epoch  24/30  loss=0.7423
+    epoch  30/30  loss=0.6894
+    acc=0.8806  mf1=0.6258  kappa=0.7603  N1-F1=0.5690
+
+=== fold 95/102  val=SC4731E0  train_n=101  epochs=2780 ===
+    epoch   1/30  loss=1.6909
+    epoch   6/30  loss=1.0031
+    epoch  12/30  loss=0.8583
+    epoch  18/30  loss=0.7700
+    epoch  24/30  loss=0.7038
+    epoch  30/30  loss=0.6664
+    acc=0.8644  mf1=0.6018  kappa=0.7277  N1-F1=0.5806
+
+=== fold 96/102  val=SC4732E0  train_n=101  epochs=2519 ===
+    epoch   1/30  loss=1.7338
+    epoch   6/30  loss=1.0362
+    epoch  12/30  loss=0.8887
+    epoch  18/30  loss=0.7905
+    epoch  24/30  loss=0.7426
+    epoch  30/30  loss=0.7047
+    acc=0.8567  mf1=0.6233  kappa=0.7456  N1-F1=0.7234
+
+=== fold 97/102  val=SC4741E0  train_n=101  epochs=2689 ===
+    epoch   1/30  loss=1.6824
+    epoch   6/30  loss=1.0237
+    epoch  12/30  loss=0.8573
+    epoch  18/30  loss=0.7659
+    epoch  24/30  loss=0.7051
+    epoch  30/30  loss=0.6636
+    acc=0.8706  mf1=0.6191  kappa=0.7699  N1-F1=0.4337
+
+=== fold 98/102  val=SC4742E0  train_n=101  epochs=2650 ===
+    epoch   1/30  loss=1.7055
+    epoch   6/30  loss=1.0023
+    epoch  12/30  loss=0.8723
+    epoch  18/30  loss=0.8017
+    epoch  24/30  loss=0.7371
+    epoch  30/30  loss=0.6804
+    acc=0.8460  mf1=0.5884  kappa=0.6942  N1-F1=0.4484
+
+=== fold 99/102  val=SC4751E0  train_n=101  epochs=2680 ===
+    epoch   1/30  loss=1.6791
+    epoch   6/30  loss=1.0404
+    epoch  12/30  loss=0.8861
+    epoch  18/30  loss=0.7993
+    epoch  24/30  loss=0.7409
+    epoch  30/30  loss=0.6809
+    acc=0.8854  mf1=0.6052  kappa=0.7242  N1-F1=0.3983
+
+=== fold 100/102  val=SC4752E0  train_n=101  epochs=2470 ===
+    epoch   1/30  loss=1.6549
+    epoch   6/30  loss=1.0356
+    epoch  12/30  loss=0.8851
+    epoch  18/30  loss=0.8115
+    epoch  24/30  loss=0.7203
+    epoch  30/30  loss=0.6874
+    acc=0.8518  mf1=0.4228  kappa=0.6096  N1-F1=0.1472
+
+=== fold 101/102  val=SC4761E0  train_n=101  epochs=2610 ===
+    epoch   1/30  loss=1.7161
+    epoch   6/30  loss=1.0088
+    epoch  12/30  loss=0.8719
+    epoch  18/30  loss=0.7953
+    epoch  24/30  loss=0.7340
+    epoch  30/30  loss=0.6618
+    acc=0.8989  mf1=0.7199  kappa=0.7376  N1-F1=0.3966
+
+=== fold 102/102  val=SC4762E0  train_n=101  epochs=2662 ===
+    epoch   1/30  loss=1.6800
+    epoch   6/30  loss=1.0349
+    epoch  12/30  loss=0.8646
+    epoch  18/30  loss=0.7988
+    epoch  24/30  loss=0.7201
+    epoch  30/30  loss=0.6809
+    acc=0.7029  mf1=0.3739  kappa=0.4447  N1-F1=0.3534
+
+=== SUMMARY (edf78) ===
+acc=0.8782  mf1=0.6861  kappa=0.7561
+per-class F1: [0.9690313869289011, 0.4463407501924947, 0.7520203642832336, 0.6720753025543056, 0.7939106145246961]
+wrote bibm_sleep/results/edf78_cv.json

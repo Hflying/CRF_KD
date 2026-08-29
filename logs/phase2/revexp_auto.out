@@ -1,0 +1,40 @@
+=== revexp autolaunch start Fri Jun 19 22:47:38 UTC 2026 (need >=16000 MiB) ===
+[Fri Jun 19 22:47:38 UTC 2026] free=576 MiB < 16000 — waiting
+[Fri Jun 19 22:49:38 UTC 2026] free=546 MiB < 16000 — waiting
+[Fri Jun 19 22:51:38 UTC 2026] free=526 MiB < 16000 — waiting
+[Fri Jun 19 22:53:38 UTC 2026] free=526 MiB < 16000 — waiting
+[Fri Jun 19 22:55:38 UTC 2026] free=526 MiB < 16000 — waiting
+[Fri Jun 19 22:57:38 UTC 2026] free=526 MiB < 16000 — waiting
+[Fri Jun 19 22:59:38 UTC 2026] free=526 MiB < 16000 — waiting
+[Fri Jun 19 23:01:38 UTC 2026] free=524 MiB < 16000 — waiting
+[Fri Jun 19 23:03:39 UTC 2026] free=524 MiB < 16000 — waiting
+[Fri Jun 19 23:05:39 UTC 2026] free=524 MiB < 16000 — waiting
+[Fri Jun 19 23:07:39 UTC 2026] free=524 MiB < 16000 — waiting
+[Fri Jun 19 23:09:39 UTC 2026] free=524 MiB < 16000 — waiting
+[Fri Jun 19 23:11:39 UTC 2026] free=524 MiB < 16000 — waiting
+[Fri Jun 19 23:13:39 UTC 2026] free=34094 MiB — running experiments
+[Fri Jun 19 23:13:39 UTC 2026] >>> throughput
+[Fri Jun 19 23:17:40 UTC 2026] throughput rc=0
+GPU: NVIDIA GH200 480GB
+Loaded 40 reads from Klebsiella_pneumoniae_INF078
+  Bonito sup   params=27.00M    0.76 reads/s     158.1 ksamp/s   1.00x  (52.8s, 835 chunks)
+  Bonito hac   params= 9.00M    0.79 reads/s     164.9 ksamp/s   1.04x  (50.6s, 835 chunks)
+  M2-Small     params= 3.51M    1.11 reads/s     231.4 ksamp/s   1.46x  (36.1s, 835 chunks)
+  M2-Tiny      params= 0.66M    1.20 reads/s     250.1 ksamp/s   1.58x  (33.4s, 835 chunks)
+
+Wrote logs/phase2/throughput.csv
+[Fri Jun 19 23:17:40 UTC 2026] >>> lambda/seed sweep
+[Sun Jun 21 00:46:52 UTC 2026] sweep rc=0
+=== lambda_post sweep (KD, joint, M2-Tiny, INF078, 4ep) ===
+  lambda_post=0.25   median=None%
+  lambda_post=0.5    median=None%
+  lambda_post=1.0    median=None%
+  lambda_post=2.0    median=None%
+  lambda_post=4.0    median=None%
+
+=== seed repeats ===
+  H: ['72.08', '72.63', '71.53']  mean=72.08  std=0.550
+  KD: ['78.03', '78.98', '78.16']  mean=78.39  std=0.515
+
+[lambda figure skipped: <2 points]
+[Sun Jun 21 00:46:52 UTC 2026] ALL DONE

@@ -1,0 +1,700 @@
+=== [Acinetobacter_baumannii_AYP-A2] ===
+Model:   tools/bonito_models/dna_r9.4.1_e8_sup@v3.3
+Isolate: data/wick/train_extracted/Acinetobacter_baumannii_AYP-A2/
+100 reads, 10940 references
+[20/100] n=20 median=0.8865 (88.6%) mean=0.8792 (87.9%)   elapsed=20s
+[40/100] n=40 median=0.8823 (88.2%) mean=0.8791 (87.9%)   elapsed=40s
+[60/100] n=60 median=0.8765 (87.6%) mean=0.8700 (87.0%)   elapsed=62s
+[80/100] n=80 median=0.8778 (87.8%) mean=0.8739 (87.4%)   elapsed=80s
+[100/100] n=100 median=0.8806 (88.1%) mean=0.8775 (87.7%)   elapsed=102s
+
+=== BONITO sup READ-LEVEL IDENTITY ===
+Reads: 100
+Median: 0.8806 (88.1%)
+Mean:   0.8775 (87.7%)
+=== [Acinetobacter_nosocomialis_MINF_5C] ===
+Model:   tools/bonito_models/dna_r9.4.1_e8_sup@v3.3
+Isolate: data/wick/train_extracted/Acinetobacter_nosocomialis_MINF_5C/
+100 reads, 11347 references
+[20/100] n=20 median=0.9121 (91.2%) mean=0.9028 (90.3%)   elapsed=19s
+[40/100] n=40 median=0.9045 (90.5%) mean=0.8979 (89.8%)   elapsed=39s
+[60/100] n=60 median=0.9013 (90.1%) mean=0.8938 (89.4%)   elapsed=55s
+[80/100] n=80 median=0.9019 (90.2%) mean=0.8944 (89.4%)   elapsed=76s
+[100/100] n=100 median=0.9031 (90.3%) mean=0.8974 (89.7%)   elapsed=98s
+
+=== BONITO sup READ-LEVEL IDENTITY ===
+Reads: 100
+Median: 0.9031 (90.3%)
+Mean:   0.8974 (89.7%)
+=== [Acinetobacter_ursingii_MINF_9C] ===
+Model:   tools/bonito_models/dna_r9.4.1_e8_sup@v3.3
+Isolate: data/wick/train_extracted/Acinetobacter_ursingii_MINF_9C/
+100 reads, 30889 references
+[20/100] n=20 median=0.9169 (91.7%) mean=0.9124 (91.2%)   elapsed=19s
+[40/100] n=40 median=0.9216 (92.2%) mean=0.9189 (91.9%)   elapsed=41s
+[60/100] n=60 median=0.9180 (91.8%) mean=0.9099 (91.0%)   elapsed=58s
+[80/100] n=80 median=0.9203 (92.0%) mean=0.9098 (91.0%)   elapsed=76s
+[100/100] n=100 median=0.9215 (92.1%) mean=0.9114 (91.1%)   elapsed=99s
+
+=== BONITO sup READ-LEVEL IDENTITY ===
+Reads: 100
+Median: 0.9215 (92.1%)
+Mean:   0.9114 (91.1%)
+=== [Burkholderia_cenocepacia_MINF_4A] ===
+Model:   tools/bonito_models/dna_r9.4.1_e8_sup@v3.3
+Isolate: data/wick/train_extracted/Burkholderia_cenocepacia_MINF_4A/
+100 reads, 34842 references
+[20/100] n=20 median=0.9178 (91.8%) mean=0.9141 (91.4%)   elapsed=18s
+[40/100] n=40 median=0.9187 (91.9%) mean=0.9203 (92.0%)   elapsed=43s
+[60/100] n=60 median=0.9221 (92.2%) mean=0.9231 (92.3%)   elapsed=68s
+[80/100] n=80 median=0.9209 (92.1%) mean=0.9206 (92.1%)   elapsed=91s
+[100/100] n=100 median=0.9226 (92.3%) mean=0.9204 (92.0%)   elapsed=113s
+
+=== BONITO sup READ-LEVEL IDENTITY ===
+Reads: 100
+Median: 0.9226 (92.3%)
+Mean:   0.9204 (92.0%)
+=== [Citrobacter_freundii_MSB1_1H] ===
+Model:   tools/bonito_models/dna_r9.4.1_e8_sup@v3.3
+Isolate: data/wick/train_extracted/Citrobacter_freundii_MSB1_1H/
+100 reads, 35539 references
+[20/100] n=20 median=0.9328 (93.3%) mean=0.9275 (92.8%)   elapsed=26s
+[40/100] n=40 median=0.9310 (93.1%) mean=0.9276 (92.8%)   elapsed=49s
+[60/100] n=60 median=0.9288 (92.9%) mean=0.9244 (92.4%)   elapsed=68s
+[80/100] n=80 median=0.9271 (92.7%) mean=0.9186 (91.9%)   elapsed=84s
+[100/100] n=100 median=0.9279 (92.8%) mean=0.9208 (92.1%)   elapsed=112s
+
+=== BONITO sup READ-LEVEL IDENTITY ===
+Reads: 100
+Median: 0.9279 (92.8%)
+Mean:   0.9208 (92.1%)
+=== [Citrobacter_koseri_MINF_9D] ===
+Model:   tools/bonito_models/dna_r9.4.1_e8_sup@v3.3
+Isolate: data/wick/train_extracted/Citrobacter_koseri_MINF_9D/
+100 reads, 38895 references
+[20/100] n=20 median=0.8920 (89.2%) mean=0.8904 (89.0%)   elapsed=14s
+[40/100] n=40 median=0.8918 (89.2%) mean=0.8903 (89.0%)   elapsed=31s
+[60/100] n=60 median=0.8962 (89.6%) mean=0.8931 (89.3%)   elapsed=50s
+[80/100] n=80 median=0.8937 (89.4%) mean=0.8915 (89.1%)   elapsed=71s
+[100/100] n=100 median=0.8903 (89.0%) mean=0.8896 (89.0%)   elapsed=86s
+
+=== BONITO sup READ-LEVEL IDENTITY ===
+Reads: 100
+Median: 0.8903 (89.0%)
+Mean:   0.8896 (89.0%)
+=== [Comamonas_kerstersii_MSB1_7G] ===
+Model:   tools/bonito_models/dna_r9.4.1_e8_sup@v3.3
+Isolate: data/wick/train_extracted/Comamonas_kerstersii_MSB1_7G/
+100 reads, 16465 references
+[20/100] n=20 median=0.8926 (89.3%) mean=0.8826 (88.3%)   elapsed=20s
+[40/100] n=40 median=0.8878 (88.8%) mean=0.8865 (88.6%)   elapsed=40s
+[60/100] n=60 median=0.8944 (89.4%) mean=0.8891 (88.9%)   elapsed=61s
+[80/100] n=80 median=0.8927 (89.3%) mean=0.8892 (88.9%)   elapsed=84s
+[100/100] n=100 median=0.8944 (89.4%) mean=0.8909 (89.1%)   elapsed=102s
+
+=== BONITO sup READ-LEVEL IDENTITY ===
+Reads: 100
+Median: 0.8944 (89.4%)
+Mean:   0.8909 (89.1%)
+=== [Enterobacter_kobei_MSB1_1B] ===
+Model:   tools/bonito_models/dna_r9.4.1_e8_sup@v3.3
+Isolate: data/wick/train_extracted/Enterobacter_kobei_MSB1_1B/
+100 reads, 21962 references
+[20/100] n=20 median=0.8982 (89.8%) mean=0.8969 (89.7%)   elapsed=22s
+[40/100] n=40 median=0.8982 (89.8%) mean=0.8907 (89.1%)   elapsed=38s
+[60/100] n=60 median=0.8998 (90.0%) mean=0.8970 (89.7%)   elapsed=61s
+[80/100] n=80 median=0.8998 (90.0%) mean=0.8948 (89.5%)   elapsed=79s
+[100/100] n=100 median=0.9021 (90.2%) mean=0.8943 (89.4%)   elapsed=98s
+
+=== BONITO sup READ-LEVEL IDENTITY ===
+Reads: 100
+Median: 0.9021 (90.2%)
+Mean:   0.8943 (89.4%)
+=== [Escherichia_coli_MSB2_1A] ===
+Model:   tools/bonito_models/dna_r9.4.1_e8_sup@v3.3
+Isolate: data/wick/train_extracted/Escherichia_coli_MSB2_1A/
+100 reads, 49035 references
+[20/100] n=20 median=0.9014 (90.1%) mean=0.8982 (89.8%)   elapsed=18s
+[40/100] n=40 median=0.8978 (89.8%) mean=0.8940 (89.4%)   elapsed=36s
+[60/100] n=60 median=0.8925 (89.3%) mean=0.8909 (89.1%)   elapsed=56s
+[80/100] n=80 median=0.8949 (89.5%) mean=0.8927 (89.3%)   elapsed=73s
+[100/100] n=100 median=0.8985 (89.8%) mean=0.8932 (89.3%)   elapsed=93s
+
+=== BONITO sup READ-LEVEL IDENTITY ===
+Reads: 100
+Median: 0.8985 (89.8%)
+Mean:   0.8932 (89.3%)
+=== [Escherichia_marmotae_MSB1_5C] ===
+Model:   tools/bonito_models/dna_r9.4.1_e8_sup@v3.3
+Isolate: data/wick/train_extracted/Escherichia_marmotae_MSB1_5C/
+100 reads, 50661 references
+[20/100] n=20 median=0.9243 (92.4%) mean=0.9144 (91.4%)   elapsed=19s
+[40/100] n=40 median=0.9213 (92.1%) mean=0.9167 (91.7%)   elapsed=42s
+[60/100] n=60 median=0.9186 (91.9%) mean=0.9127 (91.3%)   elapsed=65s
+[80/100] n=80 median=0.9317 (93.2%) mean=0.9171 (91.7%)   elapsed=91s
+[100/100] n=100 median=0.9273 (92.7%) mean=0.9143 (91.4%)   elapsed=109s
+
+=== BONITO sup READ-LEVEL IDENTITY ===
+Reads: 100
+Median: 0.9273 (92.7%)
+Mean:   0.9143 (91.4%)
+=== [Haemophilus_parainfluenzae_M1C146_1] ===
+Model:   tools/bonito_models/dna_r9.4.1_e8_sup@v3.3
+Isolate: data/wick/train_extracted/Haemophilus_parainfluenzae_M1C146_1/
+100 reads, 1085 references
+[20/100] n=20 median=0.8795 (88.0%) mean=0.8757 (87.6%)   elapsed=12s
+[40/100] n=40 median=0.8789 (87.9%) mean=0.8799 (88.0%)   elapsed=23s
+[60/100] n=60 median=0.8763 (87.6%) mean=0.8821 (88.2%)   elapsed=37s
+[80/100] n=80 median=0.8820 (88.2%) mean=0.8874 (88.7%)   elapsed=50s
+[100/100] n=100 median=0.8820 (88.2%) mean=0.8859 (88.6%)   elapsed=62s
+
+=== BONITO sup READ-LEVEL IDENTITY ===
+Reads: 100
+Median: 0.8820 (88.2%)
+Mean:   0.8859 (88.6%)
+=== [Klebsiella_aerogenes_MINF_10B] ===
+Model:   tools/bonito_models/dna_r9.4.1_e8_sup@v3.3
+Isolate: data/wick/train_extracted/Klebsiella_aerogenes_MINF_10B/
+100 reads, 12263 references
+[20/100] n=20 median=0.9000 (90.0%) mean=0.8840 (88.4%)   elapsed=15s
+[40/100] n=40 median=0.9022 (90.2%) mean=0.8921 (89.2%)   elapsed=37s
+[60/100] n=60 median=0.9004 (90.0%) mean=0.8895 (89.0%)   elapsed=55s
+[80/100] n=80 median=0.9030 (90.3%) mean=0.8922 (89.2%)   elapsed=74s
+[100/100] n=100 median=0.9005 (90.0%) mean=0.8906 (89.1%)   elapsed=91s
+
+=== BONITO sup READ-LEVEL IDENTITY ===
+Reads: 100
+Median: 0.9005 (90.0%)
+Mean:   0.8906 (89.1%)
+=== [Klebsiella_pneumoniae_INF007] ===
+Model:   tools/bonito_models/dna_r9.4.1_e8_sup@v3.3
+Isolate: data/wick/train_extracted/Klebsiella_pneumoniae_INF007/
+100 reads, 2403 references
+[20/100] n=20 median=0.9325 (93.2%) mean=0.9177 (91.8%)   elapsed=19s
+[40/100] n=40 median=0.9347 (93.5%) mean=0.9235 (92.4%)   elapsed=44s
+[60/100] n=60 median=0.9355 (93.5%) mean=0.9268 (92.7%)   elapsed=60s
+[80/100] n=80 median=0.9355 (93.5%) mean=0.9280 (92.8%)   elapsed=85s
+[100/100] n=100 median=0.9369 (93.7%) mean=0.9304 (93.0%)   elapsed=112s
+
+=== BONITO sup READ-LEVEL IDENTITY ===
+Reads: 100
+Median: 0.9369 (93.7%)
+Mean:   0.9304 (93.0%)
+=== [Klebsiella_pneumoniae_INF014] ===
+Model:   tools/bonito_models/dna_r9.4.1_e8_sup@v3.3
+Isolate: data/wick/train_extracted/Klebsiella_pneumoniae_INF014/
+100 reads, 3839 references
+[20/100] n=20 median=0.9136 (91.4%) mean=0.9043 (90.4%)   elapsed=24s
+[40/100] n=40 median=0.9114 (91.1%) mean=0.9094 (90.9%)   elapsed=51s
+[60/100] n=60 median=0.9131 (91.3%) mean=0.9077 (90.8%)   elapsed=76s
+[80/100] n=80 median=0.9140 (91.4%) mean=0.9088 (90.9%)   elapsed=113s
+[100/100] n=100 median=0.9153 (91.5%) mean=0.9097 (91.0%)   elapsed=154s
+
+=== BONITO sup READ-LEVEL IDENTITY ===
+Reads: 100
+Median: 0.9153 (91.5%)
+Mean:   0.9097 (91.0%)
+=== [Klebsiella_pneumoniae_INF065] ===
+Model:   tools/bonito_models/dna_r9.4.1_e8_sup@v3.3
+Isolate: data/wick/train_extracted/Klebsiella_pneumoniae_INF065/
+100 reads, 1744 references
+[20/100] n=20 median=0.9157 (91.6%) mean=0.9140 (91.4%)   elapsed=21s
+[40/100] n=40 median=0.9246 (92.5%) mean=0.9129 (91.3%)   elapsed=44s
+[60/100] n=60 median=0.9251 (92.5%) mean=0.9125 (91.2%)   elapsed=67s
+[80/100] n=80 median=0.9251 (92.5%) mean=0.9130 (91.3%)   elapsed=90s
+[100/100] n=100 median=0.9238 (92.4%) mean=0.9128 (91.3%)   elapsed=115s
+
+=== BONITO sup READ-LEVEL IDENTITY ===
+Reads: 100
+Median: 0.9238 (92.4%)
+Mean:   0.9128 (91.3%)
+=== [Klebsiella_pneumoniae_INF078] ===
+Model:   tools/bonito_models/dna_r9.4.1_e8_sup@v3.3
+Isolate: data/wick/train_extracted/Klebsiella_pneumoniae_INF078/
+100 reads, 625 references
+[20/100] n=20 median=0.9381 (93.8%) mean=0.9337 (93.4%)   elapsed=26s
+[40/100] n=40 median=0.9448 (94.5%) mean=0.9353 (93.5%)   elapsed=55s
+[60/100] n=60 median=0.9448 (94.5%) mean=0.9377 (93.8%)   elapsed=87s
+[80/100] n=80 median=0.9438 (94.4%) mean=0.9351 (93.5%)   elapsed=118s
+[100/100] n=100 median=0.9438 (94.4%) mean=0.9347 (93.5%)   elapsed=141s
+
+=== BONITO sup READ-LEVEL IDENTITY ===
+Reads: 100
+Median: 0.9438 (94.4%)
+Mean:   0.9347 (93.5%)
+=== [Klebsiella_pneumoniae_INF102] ===
+Model:   tools/bonito_models/dna_r9.4.1_e8_sup@v3.3
+Isolate: data/wick/train_extracted/Klebsiella_pneumoniae_INF102/
+100 reads, 1547 references
+[20/100] n=20 median=0.9245 (92.4%) mean=0.9148 (91.5%)   elapsed=18s
+[40/100] n=40 median=0.9144 (91.4%) mean=0.9109 (91.1%)   elapsed=34s
+[60/100] n=60 median=0.9195 (92.0%) mean=0.9137 (91.4%)   elapsed=56s
+[80/100] n=80 median=0.9182 (91.8%) mean=0.9140 (91.4%)   elapsed=75s
+[100/100] n=100 median=0.9175 (91.7%) mean=0.9122 (91.2%)   elapsed=91s
+
+=== BONITO sup READ-LEVEL IDENTITY ===
+Reads: 100
+Median: 0.9175 (91.7%)
+Mean:   0.9122 (91.2%)
+=== [Klebsiella_pneumoniae_INF116] ===
+Model:   tools/bonito_models/dna_r9.4.1_e8_sup@v3.3
+Isolate: data/wick/train_extracted/Klebsiella_pneumoniae_INF116/
+100 reads, 26804 references
+[20/100] n=20 median=0.9043 (90.4%) mean=0.9023 (90.2%)   elapsed=19s
+[40/100] n=40 median=0.9047 (90.5%) mean=0.8984 (89.8%)   elapsed=32s
+[60/100] n=60 median=0.9043 (90.4%) mean=0.8982 (89.8%)   elapsed=55s
+[80/100] n=80 median=0.9032 (90.3%) mean=0.8998 (90.0%)   elapsed=86s
+[100/100] n=100 median=0.8975 (89.7%) mean=0.8959 (89.6%)   elapsed=100s
+
+=== BONITO sup READ-LEVEL IDENTITY ===
+Reads: 100
+Median: 0.8975 (89.7%)
+Mean:   0.8959 (89.6%)
+=== [Klebsiella_pneumoniae_INF125] ===
+Model:   tools/bonito_models/dna_r9.4.1_e8_sup@v3.3
+Isolate: data/wick/train_extracted/Klebsiella_pneumoniae_INF125/
+100 reads, 3500 references
+[20/100] n=20 median=0.9205 (92.1%) mean=0.9169 (91.7%)   elapsed=17s
+[40/100] n=40 median=0.9205 (92.1%) mean=0.9189 (91.9%)   elapsed=41s
+[60/100] n=60 median=0.9313 (93.1%) mean=0.9258 (92.6%)   elapsed=71s
+[80/100] n=80 median=0.9310 (93.1%) mean=0.9257 (92.6%)   elapsed=96s
+[100/100] n=100 median=0.9313 (93.1%) mean=0.9270 (92.7%)   elapsed=119s
+
+=== BONITO sup READ-LEVEL IDENTITY ===
+Reads: 100
+Median: 0.9313 (93.1%)
+Mean:   0.9270 (92.7%)
+=== [Klebsiella_pneumoniae_INF177] ===
+Model:   tools/bonito_models/dna_r9.4.1_e8_sup@v3.3
+Isolate: data/wick/train_extracted/Klebsiella_pneumoniae_INF177/
+100 reads, 4424 references
+[20/100] n=20 median=0.9089 (90.9%) mean=0.9029 (90.3%)   elapsed=18s
+[40/100] n=40 median=0.9115 (91.1%) mean=0.9067 (90.7%)   elapsed=45s
+[60/100] n=60 median=0.9107 (91.1%) mean=0.9058 (90.6%)   elapsed=74s
+[80/100] n=80 median=0.9111 (91.1%) mean=0.9064 (90.6%)   elapsed=99s
+[100/100] n=100 median=0.9118 (91.2%) mean=0.9071 (90.7%)   elapsed=129s
+
+=== BONITO sup READ-LEVEL IDENTITY ===
+Reads: 100
+Median: 0.9118 (91.2%)
+Mean:   0.9071 (90.7%)
+=== [Klebsiella_pneumoniae_INF192] ===
+Model:   tools/bonito_models/dna_r9.4.1_e8_sup@v3.3
+Isolate: data/wick/train_extracted/Klebsiella_pneumoniae_INF192/
+100 reads, 4328 references
+[20/100] n=20 median=0.9346 (93.5%) mean=0.9292 (92.9%)   elapsed=24s
+[40/100] n=40 median=0.9346 (93.5%) mean=0.9278 (92.8%)   elapsed=45s
+[60/100] n=60 median=0.9391 (93.9%) mean=0.9327 (93.3%)   elapsed=71s
+[80/100] n=80 median=0.9311 (93.1%) mean=0.9275 (92.8%)   elapsed=92s
+[100/100] n=100 median=0.9325 (93.2%) mean=0.9274 (92.7%)   elapsed=116s
+
+=== BONITO sup READ-LEVEL IDENTITY ===
+Reads: 100
+Median: 0.9325 (93.2%)
+Mean:   0.9274 (92.7%)
+=== [Klebsiella_pneumoniae_INF215] ===
+Model:   tools/bonito_models/dna_r9.4.1_e8_sup@v3.3
+Isolate: data/wick/train_extracted/Klebsiella_pneumoniae_INF215/
+100 reads, 18956 references
+[20/100] n=20 median=0.8983 (89.8%) mean=0.8961 (89.6%)   elapsed=16s
+[40/100] n=40 median=0.9092 (90.9%) mean=0.8995 (90.0%)   elapsed=35s
+[60/100] n=60 median=0.9082 (90.8%) mean=0.9024 (90.2%)   elapsed=66s
+[80/100] n=80 median=0.9069 (90.7%) mean=0.9017 (90.2%)   elapsed=83s
+[100/100] n=100 median=0.9055 (90.6%) mean=0.9009 (90.1%)   elapsed=105s
+
+=== BONITO sup READ-LEVEL IDENTITY ===
+Reads: 100
+Median: 0.9055 (90.6%)
+Mean:   0.9009 (90.1%)
+=== [Klebsiella_pneumoniae_INF235] ===
+Model:   tools/bonito_models/dna_r9.4.1_e8_sup@v3.3
+Isolate: data/wick/train_extracted/Klebsiella_pneumoniae_INF235/
+100 reads, 4002 references
+[20/100] n=20 median=0.9409 (94.1%) mean=0.9258 (92.6%)   elapsed=27s
+[40/100] n=40 median=0.9364 (93.6%) mean=0.9260 (92.6%)   elapsed=49s
+[60/100] n=60 median=0.9279 (92.8%) mean=0.9204 (92.0%)   elapsed=68s
+[80/100] n=80 median=0.9308 (93.1%) mean=0.9227 (92.3%)   elapsed=96s
+[100/100] n=100 median=0.9288 (92.9%) mean=0.9206 (92.1%)   elapsed=116s
+
+=== BONITO sup READ-LEVEL IDENTITY ===
+Reads: 100
+Median: 0.9288 (92.9%)
+Mean:   0.9206 (92.1%)
+=== [Klebsiella_pneumoniae_INF310] ===
+Model:   tools/bonito_models/dna_r9.4.1_e8_sup@v3.3
+Isolate: data/wick/train_extracted/Klebsiella_pneumoniae_INF310/
+100 reads, 6634 references
+[20/100] n=20 median=0.8954 (89.5%) mean=0.8890 (88.9%)   elapsed=16s
+[40/100] n=40 median=0.9086 (90.9%) mean=0.8964 (89.6%)   elapsed=31s
+[60/100] n=60 median=0.9139 (91.4%) mean=0.9030 (90.3%)   elapsed=48s
+[80/100] n=80 median=0.9120 (91.2%) mean=0.9005 (90.1%)   elapsed=64s
+[100/100] n=100 median=0.9120 (91.2%) mean=0.9020 (90.2%)   elapsed=82s
+
+=== BONITO sup READ-LEVEL IDENTITY ===
+Reads: 100
+Median: 0.9120 (91.2%)
+Mean:   0.9020 (90.2%)
+=== [Klebsiella_pneumoniae_INF319] ===
+Model:   tools/bonito_models/dna_r9.4.1_e8_sup@v3.3
+Isolate: data/wick/train_extracted/Klebsiella_pneumoniae_INF319/
+100 reads, 5016 references
+[20/100] n=20 median=0.8866 (88.7%) mean=0.8856 (88.6%)   elapsed=15s
+[40/100] n=40 median=0.9131 (91.3%) mean=0.9004 (90.0%)   elapsed=33s
+[60/100] n=60 median=0.9107 (91.1%) mean=0.9018 (90.2%)   elapsed=48s
+[80/100] n=80 median=0.9117 (91.2%) mean=0.9018 (90.2%)   elapsed=69s
+[100/100] n=100 median=0.9117 (91.2%) mean=0.9033 (90.3%)   elapsed=90s
+
+=== BONITO sup READ-LEVEL IDENTITY ===
+Reads: 100
+Median: 0.9117 (91.2%)
+Mean:   0.9033 (90.3%)
+=== [Klebsiella_pneumoniae_INF321] ===
+Model:   tools/bonito_models/dna_r9.4.1_e8_sup@v3.3
+Isolate: data/wick/train_extracted/Klebsiella_pneumoniae_INF321/
+100 reads, 3036 references
+[20/100] n=20 median=0.9238 (92.4%) mean=0.9086 (90.9%)   elapsed=18s
+[40/100] n=40 median=0.9227 (92.3%) mean=0.9107 (91.1%)   elapsed=37s
+[60/100] n=60 median=0.9178 (91.8%) mean=0.9098 (91.0%)   elapsed=65s
+[80/100] n=80 median=0.9113 (91.1%) mean=0.9073 (90.7%)   elapsed=86s
+[100/100] n=100 median=0.9086 (90.9%) mean=0.9059 (90.6%)   elapsed=108s
+
+=== BONITO sup READ-LEVEL IDENTITY ===
+Reads: 100
+Median: 0.9086 (90.9%)
+Mean:   0.9059 (90.6%)
+=== [Klebsiella_pneumoniae_INF322] ===
+Model:   tools/bonito_models/dna_r9.4.1_e8_sup@v3.3
+Isolate: data/wick/train_extracted/Klebsiella_pneumoniae_INF322/
+100 reads, 14209 references
+[20/100] n=20 median=0.9279 (92.8%) mean=0.9156 (91.6%)   elapsed=21s
+[40/100] n=40 median=0.9256 (92.6%) mean=0.9136 (91.4%)   elapsed=37s
+[60/100] n=60 median=0.9276 (92.8%) mean=0.9134 (91.3%)   elapsed=57s
+[80/100] n=80 median=0.9242 (92.4%) mean=0.9114 (91.1%)   elapsed=75s
+[100/100] n=100 median=0.9152 (91.5%) mean=0.9094 (90.9%)   elapsed=94s
+
+=== BONITO sup READ-LEVEL IDENTITY ===
+Reads: 100
+Median: 0.9152 (91.5%)
+Mean:   0.9094 (90.9%)
+=== [Klebsiella_pneumoniae_INF341] ===
+Model:   tools/bonito_models/dna_r9.4.1_e8_sup@v3.3
+Isolate: data/wick/train_extracted/Klebsiella_pneumoniae_INF341/
+100 reads, 2112 references
+[20/100] n=20 median=0.9035 (90.4%) mean=0.9032 (90.3%)   elapsed=25s
+[40/100] n=40 median=0.9114 (91.1%) mean=0.9013 (90.1%)   elapsed=49s
+[60/100] n=60 median=0.9070 (90.7%) mean=0.8987 (89.9%)   elapsed=71s
+[80/100] n=80 median=0.9077 (90.8%) mean=0.9014 (90.1%)   elapsed=95s
+[100/100] n=100 median=0.9077 (90.8%) mean=0.9022 (90.2%)   elapsed=118s
+
+=== BONITO sup READ-LEVEL IDENTITY ===
+Reads: 100
+Median: 0.9077 (90.8%)
+Mean:   0.9022 (90.2%)
+=== [Klebsiella_pneumoniae_INF357] ===
+Model:   tools/bonito_models/dna_r9.4.1_e8_sup@v3.3
+Isolate: data/wick/train_extracted/Klebsiella_pneumoniae_INF357/
+100 reads, 1791 references
+[20/100] n=20 median=0.9054 (90.5%) mean=0.8895 (89.0%)   elapsed=17s
+[40/100] n=40 median=0.9150 (91.5%) mean=0.8982 (89.8%)   elapsed=35s
+[60/100] n=60 median=0.9056 (90.6%) mean=0.8994 (89.9%)   elapsed=57s
+[80/100] n=80 median=0.9132 (91.3%) mean=0.9047 (90.5%)   elapsed=84s
+[100/100] n=100 median=0.9155 (91.6%) mean=0.9043 (90.4%)   elapsed=108s
+
+=== BONITO sup READ-LEVEL IDENTITY ===
+Reads: 100
+Median: 0.9155 (91.6%)
+Mean:   0.9043 (90.4%)
+=== [Klebsiella_pneumoniae_INF358] ===
+Model:   tools/bonito_models/dna_r9.4.1_e8_sup@v3.3
+Isolate: data/wick/train_extracted/Klebsiella_pneumoniae_INF358/
+100 reads, 4446 references
+[20/100] n=20 median=0.8995 (90.0%) mean=0.8938 (89.4%)   elapsed=20s
+[40/100] n=40 median=0.9010 (90.1%) mean=0.8993 (89.9%)   elapsed=44s
+[60/100] n=60 median=0.9038 (90.4%) mean=0.9011 (90.1%)   elapsed=65s
+[80/100] n=80 median=0.9078 (90.8%) mean=0.9031 (90.3%)   elapsed=87s
+[100/100] n=100 median=0.9058 (90.6%) mean=0.9040 (90.4%)   elapsed=112s
+
+=== BONITO sup READ-LEVEL IDENTITY ===
+Reads: 100
+Median: 0.9058 (90.6%)
+Mean:   0.9040 (90.4%)
+=== [Klebsiella_pneumoniae_INF361] ===
+Model:   tools/bonito_models/dna_r9.4.1_e8_sup@v3.3
+Isolate: data/wick/train_extracted/Klebsiella_pneumoniae_INF361/
+100 reads, 4431 references
+[20/100] n=20 median=0.9191 (91.9%) mean=0.9159 (91.6%)   elapsed=24s
+[40/100] n=40 median=0.9191 (91.9%) mean=0.9125 (91.3%)   elapsed=44s
+[60/100] n=60 median=0.9191 (91.9%) mean=0.9137 (91.4%)   elapsed=69s
+[80/100] n=80 median=0.9200 (92.0%) mean=0.9125 (91.2%)   elapsed=89s
+[100/100] n=100 median=0.9200 (92.0%) mean=0.9143 (91.4%)   elapsed=111s
+
+=== BONITO sup READ-LEVEL IDENTITY ===
+Reads: 100
+Median: 0.9200 (92.0%)
+Mean:   0.9143 (91.4%)
+=== [Klebsiella_pneumoniae_KSB1_1I] ===
+Model:   tools/bonito_models/dna_r9.4.1_e8_sup@v3.3
+Isolate: data/wick/train_extracted/Klebsiella_pneumoniae_KSB1_1I/
+100 reads, 22919 references
+[20/100] n=20 median=0.8738 (87.4%) mean=0.8761 (87.6%)   elapsed=15s
+[40/100] n=40 median=0.8797 (88.0%) mean=0.8792 (87.9%)   elapsed=35s
+[60/100] n=60 median=0.8936 (89.4%) mean=0.8838 (88.4%)   elapsed=55s
+[80/100] n=80 median=0.8954 (89.5%) mean=0.8875 (88.8%)   elapsed=79s
+[100/100] n=100 median=0.8987 (89.9%) mean=0.8919 (89.2%)   elapsed=107s
+
+=== BONITO sup READ-LEVEL IDENTITY ===
+Reads: 100
+Median: 0.8987 (89.9%)
+Mean:   0.8919 (89.2%)
+=== [Klebsiella_pneumoniae_KSB1_6F] ===
+Model:   tools/bonito_models/dna_r9.4.1_e8_sup@v3.3
+Isolate: data/wick/train_extracted/Klebsiella_pneumoniae_KSB1_6F/
+100 reads, 426 references
+[20/100] n=20 median=0.9316 (93.2%) mean=0.9230 (92.3%)   elapsed=22s
+[40/100] n=40 median=0.9208 (92.1%) mean=0.9178 (91.8%)   elapsed=44s
+[60/100] n=60 median=0.9220 (92.2%) mean=0.9195 (91.9%)   elapsed=63s
+[80/100] n=80 median=0.9255 (92.6%) mean=0.9206 (92.1%)   elapsed=82s
+[100/100] n=100 median=0.9248 (92.5%) mean=0.9208 (92.1%)   elapsed=103s
+
+=== BONITO sup READ-LEVEL IDENTITY ===
+Reads: 100
+Median: 0.9248 (92.5%)
+Mean:   0.9208 (92.1%)
+=== [Klebsiella_pneumoniae_KSB1_6G] ===
+Model:   tools/bonito_models/dna_r9.4.1_e8_sup@v3.3
+Isolate: data/wick/train_extracted/Klebsiella_pneumoniae_KSB1_6G/
+100 reads, 11866 references
+[20/100] n=20 median=0.9217 (92.2%) mean=0.9111 (91.1%)   elapsed=18s
+[40/100] n=40 median=0.9217 (92.2%) mean=0.9090 (90.9%)   elapsed=35s
+[60/100] n=60 median=0.9184 (91.8%) mean=0.9086 (90.9%)   elapsed=55s
+[80/100] n=80 median=0.9171 (91.7%) mean=0.9064 (90.6%)   elapsed=76s
+[100/100] n=100 median=0.9180 (91.8%) mean=0.9070 (90.7%)   elapsed=97s
+
+=== BONITO sup READ-LEVEL IDENTITY ===
+Reads: 100
+Median: 0.9180 (91.8%)
+Mean:   0.9070 (90.7%)
+=== [Klebsiella_pneumoniae_KSB1_7E] ===
+Model:   tools/bonito_models/dna_r9.4.1_e8_sup@v3.3
+Isolate: data/wick/train_extracted/Klebsiella_pneumoniae_KSB1_7E/
+100 reads, 35380 references
+[20/100] n=20 median=0.9043 (90.4%) mean=0.9014 (90.1%)   elapsed=16s
+[40/100] n=40 median=0.9020 (90.2%) mean=0.8965 (89.7%)   elapsed=30s
+[60/100] n=60 median=0.9011 (90.1%) mean=0.8939 (89.4%)   elapsed=55s
+[80/100] n=80 median=0.8955 (89.5%) mean=0.8869 (88.7%)   elapsed=74s
+[100/100] n=100 median=0.8896 (89.0%) mean=0.8832 (88.3%)   elapsed=96s
+
+=== BONITO sup READ-LEVEL IDENTITY ===
+Reads: 100
+Median: 0.8896 (89.0%)
+Mean:   0.8832 (88.3%)
+=== [Klebsiella_pneumoniae_KSB1_7F] ===
+Model:   tools/bonito_models/dna_r9.4.1_e8_sup@v3.3
+Isolate: data/wick/train_extracted/Klebsiella_pneumoniae_KSB1_7F/
+100 reads, 2523 references
+[20/100] n=20 median=0.9229 (92.3%) mean=0.9126 (91.3%)   elapsed=23s
+[40/100] n=40 median=0.9143 (91.4%) mean=0.9111 (91.1%)   elapsed=43s
+[60/100] n=60 median=0.9155 (91.6%) mean=0.9110 (91.1%)   elapsed=64s
+[80/100] n=80 median=0.9155 (91.6%) mean=0.9078 (90.8%)   elapsed=88s
+[100/100] n=100 median=0.9143 (91.4%) mean=0.9054 (90.5%)   elapsed=114s
+
+=== BONITO sup READ-LEVEL IDENTITY ===
+Reads: 100
+Median: 0.9143 (91.4%)
+Mean:   0.9054 (90.5%)
+=== [Klebsiella_pneumoniae_KSB1_9A] ===
+Model:   tools/bonito_models/dna_r9.4.1_e8_sup@v3.3
+Isolate: data/wick/train_extracted/Klebsiella_pneumoniae_KSB1_9A/
+100 reads, 20816 references
+[20/100] n=20 median=0.9072 (90.7%) mean=0.9002 (90.0%)   elapsed=18s
+[40/100] n=40 median=0.8951 (89.5%) mean=0.8946 (89.5%)   elapsed=33s
+[60/100] n=60 median=0.9047 (90.5%) mean=0.8976 (89.8%)   elapsed=53s
+[80/100] n=80 median=0.9006 (90.1%) mean=0.8968 (89.7%)   elapsed=75s
+[100/100] n=100 median=0.9072 (90.7%) mean=0.9008 (90.1%)   elapsed=98s
+
+=== BONITO sup READ-LEVEL IDENTITY ===
+Reads: 100
+Median: 0.9072 (90.7%)
+Mean:   0.9008 (90.1%)
+=== [Klebsiella_pneumoniae_KSB1_9D] ===
+Model:   tools/bonito_models/dna_r9.4.1_e8_sup@v3.3
+Isolate: data/wick/train_extracted/Klebsiella_pneumoniae_KSB1_9D/
+100 reads, 6632 references
+[20/100] n=20 median=0.8925 (89.2%) mean=0.8905 (89.0%)   elapsed=17s
+[40/100] n=40 median=0.9046 (90.5%) mean=0.8962 (89.6%)   elapsed=31s
+[60/100] n=60 median=0.9054 (90.5%) mean=0.8981 (89.8%)   elapsed=47s
+[80/100] n=80 median=0.9103 (91.0%) mean=0.9017 (90.2%)   elapsed=63s
+[100/100] n=100 median=0.9112 (91.1%) mean=0.9034 (90.3%)   elapsed=84s
+
+=== BONITO sup READ-LEVEL IDENTITY ===
+Reads: 100
+Median: 0.9112 (91.1%)
+Mean:   0.9034 (90.3%)
+=== [Klebsiella_pneumoniae_NUH11] ===
+Model:   tools/bonito_models/dna_r9.4.1_e8_sup@v3.3
+Isolate: data/wick/train_extracted/Klebsiella_pneumoniae_NUH11/
+100 reads, 24271 references
+[20/100] n=20 median=0.8915 (89.1%) mean=0.8951 (89.5%)   elapsed=21s
+[40/100] n=40 median=0.9134 (91.3%) mean=0.9042 (90.4%)   elapsed=38s
+[60/100] n=60 median=0.9139 (91.4%) mean=0.9016 (90.2%)   elapsed=58s
+[80/100] n=80 median=0.9096 (91.0%) mean=0.9000 (90.0%)   elapsed=73s
+[100/100] n=100 median=0.9104 (91.0%) mean=0.8997 (90.0%)   elapsed=90s
+
+=== BONITO sup READ-LEVEL IDENTITY ===
+Reads: 100
+Median: 0.9104 (91.0%)
+Mean:   0.8997 (90.0%)
+=== [Klebsiella_pneumoniae_NUH27] ===
+Model:   tools/bonito_models/dna_r9.4.1_e8_sup@v3.3
+Isolate: data/wick/train_extracted/Klebsiella_pneumoniae_NUH27/
+100 reads, 18863 references
+[20/100] n=20 median=0.8968 (89.7%) mean=0.8914 (89.1%)   elapsed=15s
+[40/100] n=40 median=0.8976 (89.8%) mean=0.8915 (89.2%)   elapsed=27s
+[60/100] n=60 median=0.8976 (89.8%) mean=0.8931 (89.3%)   elapsed=42s
+[80/100] n=80 median=0.9019 (90.2%) mean=0.8958 (89.6%)   elapsed=56s
+[100/100] n=100 median=0.8977 (89.8%) mean=0.8929 (89.3%)   elapsed=67s
+
+=== BONITO sup READ-LEVEL IDENTITY ===
+Reads: 100
+Median: 0.8977 (89.8%)
+Mean:   0.8929 (89.3%)
+=== [Klebsiella_pneumoniae_QMP_B2_170] ===
+Model:   tools/bonito_models/dna_r9.4.1_e8_sup@v3.3
+Isolate: data/wick/train_extracted/Klebsiella_pneumoniae_QMP_B2_170/
+100 reads, 842 references
+[20/100] n=20 median=0.9258 (92.6%) mean=0.9198 (92.0%)   elapsed=16s
+[40/100] n=40 median=0.9223 (92.2%) mean=0.9160 (91.6%)   elapsed=35s
+[60/100] n=60 median=0.9210 (92.1%) mean=0.9167 (91.7%)   elapsed=55s
+[80/100] n=80 median=0.9218 (92.2%) mean=0.9165 (91.6%)   elapsed=74s
+[100/100] n=100 median=0.9209 (92.1%) mean=0.9156 (91.6%)   elapsed=93s
+
+=== BONITO sup READ-LEVEL IDENTITY ===
+Reads: 100
+Median: 0.9209 (92.1%)
+Mean:   0.9156 (91.6%)
+=== [Klebsiella_pneumoniae_SGH07] ===
+Model:   tools/bonito_models/dna_r9.4.1_e8_sup@v3.3
+Isolate: data/wick/train_extracted/Klebsiella_pneumoniae_SGH07/
+100 reads, 9266 references
+[20/100] n=20 median=0.8907 (89.1%) mean=0.8847 (88.5%)   elapsed=18s
+[40/100] n=40 median=0.8937 (89.4%) mean=0.8873 (88.7%)   elapsed=37s
+[60/100] n=60 median=0.8951 (89.5%) mean=0.8914 (89.1%)   elapsed=55s
+[80/100] n=80 median=0.8937 (89.4%) mean=0.8906 (89.1%)   elapsed=72s
+[100/100] n=100 median=0.8962 (89.6%) mean=0.8924 (89.2%)   elapsed=87s
+
+=== BONITO sup READ-LEVEL IDENTITY ===
+Reads: 100
+Median: 0.8962 (89.6%)
+Mean:   0.8924 (89.2%)
+=== [Klebsiella_quasipneumoniae_INF291] ===
+Model:   tools/bonito_models/dna_r9.4.1_e8_sup@v3.3
+Isolate: data/wick/train_extracted/Klebsiella_quasipneumoniae_INF291/
+100 reads, 6911 references
+[20/100] n=20 median=0.9139 (91.4%) mean=0.9035 (90.4%)   elapsed=21s
+[40/100] n=40 median=0.9137 (91.4%) mean=0.9117 (91.2%)   elapsed=43s
+[60/100] n=60 median=0.9088 (90.9%) mean=0.9060 (90.6%)   elapsed=64s
+[80/100] n=80 median=0.9088 (90.9%) mean=0.9017 (90.2%)   elapsed=85s
+[100/100] n=100 median=0.9090 (90.9%) mean=0.9031 (90.3%)   elapsed=106s
+
+=== BONITO sup READ-LEVEL IDENTITY ===
+Reads: 100
+Median: 0.9090 (90.9%)
+Mean:   0.9031 (90.3%)
+=== [Klebsiella_variicola_INF022] ===
+Model:   tools/bonito_models/dna_r9.4.1_e8_sup@v3.3
+Isolate: data/wick/train_extracted/Klebsiella_variicola_INF022/
+100 reads, 50988 references
+[20/100] n=20 median=0.8897 (89.0%) mean=0.8877 (88.8%)   elapsed=19s
+[40/100] n=40 median=0.8783 (87.8%) mean=0.8805 (88.1%)   elapsed=38s
+[60/100] n=60 median=0.8767 (87.7%) mean=0.8817 (88.2%)   elapsed=55s
+[80/100] n=80 median=0.8807 (88.1%) mean=0.8825 (88.2%)   elapsed=72s
+[100/100] n=100 median=0.8826 (88.3%) mean=0.8835 (88.4%)   elapsed=94s
+
+=== BONITO sup READ-LEVEL IDENTITY ===
+Reads: 100
+Median: 0.8826 (88.3%)
+Mean:   0.8835 (88.4%)
+=== [Klebsiella_variicola_KSB1_8J] ===
+Model:   tools/bonito_models/dna_r9.4.1_e8_sup@v3.3
+Isolate: data/wick/train_extracted/Klebsiella_variicola_KSB1_8J/
+100 reads, 54350 references
+[20/100] n=20 median=0.8865 (88.6%) mean=0.8874 (88.7%)   elapsed=18s
+[40/100] n=40 median=0.8960 (89.6%) mean=0.8891 (88.9%)   elapsed=35s
+[60/100] n=60 median=0.8983 (89.8%) mean=0.8889 (88.9%)   elapsed=58s
+[80/100] n=80 median=0.8990 (89.9%) mean=0.8916 (89.2%)   elapsed=74s
+[100/100] n=100 median=0.8974 (89.7%) mean=0.8906 (89.1%)   elapsed=89s
+
+=== BONITO sup READ-LEVEL IDENTITY ===
+Reads: 100
+Median: 0.8974 (89.7%)
+Mean:   0.8906 (89.1%)
+=== [Moraxella_lincolnii_51409] ===
+Model:   tools/bonito_models/dna_r9.4.1_e8_sup@v3.3
+Isolate: data/wick/train_extracted/Moraxella_lincolnii_51409/
+100 reads, 3217 references
+[20/100] n=20 median=0.8980 (89.8%) mean=0.8878 (88.8%)   elapsed=13s
+[40/100] n=40 median=0.8789 (87.9%) mean=0.8781 (87.8%)   elapsed=25s
+[60/100] n=60 median=0.8813 (88.1%) mean=0.8753 (87.5%)   elapsed=37s
+[80/100] n=80 median=0.8801 (88.0%) mean=0.8762 (87.6%)   elapsed=49s
+[100/100] n=100 median=0.8799 (88.0%) mean=0.8750 (87.5%)   elapsed=60s
+
+=== BONITO sup READ-LEVEL IDENTITY ===
+Reads: 100
+Median: 0.8799 (88.0%)
+Mean:   0.8750 (87.5%)
+=== [Morganella_morganii_MSB1_1E] ===
+Model:   tools/bonito_models/dna_r9.4.1_e8_sup@v3.3
+Isolate: data/wick/train_extracted/Morganella_morganii_MSB1_1E/
+100 reads, 26992 references
+[20/100] n=20 median=0.9290 (92.9%) mean=0.9239 (92.4%)   elapsed=26s
+[40/100] n=40 median=0.9380 (93.8%) mean=0.9268 (92.7%)   elapsed=50s
+[60/100] n=60 median=0.9280 (92.8%) mean=0.9229 (92.3%)   elapsed=69s
+[80/100] n=80 median=0.9284 (92.8%) mean=0.9232 (92.3%)   elapsed=98s
+[100/100] n=100 median=0.9306 (93.1%) mean=0.9226 (92.3%)   elapsed=121s
+
+=== BONITO sup READ-LEVEL IDENTITY ===
+Reads: 100
+Median: 0.9306 (93.1%)
+Mean:   0.9226 (92.3%)
+=== [Pseudomonas_aeruginosa_MINF_7A] ===
+Model:   tools/bonito_models/dna_r9.4.1_e8_sup@v3.3
+Isolate: data/wick/train_extracted/Pseudomonas_aeruginosa_MINF_7A/
+100 reads, 24971 references
+[20/100] n=20 median=0.8888 (88.9%) mean=0.8964 (89.6%)   elapsed=16s
+[40/100] n=40 median=0.9033 (90.3%) mean=0.9008 (90.1%)   elapsed=35s
+[60/100] n=60 median=0.9033 (90.3%) mean=0.9003 (90.0%)   elapsed=53s
+[80/100] n=80 median=0.9130 (91.3%) mean=0.9043 (90.4%)   elapsed=77s
+[100/100] n=100 median=0.9080 (90.8%) mean=0.9028 (90.3%)   elapsed=99s
+
+=== BONITO sup READ-LEVEL IDENTITY ===
+Reads: 100
+Median: 0.9080 (90.8%)
+Mean:   0.9028 (90.3%)
+=== [Salmonella_enterica_2010-06152] ===
+Model:   tools/bonito_models/dna_r9.4.1_e8_sup@v3.3
+Isolate: data/wick/train_extracted/Salmonella_enterica_2010-06152/
+100 reads, 11225 references
+[20/100] n=20 median=0.9275 (92.7%) mean=0.9178 (91.8%)   elapsed=17s
+[40/100] n=40 median=0.9256 (92.6%) mean=0.9109 (91.1%)   elapsed=35s
+[60/100] n=60 median=0.9210 (92.1%) mean=0.9087 (90.9%)   elapsed=50s
+[80/100] n=80 median=0.9183 (91.8%) mean=0.9100 (91.0%)   elapsed=65s
+[100/100] n=100 median=0.9159 (91.6%) mean=0.9083 (90.8%)   elapsed=79s
+
+=== BONITO sup READ-LEVEL IDENTITY ===
+Reads: 100
+Median: 0.9159 (91.6%)
+Mean:   0.9083 (90.8%)
+=== [Stenotrophomonas_pavanii_MSB1_4D] ===
+Model:   tools/bonito_models/dna_r9.4.1_e8_sup@v3.3
+Isolate: data/wick/train_extracted/Stenotrophomonas_pavanii_MSB1_4D/
+100 reads, 6323 references
+[20/100] n=20 median=0.8999 (90.0%) mean=0.8930 (89.3%)   elapsed=16s
+[40/100] n=40 median=0.9172 (91.7%) mean=0.9056 (90.6%)   elapsed=36s
+[60/100] n=60 median=0.9120 (91.2%) mean=0.9040 (90.4%)   elapsed=56s
+[80/100] n=80 median=0.9081 (90.8%) mean=0.9002 (90.0%)   elapsed=71s
+[100/100] n=100 median=0.9100 (91.0%) mean=0.9026 (90.3%)   elapsed=91s
+
+=== BONITO sup READ-LEVEL IDENTITY ===
+Reads: 100
+Median: 0.9100 (91.0%)
+Mean:   0.9026 (90.3%)
