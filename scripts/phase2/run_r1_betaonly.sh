@@ -2,7 +2,7 @@
 # R1-scale β-only KL ablation (matches r1_kdjp budget: 50 iso × 20 reads × 3 ep).
 set -euo pipefail
 cd "$(dirname "$0")/../.."
-PY=/home/ubuntu/miniconda3/envs/m2caller/bin/python
+PY="${PY:-python3}"
 export PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True
 LOG=logs/phase2/r1_betaonly.out
 OUT=checkpoints_kd/r1_betaonly

@@ -1,9 +1,12 @@
 #!/usr/bin/env python3
 """Parameter-accuracy trade-off (Pareto) figure for CRF-KD paper.
 Numbers: 50-isolate NanoSpecies median read identity."""
+from pathlib import Path
 import matplotlib
 matplotlib.use("Agg")
 import matplotlib.pyplot as plt
+
+ROOT = Path(__file__).resolve().parents[1]
 
 # (params_M, median_identity_%, label)
 kd = [
@@ -45,5 +48,5 @@ ax.set_ylim(84, 92.5)
 ax.grid(True, which="both", ls=":", alpha=0.4)
 ax.legend(fontsize=6.5, loc="lower right")
 fig.tight_layout(pad=0.3)
-fig.savefig("pareto.pdf", bbox_inches="tight")
+fig.savefig(ROOT / "figures" / "pareto.pdf", bbox_inches="tight")
 print("wrote pareto.pdf")

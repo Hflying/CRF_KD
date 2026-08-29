@@ -23,12 +23,10 @@ m2caller/kd/             the method (see m2caller/kd/README.md for loss derivati
   distill_train.py       CLI entry point, teacher-Viterbi pseudo-labelling, training loop, CPU smoke test
 koi/                     audited pure-PyTorch CTC-CRF Viterbi + forward/backward (no proprietary CUDA kernels)
 scripts/
-  train_r1_scale.py      R1-budget training used for the posterior / architecture ablations
+  train_r1_scale.py      the training entry point used for all published runs
   eval_kd_student.py     student evaluation via the audited Viterbi decoder
   run_kd_validation.py   single-isolate validation sweep (Table I)
   build_r2_summary.py    R2 summary tables
-  run_train_wick.sh      Wick-corpus training entry point
-  run_bootstrap_v2.sh    bootstrap CIs
   phase2/                full-scale P2 training, NanoSpecies-50 evaluation, throughput benchmark
 checkpoints_kd/          one best.pt per run, plus per-epoch train.csv / eval.csv / eval.txt
 logs/                    evaluation CSVs behind the published tables
@@ -76,22 +74,56 @@ python -m m2caller.kd.distill_train --smoke_test
 
 ## Train
 
+All published runs go through `scripts/train_r1_scale.py`, which reads the
+isolate FAST5 directories directly. `--branch` selects the objective and
+`--joint_post` is what makes it CRF-KD rather than beta-only matching:
+
 ```bash
-python -m m2caller.kd.distill_train \
-    --teacher_model tools/bonito_models/dna_r9.4.1_e8_sup@v3.3 \
-    --student_preset m2_small \
-    --data_dir data/wick/train_extracted \
-    --out_dir checkpoints_kd/m2_small \
-    --lambda_post 1.0 --lambda_fwd 0.5 --lambda_hard 1.0 \
-    --use_entropy_filter --use_curriculum \
-    --epochs 50 --lr 2e-4
+# CRF-KD (joint transition posterior + hard anchor)
+python scripts/train_r1_scale.py --branch KD --joint_post \
+    --preset m2_small_s5 \
+    --data_root data/wick/train_extracted \
+    --reads_per_iso 100 --eval_reads_per_iso 20 \
+    --epochs 20 --batch_size 32 --lr 2e-4 \
+    --lambda_post 1.0 --lambda_hard 1.0 \
+    --out_dir checkpoints_kd/p2_kdjp_small
+
+# hard-target baseline
+python scripts/train_r1_scale.py --branch H \
+    --preset m2_small_s5 \
+    --data_root data/wick/train_extracted \
+    --reads_per_iso 100 --eval_reads_per_iso 20 \
+    --epochs 20 --batch_size 32 --lr 2e-4 \
+    --out_dir checkpoints_kd/p2_h_small
 ```
 
+Dropping `--joint_post` from the `KD` branch gives the **beta-only** variant that
+the paper shows *degrades* the student. Presets are `m2_tiny_s5` (1.07 M) and
+`m2_small_s5` (3.51 M); the published P2 runs resume from R2 epoch 5 via
+`--init_ckpt ... --start_epoch 5`.
+
 Full-scale P2 runs and their NanoSpecies-50 evaluation are orchestrated by
-`scripts/phase2/` (see `scripts/phase2/README.md` for the stage-by-stage budget).
+`scripts/phase2/` (see `scripts/phase2/README.md` for the stage-by-stage budget);
+`run_r1_betaonly.sh`, `run_arch_cnn_baseline.sh` and `lambda_seed_sweep.sh`
+reproduce the ablations.
 
 `L_fwd` is disabled in the published configuration — it collapses the student
 (Table I). The default `lambda_post = 1.0` is used for all full-scale results.
+
+### Known gaps in this release
+
+Two helper modules that predate the paper were lost from the authors' workspace
+and are therefore **not** in this release; only compiled `.pyc` artefacts
+survived. They do not affect any published number, because every published run
+was produced by `scripts/train_r1_scale.py`, which does its own FAST5 loading:
+
+| Missing module | Affects |
+|---|---|
+| `m2caller.utils.dataset` | the `run_full_training()` branch of `m2caller/kd/distill_train.py`, which its own docstring describes as a skeleton |
+| `m2caller.utils.labeled_dataset` | `scripts/run_kd_validation.py` (the Table I sweep); the losses it exercises are covered by the CPU smoke test |
+
+The loss implementations, the student architectures, the decoder and the
+published training path are all complete.
 
 ## Data and teacher
 
@@ -144,5 +176,17 @@ table, so the analysis can be regenerated without a GPU:
 python scripts/phase2/summarise_main.py
 python scripts/phase2/summarise_ablation.py
 python scripts/build_r2_summary.py
-python figures/make_pareto.py
+python figures/make_figures.py    # 10 of the 11 paper figures
+python figures/make_pareto.py     # figures/pareto.pdf
+```
+
+`make_figures.py` is shared with the companion benchmark paper: it writes this
+paper's figures to `figures/` and the NanoSpecies ones to
+`figures/companion_nanospecies/` (untracked).
+
+The shell drivers under `scripts/` call `${PY:-python3}`, so point `PY` at the
+interpreter you want:
+
+```bash
+PY=/path/to/venv/bin/python bash scripts/phase2/run_main.sh
 ```

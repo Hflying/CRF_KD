@@ -6,7 +6,7 @@
 #   nohup bash scripts/phase2/revexp_autolaunch.sh > logs/phase2/revexp_auto.out 2>&1 & disown
 set -u
 cd "$(dirname "$0")/../.."
-PY=/home/ubuntu/miniconda3/envs/m2caller/bin/python
+PY="${PY:-python3}"
 LOGDIR=logs/phase2
 mkdir -p "$LOGDIR"
 LOG="$LOGDIR/revexp_auto.log"

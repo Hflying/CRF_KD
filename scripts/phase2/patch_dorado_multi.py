@@ -4,7 +4,7 @@ import csv
 import re
 from pathlib import Path
 
-ROOT = Path('/home/ubuntu/hardy/M2Caller')
+ROOT = Path(__file__).resolve().parents[2]
 CSV = ROOT / 'logs' / 'dorado_sup_all.csv'
 TEX = ROOT / 'bibm_benchmark' / 'latex' / 'paper.tex'
 SUP = 91.08

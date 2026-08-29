@@ -11,7 +11,7 @@
 set -u
 cd "$(dirname "$0")/../.."
 
-PY=/home/ubuntu/miniconda3/envs/m2caller/bin/python
+PY="${PY:-python3}"
 TRAIN=scripts/train_r1_scale.py
 ISO=Klebsiella_pneumoniae_INF078
 COMMON="--preset m2_tiny_s5 --train_iso_names $ISO \

@@ -14,9 +14,8 @@ Added for phase-2 resume:
                     epoch{start_epoch+1+i}.pt)
 """
 import sys, os, glob, argparse, time, random
-sys.path.insert(0, '/home/ubuntu/miniconda3/envs/m2caller/lib/python3.10/site-packages')
-sys.path.insert(0, '/tmp/edpkg')
-sys.path.insert(0, '/home/ubuntu/hardy/M2Caller')
+from pathlib import Path
+sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
 
 import numpy as np
 import torch

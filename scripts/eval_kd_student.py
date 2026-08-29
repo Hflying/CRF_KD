@@ -12,10 +12,8 @@ Usage:
       --start 400 --n_reads 100 --batch_size 8
 """
 import sys, os, glob, argparse, time
-sys.path.insert(0, '/home/ubuntu/miniconda3/envs/m2caller/lib/python3.10/site-packages')
-sys.path.insert(0, '/home/ubuntu/hardy/M2Caller')
-sys.path.insert(0, '/tmp/edpkg')
-
+from pathlib import Path
+sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
 import numpy as np
 import torch
 import editdistance

@@ -3,7 +3,7 @@
 # Uses the same audited Viterbi decoder as Bonito sup/hac evals.
 set -e
 cd "$(dirname "$0")/../.."
-PY=/home/ubuntu/miniconda3/envs/m2caller/bin/python
+PY="${PY:-python3}"
 LOG_DIR=logs
 mkdir -p "$LOG_DIR"
 LOG="$LOG_DIR/dorado_sup_all.log"

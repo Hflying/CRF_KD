@@ -11,7 +11,7 @@ from pathlib import Path
 import numpy as np
 from scipy import stats
 
-ROOT = Path('/home/ubuntu/hardy/M2Caller')
+ROOT = Path(__file__).resolve().parents[2]
 LOG = ROOT / 'logs' / 'phase2'
 RNG = np.random.default_rng(0)
 

@@ -28,10 +28,7 @@ import sys
 import time
 from pathlib import Path
 
-sys.path.insert(0, '/home/ubuntu/miniconda3/envs/m2caller/lib/python3.10/site-packages')
-sys.path.insert(0, '/home/ubuntu/hardy/M2Caller')
-sys.path.insert(0, '/tmp/edpkg')
-
+sys.path.insert(0, str(Path(__file__).resolve().parents[2]))
 import torch
 
 from bonito.util import load_model

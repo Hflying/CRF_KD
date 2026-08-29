@@ -50,7 +50,7 @@ section "Stage 4/5 — ablation eval on NanoSpecies-50 (eval_ablation50.sh)"
 bash scripts/phase2/eval_ablation50.sh
 
 section "Stage 5/5 — throughput benchmark (throughput_benchmark.py)"
-/home/ubuntu/miniconda3/envs/m2caller/bin/python -u scripts/phase2/throughput_benchmark.py \
+"${PY:-python3}" -u scripts/phase2/throughput_benchmark.py \
     --out logs/phase2/throughput.json
 
 section "Phase 2 orchestrator DONE"

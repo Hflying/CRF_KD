@@ -20,11 +20,9 @@ import csv
 import argparse
 import time
 
-sys.path.insert(0, '/home/ubuntu/miniconda3/envs/m2caller/lib/python3.10/site-packages')
-sys.path.insert(0, '/home/ubuntu/hardy/M2Caller')
+from pathlib import Path
+sys.path.insert(0, str(Path(__file__).resolve().parents[2]))
 sys.path.insert(0, os.path.join(os.path.dirname(os.path.abspath(__file__))))
-sys.path.insert(0, '/tmp/edpkg')
-
 import numpy as np
 import torch
 import editdistance

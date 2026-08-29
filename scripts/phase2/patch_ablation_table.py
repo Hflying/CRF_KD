@@ -3,7 +3,7 @@
 import re
 from pathlib import Path
 
-ROOT = Path('/home/ubuntu/hardy/M2Caller')
+ROOT = Path(__file__).resolve().parents[2]
 EVAL = ROOT / 'checkpoints_kd' / 'r1_betaonly' / 'eval.txt'
 TEX = ROOT / 'bibm_kd' / 'latex' / 'paper.tex'
 

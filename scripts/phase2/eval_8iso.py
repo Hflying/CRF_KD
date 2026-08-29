@@ -4,7 +4,8 @@ import argparse, glob, os, sys
 import numpy as np
 import torch
 
-sys.path.insert(0, '/home/ubuntu/hardy/M2Caller')
+from pathlib import Path
+sys.path.insert(0, str(Path(__file__).resolve().parents[2]))
 from scripts.train_r1_scale import run_eval, signal_chunks_from_read
 from m2caller.kd.student_configs import build_student
 from bonito.util import load_model

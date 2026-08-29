@@ -12,3 +12,6 @@ data/
 
 # per-epoch checkpoints; only best.pt is published
 checkpoints_kd/**/epoch*.pt
+
+# generated companion-paper figures (see figures/make_figures.py)
+figures/companion_*/

@@ -24,7 +24,7 @@ all_done () {
 while true; do
     if all_done; then
         echo "[$(date)] all 5 lambda runs have eval.txt — done" | tee -a "$LOG"
-        /home/ubuntu/miniconda3/envs/m2caller/bin/python scripts/phase2/summarise_sweep.py \
+        "${PY:-python3}" scripts/phase2/summarise_sweep.py \
             > "$LOGDIR/sweep_summary.txt" 2>&1
         echo "LAMBDA_ALL_DONE" | tee -a "$LOG"
         cat "$LOGDIR/sweep_summary.txt" | tee -a "$LOG"

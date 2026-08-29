@@ -7,7 +7,7 @@ identity for Bonito sup, Bonito hac, optional Dorado sup, and students.
 import csv
 from pathlib import Path
 
-ROOT = Path('/home/ubuntu/hardy/M2Caller')
+ROOT = Path(__file__).resolve().parents[2]
 LOG = ROOT / 'logs'
 OUT = ROOT / 'bibm_benchmark' / 'latex' / 'full_table.tex'
 

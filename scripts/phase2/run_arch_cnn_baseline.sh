@@ -3,7 +3,7 @@
 # Same teacher, same CRF head, same data as main runs — isolates backbone effect.
 set -euo pipefail
 cd "$(dirname "$0")/../.."
-PY=/home/ubuntu/miniconda3/envs/m2caller/bin/python
+PY="${PY:-python3}"
 export PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True
 LOG=logs/phase2/arch_cnn.log
 mkdir -p logs/phase2
