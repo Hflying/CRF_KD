@@ -8,5 +8,3 @@
 === seed repeats ===
   H: ['72.08', '72.63', '71.53']  mean=72.08  std=0.550
   KD: ['78.03', '78.98', '78.16']  mean=78.39  std=0.515
-
-wrote /home/ubuntu/hardy/M2Caller/bibm_kd/figures/lambda.pdf

@@ -1,2 +1,0 @@
-=== lambda/seed sweep start Mon Jun 22 01:09:33 UTC 2026 ===
-[run] lam0.25  --branch KD --joint_post --lambda_post 0.25 --lambda_hard 1.0 --seed 42 Mon Jun 22 01:09:33 UTC 2026

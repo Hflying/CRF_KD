@@ -15,3 +15,9 @@ checkpoints_kd/**/epoch*.pt
 
 # generated companion-paper figures (see figures/make_figures.py)
 figures/companion_*/
+
+# raw run logs (contain local paths); only structured results are published
+logs/**/*.log
+logs/**/*.out
+logs/**/*.pid
+logs/**/*.sweep_done

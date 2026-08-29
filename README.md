@@ -136,8 +136,8 @@ Neither the corpus nor the teacher checkpoint is redistributed here:
 
 Evaluation uses NanoSpecies-50 (50 isolates x 100 deterministic reads, per-read
 identity by edit distance, median-of-medians) with the audited pure-PyTorch
-Viterbi decoder — see the companion benchmark repository
-[nanoSpecies](https://github.com/Hflying/nanoSpecies).
+Viterbi decoder, which is vendored here under `koi/` and released in full with
+the companion benchmark paper.
 
 ## Main results
 

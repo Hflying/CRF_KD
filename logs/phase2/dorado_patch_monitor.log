@@ -1,5 +1,0 @@
-patched Dorado sup: 90.81% delta=-0.27
-/home/ubuntu/hardy/M2Caller/scripts/phase2/make_full_table.py:57: SyntaxWarning: invalid escape sequence '\,'
-  f' S=Small (3.51\,M); H=hard-only, KD=CRF-KD{caption_extra}}}',
-wrote /home/ubuntu/hardy/M2Caller/bibm_benchmark/latex/full_table.tex (50 isolates, dorado=True)
-DORADO_PATCHED
